@@ -1,15 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Hiragana</title>
+    <meta charset="utf-8"/>
+    <title>ひらがな Hiragana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <h1>Hiragana</h1>
+    <header>
+      <h1>ひらがな Hiragana</h1>
+    </header>
+
+    <article>
+      <div id="prompt">
+      </div>
+
+      <button class="option"></button>
+      <button class="option"></button>
+      <button class="option"></button>
+      <button class="option"></button>
+    </article>
 
     <p>
-    This project endeavours to teach hiragana by spaced repetition of
-    Japanese words spelled using Hiragana.
+      <button id="next">Next Question &gt;&gt;&gt;&gt;&gt;</button>
     </p>
+
+    <footer>
+      <button id="reset">Delete All Personal Data</button>
+
+      This site doesn't use cookies, but it does use local browser storage.
+    </footer>
   </body>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <script src="lib/js-yaml.min.js"></script>
+  <script src="lib/wanakana.min.js"></script>
   <script src="main.js"></script>
 </html>
