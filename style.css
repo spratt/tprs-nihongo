@@ -35,3 +35,9 @@ button.correct {
 button.incorrect {
     background-color: red;
 }
+#prompt {
+    text-align: center;
+}
+#prompt, button.option {
+    font-size: 2em;
+}
