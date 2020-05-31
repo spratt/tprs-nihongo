@@ -246,7 +246,7 @@ srs = {};
                 optionBtn.removeEventListener('click', onclick);
                 if (optionBtn.innerHTML === question.Answer) {
                     optionBtn.className += ' correct';
-                    optionBtn.addEventListener('click', nextQuestion);
+                    optionBtn.addEventListener('click', srs.nextQuestion);
                 } else {
                     optionBtn.disabled = true;
                 }
@@ -261,7 +261,7 @@ srs = {};
             optionBtn.disabled = false;
             optionBtn.className = 'option';
             optionBtn.innerHTML = option;
-            optionBtn.removeEventListener('click', nextQuestion);
+            optionBtn.removeEventListener('click', srs.nextQuestion);
             optionBtn.addEventListener('click', onclick);
         }
     }
@@ -279,11 +279,20 @@ srs = {};
         return phrases;
     }
 
-    function askRandomPhrase(phrases) {
-        ask(generateQuestion(randomChoice(phrases), phrases));
+    function askRandomPhrase(phrasesLeft, allPhrases) {
+        let phrase = randomChoice(phrasesLeft);
+        ask(generateQuestion(phrase, allPhrases));
+        return phrase;
     }
 
-    var nextQuestion = function() {}
+    function done() {
+        const promptElmt = document.getElementById('prompt');
+        const optionBtns = document.getElementsByClassName('option');
+        promptElmt.innerHTML = "Great job!  You're done (for now).";
+        [...optionBtns].forEach((btn) => {
+            btn.className += ' hidden';
+        });
+    }
     
     function start(data) {
         var level = window.localStorage.getItem('level');
@@ -296,11 +305,16 @@ srs = {};
         restoreScore(data, level);
 
         // Ready the phrases
-        const phrases = dataToPhrases(data, level);
-        nextQuestion = function() {
-            askRandomPhrase(phrases);
+        const allPhrases = dataToPhrases(data, level);
+        var phrases = allPhrases;
+        srs.nextQuestion = function() {
+            if (phrases.length === 0) {
+                done();
+                return;
+            }
+            let phrase = askRandomPhrase(phrases, allPhrases);
+            phrases = phrases.filter((p) => p !== phrase);
         }
-        srs.nextQuestion = nextQuestion;
     }
     srs.start = start;
 
