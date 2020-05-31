@@ -55,6 +55,8 @@ srs = {};
             }
         }
     }
+    
+    const delays = [2, 4, 8, 24, 2*24, 7*24, 14*24, 4*7*24, 4*4*7*24];
 
     function changeScore(id, correct) {
         let set, phrase, value;
@@ -80,7 +82,11 @@ srs = {};
         }
         // Set this phrase to be locked until a specific time
         const lockedUntil = new Date();
-        const delay = 1;
+        let currentScore = score.Sets[set].Phrases[phrase].Score;
+        if (currentScore < delays.length) {
+            currentScore = delays.length-1;
+        }
+        const delay = delays[currentScore];
         lockedUntil.setTime(score.Start.getTime() + (delay*60*60*1000));
         score.Sets[set].Phrases[phrase].LockedUntil = lockedUntil;
     }
