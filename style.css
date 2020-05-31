@@ -24,6 +24,7 @@ footer {
 }
 button {
     width: 100%;
+    background-color: white;
 }
 button:disabled,
 button[disabled]{
