@@ -42,10 +42,16 @@ srs = {};
     function initScore(data, level) {
         score = data;
         score.Level = level;
+        const start = new Date();
+        start.setMinutes(0);
+        start.setSeconds(0);
+        start.setMilliseconds(0);
+        score.Start = start;
         for (var i = 0; i < score.Sets.length; i++) {
             for (var j = 0; j < score.Sets[i].Phrases.length; j++) {
                 score.Sets[i].Phrases[j].Score = 0;
                 score.Sets[i].Phrases[j].Incorrect = 0;
+                score.Sets[i].Phrases[j].LockedUntil = start;
             }
         }
     }
@@ -72,16 +78,22 @@ srs = {};
         if (score.Sets[set].Phrases[phrase].Score < 0) {
             score.Sets[set].Phrases[phrase].Score = 0;
         }
+        // Set this phrase to be locked until a specific time
+        const lockedUntil = new Date();
+        const delay = 1;
+        lockedUntil.setTime(score.Start.getTime() + (delay*60*60*1000));
+        score.Sets[set].Phrases[phrase].LockedUntil = lockedUntil;
     }
 
     function stringToScore(scoreObject) {
         for (var i in scoreObject) {
             let set, phrase;
             [set, phrase] = JSON.parse(i);
-            let scoreVal, incorrect;
-            [scoreVal, incorrect] = [scoreObject[i].Score, scoreObject[i].Incorrect]
-            score.Sets[set].Phrases[phrase].Score = scoreVal;
-            score.Sets[set].Phrases[phrase].Incorrect = incorrect;
+            score.Sets[set].Phrases[phrase].Score = scoreObject[i].Score;
+            score.Sets[set].Phrases[phrase].Incorrect = scoreObject[i].Incorrect;
+            const lockedUntil = new Date();
+            lockedUntil.setTime(scoreObject[i].LockedUntil);
+            score.Sets[set].Phrases[phrase].LockedUntil = lockedUntil;
         }
     }
 
@@ -92,6 +104,7 @@ srs = {};
                 scoreObject[JSON.stringify([i,j])] = {
                     'Score': score.Sets[i].Phrases[j].Score,
                     'Incorrect': score.Sets[i].Phrases[j].Incorrect,
+                    'LockedUntil': score.Sets[i].Phrases[j].LockedUntil.getTime(),
                 };
             }
         }
@@ -119,10 +132,10 @@ srs = {};
     srs.displayScore = function(levelSpan, apprenticeList, guruList, masterList, enlightenedList, burnedList) {
         levelSpan.innerHTML = score.Level;
         const thresholds = {
-            'guru': 5,
-            'master': 10,
-            'enlightened': 15,
-            'burned': 20,
+            'guru': 4,
+            'master': 6,
+            'enlightened': 7,
+            'burned': 8,
         }
         for (var i = 0; i <= score.Level && i < score.Sets.length; i++) {
             const set = score.Sets[i];
@@ -310,8 +323,8 @@ srs = {};
         restoreScore(data, level);
 
         // Ready the phrases
-        const allPhrases = dataToPhrases(data, level);
-        var phrases = allPhrases;
+        const allPhrases = dataToPhrases(score, level);
+        var phrases = allPhrases.filter((p) => p.LockedUntil <= score.Start);
         srs.nextQuestion = function() {
             if (phrases.length === 0) {
                 done();
