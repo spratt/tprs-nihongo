@@ -45,13 +45,28 @@ srs = {};
         for (var i = 0; i < score.Sets.length; i++) {
             for (var j = 0; j < score.Sets[i].Phrases.length; j++) {
                 score.Sets[i].Phrases[j].Score = 0;
+                score.Sets[i].Phrases[j].Incorrect = 0;
             }
         }
     }
 
-    function changeScore(id, value) {
-        let set, phrase;
+    function changeScore(id, correct) {
+        let set, phrase, value;
         [set, phrase] = id;
+        if (correct) {
+            value = 1;
+            score.Sets[set].Phrases[phrase].Incorrect = 0;
+        } else {
+            let incorrect = score.Sets[set].Phrases[phrase].Incorrect;
+            incorrect++;
+            score.Sets[set].Phrases[phrase].Incorrect = incorrect;
+            value = -Math.ceil(incorrect/2);
+            if (score.Sets[set].Phrases[phrase].Score > 5) {
+                value -= 2;
+            } else {
+                value -= 1;
+            }            
+        }
         score.Sets[set].Phrases[phrase].Score += value;
         // Never go below 0
         if (score.Sets[set].Phrases[phrase].Score < 0) {
@@ -61,7 +76,12 @@ srs = {};
 
     function stringToScore(scoreObject) {
         for (var i in scoreObject) {
-            changeScore(JSON.parse(i), scoreObject[i]);
+            let set, phrase;
+            [set, phrase] = JSON.parse(i);
+            let scoreVal, incorrect;
+            [scoreVal, incorrect] = [scoreObject[i].Score, scoreObject[i].Incorrect]
+            score.Sets[set].Phrases[phrase].Score = scoreVal;
+            score.Sets[set].Phrases[phrase].Incorrect = incorrect;
         }
     }
 
@@ -69,7 +89,10 @@ srs = {};
         var scoreObject = {};
         for (var i = 0; i < score.Sets.length; i++) {
             for (var j = 0; j < score.Sets[i].Phrases.length; j++) {
-                scoreObject[JSON.stringify([i,j])] = score.Sets[i].Phrases[j].Score;
+                scoreObject[JSON.stringify([i,j])] = {
+                    'Score': score.Sets[i].Phrases[j].Score,
+                    'Incorrect': score.Sets[i].Phrases[j].Incorrect,
+                };
             }
         }
         return JSON.stringify(scoreObject);
@@ -213,9 +236,9 @@ srs = {};
         function onclick(evt) {
             if (evt.target.innerHTML !== question.Answer) {
                 evt.target.className += ' incorrect';
-                changeScore(question.id, -1);
+                changeScore(question.id, false);
             } else {
-                changeScore(question.id, 1);
+                changeScore(question.id, true);
             }
             saveScore();
             for (var i in options) {
