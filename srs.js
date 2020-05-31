@@ -1,7 +1,5 @@
 srs = {};
 (function(){
-    console.log('main.js loaded');
-
     ////////////////////////////////////////////////////////////////////////////////
     // Reset Button: reset all localStorage
     const resetBtn = document.getElementById('reset');
@@ -41,8 +39,9 @@ srs = {};
     // Initially, score is null but will be filled in by data from the yaml
     var score = null;
 
-    function initScore(data) {
+    function initScore(data, level) {
         score = data;
+        score.Level = level;
         for (var i = 0; i < score.Sets.length; i++) {
             for (var j = 0; j < score.Sets[i].Phrases.length; j++) {
                 score.Sets[i].Phrases[j].Score = 0;
@@ -54,6 +53,10 @@ srs = {};
         let set, phrase;
         [set, phrase] = id;
         score.Sets[set].Phrases[phrase].Score += value;
+        // Never go below 0
+        if (score.Sets[set].Phrases[phrase].Score < 0) {
+            score.Sets[set].Phrases[phrase].Score = 0;
+        }
     }
 
     function stringToScore(scoreObject) {
@@ -76,8 +79,8 @@ srs = {};
         window.localStorage.setItem('score', scoreToString());
     }
 
-    function restoreScore(data) {
-        initScore(data);
+    function restoreScore(data, level) {
+        initScore(data, level);
         var scoreObject = window.localStorage.getItem('score');
         if (scoreObject) {
             stringToScore(JSON.parse(scoreObject));
@@ -86,8 +89,37 @@ srs = {};
         }
     }
 
-    srs.printScore = function() {
-        console.dir(score);
+    srs.getScore = function() {
+        return score;
+    }
+
+    srs.displayScore = function(levelSpan, apprenticeList, guruList, masterList, enlightenedList, burnedList) {
+        levelSpan.innerHTML = score.Level;
+        const thresholds = {
+            'guru': 5,
+            'master': 10,
+            'enlightened': 15,
+            'burned': 20,
+        }
+        for (var i = 0; i <= score.Level; i++) {
+            const set = score.Sets[i];
+            for (var j = 0; j < set.Phrases.length; j++) {
+                const phrase = set.Phrases[j];
+                const li = document.createElement('li');
+                li.innerHTML = `${phrase.Value}: ${phrase.Score}`;
+                if (phrase.Score < thresholds['guru']) {
+                    apprenticeList.appendChild(li);
+                } else if (phrase.Score < thresholds['master']) {
+                    guruList.appendChild(li);
+                } else if (phrase.Score < thresholds['enlightened']) {
+                    masterList.appendChild(li);
+                } else if (phrase.Score < thresholds['burned']) {
+                    enlightenedList.appendChild(li);
+                } else {
+                    burnedList.appendChild(li);
+                }
+            }
+        }
     }
 
     ////////////////////////////////////////////////////////////////////////////////
@@ -231,8 +263,6 @@ srs = {};
     var nextQuestion = function() {}
     
     function start(data) {
-        restoreScore(data);
-
         var level = window.localStorage.getItem('level');
         if (level) {
             level = parseInt(level, 10);
@@ -240,18 +270,23 @@ srs = {};
             level = 0;
             window.localStorage.setItem('level', level.toString());
         }
-        const phrases = dataToPhrases(data, level);
-        
-        askRandomPhrase(phrases);
+        restoreScore(data, level);
 
+        // Ready the phrases
+        const phrases = dataToPhrases(data, level);
         nextQuestion = function() {
             askRandomPhrase(phrases);
         }
+        srs.nextQuestion = nextQuestion;
     }
+    srs.start = start;
 
     ////////////////////////////////////////////////////////////////////////////////
     // Load the question data
-    get('data.yaml').then((req) => {
-        start(jsyaml.load(req.response));
-    }).catch((x) => { console.error(x); });
+    srs.load = function() {
+        console.log('srs.js loaded');
+        return get('data.yaml').then((req) => {
+            start(jsyaml.load(req.response));
+        }).catch((x) => { console.error(x); });
+    }
 }());

@@ -6,6 +6,10 @@ header {
 h1 {
     margin: 0;
 }
+a, a:visited {
+    color: blue;
+    text-decoration: none;
+}
 @media screen and (min-width: 48rem) {
     body, header, footer {
         width: 48rem;
@@ -39,6 +43,15 @@ button.incorrect {
 #prompt {
     text-align: center;
 }
-#prompt, button.option {
+#prompt, button.option, button.big {
     font-size: 2em;
+}
+table {
+    width: 100%;
+}
+th, td {
+    border: 1px black solid;
+}
+th:first-child {
+    width: 100px;
 }

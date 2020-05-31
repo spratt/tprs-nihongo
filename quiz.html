@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>S.R.S. 日本語</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html">S.R.S. 日本語</a></h1>
+    </header>
+
+    <article>
+      <p id="prompt"></p>
+      <p>
+        <button class="option"></button>
+        <button class="option"></button>
+        <button class="option"></button>
+        <button class="option"></button>
+      </p>
+    </article>
+
+    <footer>
+      <button id="reset">Delete All Personal Data</button>
+
+      This site doesn't use cookies, but it does use local browser storage.
+    </footer>
+  </body>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="lib/js-yaml.min.js"></script>
+  <script src="lib/wanakana.min.js"></script>
+  <script src="srs.js"></script>
+  <script>
+    srs.load().then(() => srs.nextQuestion());
+  </script>
+</html>
