@@ -35,6 +35,63 @@
     }
 
     ////////////////////////////////////////////////////////////////////////////////
+    // Scoring
+
+    // Initially, score is null but will be filled in by data from the yaml
+    var score = null;
+
+    function initScore(data) {
+        score = data;
+        console.log('initializing score');
+        console.dir(score);
+        for (var i = 0; i < score.Sets.length; i++) {
+            for (var j = 0; j < score.Sets[i].Phrases.length; j++) {
+                score.Sets[i].Phrases[j].Score = 0;
+            }
+        }
+    }
+
+    function changeScore(id, value) {
+        console.log(`changing score ${id} ${value}`);
+        console.dir(score);
+        let set, phrase;
+        [set, phrase] = id;
+        console.log(`set ${set} phrase ${phrase}`);
+        score.Sets[set].Phrases[phrase].Score += value;
+        console.dir(score);
+    }
+
+    function stringToScore(scoreObject) {
+        for (var i in scoreObject) {
+            changeScore(JSON.parse(i), scoreObject[i]);
+        }
+    }
+
+    function scoreToString() {
+        var scoreObject = {};
+        for (var i = 0; i < score.Sets.length; i++) {
+            for (var j = 0; j < score.Sets[i].Phrases.length; j++) {
+                scoreObject[JSON.stringify([i,j])] = score.Sets[i].Phrases[j].Score;
+            }
+        }
+        return JSON.stringify(scoreObject);
+    }
+
+    function saveScore() {
+        window.localStorage.setItem('score', scoreToString());
+    }
+
+    function restoreScore(data) {
+        initScore(data);
+        var scoreObject = window.localStorage.getItem('score');
+        if (scoreObject) {
+            stringToScore(data, scoreObject);
+        } else {
+            saveScore();
+        }
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////
     // Generate Questions
     function randomInt(max) {
         return Math.floor(Math.random() * Math.floor(max));
@@ -60,11 +117,6 @@
 
     function shuffle(arr) {
         return randomChoices(arr, arr.length);
-    }
-
-    var data = {
-        Sets: [
-        ],
     }
     
     function askForPhrase(phrase, phrases) {
@@ -109,7 +161,9 @@
     ];
 
     function generateQuestion(phrase, phrases) {
-        return randomChoice(askers)(phrase, phrases);
+        let question = randomChoice(askers)(phrase, phrases);
+        question.id = phrase.id;
+        return question;
     }
 
     function ask(question) {
@@ -128,7 +182,11 @@
         function onclick(evt) {
             if (evt.target.innerHTML !== question.Answer) {
                 evt.target.className += ' incorrect';
+                changeScore(question.id, -1);
+            } else {
+                changeScore(question.id, 1);
             }
+            saveScore();
             for (var i in options) {
                 let optionBtn = optionBtns[i];
                 optionBtn.removeEventListener('click', onclick);
@@ -162,7 +220,7 @@
             if (i > level) break;
             for (var j in data.Sets[i].Phrases) {
                 const phrase = data.Sets[i].Phrases[j];
-                phrase.id = [i,j].join(',');
+                phrase.id = [i,j];
                 phrases.push(phrase);
             }
         }
@@ -177,6 +235,8 @@
     var nextQuestion = function() {}
     
     function start(data) {
+        restoreScore(data);
+
         var level = window.localStorage.getItem('level');
         if (level) {
             level = parseInt(level, 10);
