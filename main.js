@@ -1,3 +1,4 @@
+srs = {};
 (function(){
     console.log('main.js loaded');
 
@@ -42,8 +43,6 @@
 
     function initScore(data) {
         score = data;
-        console.log('initializing score');
-        console.dir(score);
         for (var i = 0; i < score.Sets.length; i++) {
             for (var j = 0; j < score.Sets[i].Phrases.length; j++) {
                 score.Sets[i].Phrases[j].Score = 0;
@@ -52,13 +51,9 @@
     }
 
     function changeScore(id, value) {
-        console.log(`changing score ${id} ${value}`);
-        console.dir(score);
         let set, phrase;
         [set, phrase] = id;
-        console.log(`set ${set} phrase ${phrase}`);
         score.Sets[set].Phrases[phrase].Score += value;
-        console.dir(score);
     }
 
     function stringToScore(scoreObject) {
@@ -85,10 +80,14 @@
         initScore(data);
         var scoreObject = window.localStorage.getItem('score');
         if (scoreObject) {
-            stringToScore(data, scoreObject);
+            stringToScore(JSON.parse(scoreObject));
         } else {
             saveScore();
         }
+    }
+
+    srs.printScore = function() {
+        console.dir(score);
     }
 
     ////////////////////////////////////////////////////////////////////////////////
@@ -214,8 +213,6 @@
 
     function dataToPhrases(data, level) {
         var phrases = [];
-        console.log(`Level: ${level}`);
-        console.dir(data.Sets);
         for (var i in data.Sets) {
             if (i > level) break;
             for (var j in data.Sets[i].Phrases) {
@@ -224,7 +221,6 @@
                 phrases.push(phrase);
             }
         }
-        console.dir(phrases);
         return phrases;
     }
 
