@@ -124,7 +124,7 @@ srs = {};
             'enlightened': 15,
             'burned': 20,
         }
-        for (var i = 0; i <= score.Level; i++) {
+        for (var i = 0; i <= score.Level && i < score.Sets.length; i++) {
             const set = score.Sets[i];
             for (var j = 0; j < set.Phrases.length; j++) {
                 const phrase = set.Phrases[j];
@@ -143,6 +143,11 @@ srs = {};
                 }
             }
         }
+    }
+
+    srs.levelUp = function() {
+        score.Level++;
+        window.localStorage.setItem('level', score.Level.toString());
     }
 
     ////////////////////////////////////////////////////////////////////////////////
@@ -325,5 +330,5 @@ srs = {};
         return get('data.yaml').then((req) => {
             start(jsyaml.load(req.response));
         }).catch((x) => { console.error(x); });
-    }
+    };
 }());
