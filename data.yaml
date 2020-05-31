@@ -43,3 +43,109 @@ Sets:
         Meaning: um...
       - Value: いま
         Meaning: now
+      - Value: えいご
+        Meaning: English (language)
+      - Value: ええ
+        Meaning: Yes (usually followed by explanation)
+      - Value: がくせい
+        Meaning: student
+      - Value: 〜ご
+        Meaning: ...language
+      - Value: こうこう
+        Meaning: high school
+      - Value: ごご
+        Meaning: P.M.
+      - Value: ごぜん
+        Meaning: A.M.
+      - Value: 〜さい
+        Meaning: ...years old
+      - Value: 〜さん
+        Meaning: Mr./Mrs...
+      - Value: 〜じ
+        Meaning: ...o'clock
+      - Value: 〜じん
+        Meaning: ...people
+      - Value: せんこう
+        Meaning: major
+      - Value: せんせい
+        Meaning: teacher (formal), teacher/doctor/lawyer honorific
+      - Value: きょうし
+        Meaning: teacher (informal)
+      - Value: そうです。
+        Meaning: That's right.
+      - Value: そうですか。
+        Meaning: I see.; Is that so?
+      - Value: だいがく
+        Meaning: college; university
+      - Value: でんわ
+        Meaning: telephone
+      - Value: ともだち
+        Meaning: friend
+      - Value: おなまえ
+        Meaning: name (formal)
+      - Value: なまえ
+        Meaning: name (casual)
+      - Value: なん/なに
+        Meaning: what
+      - Value: にほん/にっぽん
+        Meaning: Japan
+      - Value: 〜ねんせい
+        Meaning: ...year student
+      - Value: はい
+        Meaning: "yes"
+      - Value: はん
+        Meaning: half
+      - Value: ばんごう
+        Meaning: number
+      - Value: りゅうがくせい
+        Meaning: exchange student
+      - Value: わたし
+        Meaning: I/me/my (formal/feminine)
+      - Value: ぼく
+        Meaning: I/me/my (semi-formal/semi-masculine)
+      - Value: おれ
+        Meaning: I/me/my (casual/masculine)
+      - Value: かがく
+        Meaning: science
+      - Value: けいざい
+        Meaning: economics
+      - Value: こくさいかんけい
+        Meaning: international relations
+      - Value: じんるいがく
+        Meaning: anthropology
+      - Value: せいじ
+        Meaning: politics
+      - Value: ぶんがく
+        Meaning: literature
+      - Value: れきし
+        Meaning: history
+      - Value: しごと
+        Meaning: job; work; occupation
+      - Value: いしゃ
+        Meaning: doctor
+      - Value: かいしゃいん
+        Meaning: office worker (formal)
+      # - Value: さらりまん
+      #   Meaning: office worker (informal)
+      - Value: こうこうせい
+        Meaning: high school student
+      - Value: しゅふ
+        Meaning: housewife
+      - Value: だいがくいんせい
+        Meaning: graduate student
+      - Value: がいがくせい
+        Meaning: college/university student
+      - Value: べんごし
+        Meaning: lawyer
+      - Value: おかあさん
+        Meaning: mother
+      - Value: おとうさん
+        Meaning: father
+      - Value: おねえさん
+        Meaning: older sister
+      - Value: おにいさん
+        Meaning: older brother
+      - Value: いもうと
+        Meaning: younger sister
+      - Value: おとうと
+        Meaning: younger brother
