@@ -1,16 +1,45 @@
-Phrases:
-  - Value: おはよう。
-    Meaning: Good morning (familiar).
-  - Value: おはようございます。
-    Meaning: Good morning (polite).
-  - Value: こんにちは。
-    Meaning: Good afternoon.
-  - Value: こんばんわ。
-    Meaning: Good evening.
-  - Value: さようなら。
-    Meaning: Goodbye (for a long time)
-
-Similar:
-  - さ:
-      - ち
-      - ざ
+Sets:
+  - Name: Greetings
+    Phrases:
+      - Value: おはよう。
+        Meaning: Good morning (familiar).
+      - Value: おはようございます。
+        Meaning: Good morning (polite).
+      - Value: こんにちは。
+        Meaning: Good afternoon.
+      - Value: こんばんわ。
+        Meaning: Good evening.
+      - Value: さようなら。
+        Meaning: Goodbye (for a long time)
+      - Value: おやすみ（なさい）。
+        Meaning: Good night.
+      - Value: ありがとう。
+        Meaning: Thank you.
+      - Value: ありがとうございます。
+        Meaning: Thank you very much.
+      - Value: すみません。
+        Meaning: Excuse me.; I'm sorry.
+      - Value: いいえ。
+        Meaning: No.; Not at all.
+      - Value: いってきます。
+        Meaning: I'll go and come back.
+      - Value: いってらっしゃい。
+        Meaning: Please go and come back.
+      - Value: ただいま。
+        Meaning: I'm home.
+      - Value: おかえり（なさい）。
+        Meaning: Welcome home.
+      - Value: いただきます。
+        Meaning: Thank you for the meal (before eating).
+      - Value: ごちそうさま（でした）。
+        Meaning: Thank you for the meal (after eating).
+      - Value: はじめました。
+        Meaning: How do you do?
+      - Value: よろしくおねがいします。
+        Meaning: Nice to meet you.
+  - Name: Vocabulary
+    Phrases:
+      - Value: あの
+        Meaning: um...
+      - Value: いま
+        Meaning: now

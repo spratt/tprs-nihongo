@@ -61,9 +61,14 @@
     function shuffle(arr) {
         return randomChoices(arr, arr.length);
     }
+
+    var data = {
+        Sets: [
+        ],
+    }
     
-    function askForPhrase(phrase, data) {
-        let allPhrases = data.Phrases.
+    function askForPhrase(phrase, phrases) {
+        let allPhrases = phrases.
             map((phrase) => phrase.Value).
             filter((value) => value !== phrase.Value);
         return {
@@ -73,8 +78,8 @@
         };
     }
 
-    function askForMeaning(phrase, data) {
-        let allMeanings = data.Phrases.
+    function askForMeaning(phrase, phrases) {
+        let allMeanings = phrases.
             map((phrase) => phrase.Meaning).
             filter((meaning) => meaning != phrase.Meaning);
         return {
@@ -84,8 +89,8 @@
         };
     }
 
-    function askForPronunciation(phrase, data) {
-        let allPhrases = data.Phrases.
+    function askForPronunciation(phrase, phrases) {
+        let allPhrases = phrases.
             map((phrase) => phrase.Value).
             filter((value) => value !== phrase.Value);
         let options = randomChoices(allPhrases, 3).
@@ -103,11 +108,11 @@
         askForPronunciation,
     ];
 
-    function generateQuestion(phrase, data) {
-        return randomChoice(askers)(phrase, data);
+    function generateQuestion(phrase, phrases) {
+        return randomChoice(askers)(phrase, phrases);
     }
 
-    function ask(question, data) {
+    function ask(question) {
         const promptElmt = document.getElementById('prompt');
         const optionBtns = document.getElementsByClassName('option');
         let options = question.Options.slice();
@@ -149,25 +154,42 @@
         }
     }
 
-    function hiragana(data) {
-        const seen = {};
-        data.Phrases.forEach((phrase) => {
-            phrase.Value.split('').forEach((ch) => seen[ch] = true);
-        });
-        return Object.keys(seen);
+    function dataToPhrases(data, level) {
+        var phrases = [];
+        console.log(`Level: ${level}`);
+        console.dir(data.Sets);
+        for (var i in data.Sets) {
+            if (i > level) break;
+            for (var j in data.Sets[i].Phrases) {
+                const phrase = data.Sets[i].Phrases[j];
+                phrase.id = [i,j].join(',');
+                phrases.push(phrase);
+            }
+        }
+        console.dir(phrases);
+        return phrases;
     }
 
-    function askRandomQuestion(data) {
-        ask(generateQuestion(randomChoice(data.Phrases), data), data);
+    function askRandomPhrase(phrases) {
+        ask(generateQuestion(randomChoice(phrases), phrases));
     }
 
     var nextQuestion = function() {}
     
     function start(data) {
-        askRandomQuestion(data);
+        var level = window.localStorage.getItem('level');
+        if (level) {
+            level = parseInt(level, 10);
+        } else {
+            level = 0;
+            window.localStorage.setItem('level', level.toString());
+        }
+        const phrases = dataToPhrases(data, level);
+        
+        askRandomPhrase(phrases);
 
         nextQuestion = function() {
-            askRandomQuestion(data);
+            askRandomPhrase(phrases);
         }
     }
 
