@@ -107,7 +107,7 @@
         return randomChoice(askers)(phrase, data);
     }
 
-    function ask(question) {
+    function ask(question, data) {
         const promptElmt = document.getElementById('prompt');
         const optionBtns = document.getElementsByClassName('option');
         let options = question.Options.slice();
@@ -120,25 +120,21 @@
         promptElmt.innerHTML = question.Prompt;
 
         // Build the onclick function
-        let clicked = false;
-        let onclick = function(evt) {
-            if (clicked) return;
-            clicked = true;
-            console.dir(evt.target);
-            console.dir(optionBtns);
+        function onclick(evt) {
             if (evt.target.innerHTML !== question.Answer) {
                 evt.target.className += ' incorrect';
             }
             for (var i in options) {
                 let optionBtn = optionBtns[i];
+                optionBtn.removeEventListener('click', onclick);
                 if (optionBtn.innerHTML === question.Answer) {
                     optionBtn.className += ' correct';
+                    optionBtn.addEventListener('click', nextQuestion);
+                } else {
+                    optionBtn.disabled = true;
                 }
-                optionBtn.disabled = true;
             }
         }
-
-        console.dir(optionBtns);
 
         // Build the options
         options = shuffle(options);
@@ -148,6 +144,7 @@
             optionBtn.disabled = false;
             optionBtn.className = 'option';
             optionBtn.innerHTML = option;
+            optionBtn.removeEventListener('click', nextQuestion);
             optionBtn.addEventListener('click', onclick);
         }
     }
@@ -161,16 +158,16 @@
     }
 
     function askRandomQuestion(data) {
-        ask(generateQuestion(randomChoice(data.Phrases), data));
+        ask(generateQuestion(randomChoice(data.Phrases), data), data);
     }
+
+    var nextQuestion = function() {}
     
     function start(data) {
         askRandomQuestion(data);
 
-        // Set up the next button
-        const nextBtn = document.getElementById('next');
-        if (nextBtn) {
-            nextBtn.addEventListener('click', () => askRandomQuestion(data));
+        nextQuestion = function() {
+            askRandomQuestion(data);
         }
     }
 
