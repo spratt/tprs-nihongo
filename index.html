@@ -14,7 +14,18 @@
       <p>
         <button class="big" onclick="window.location='quiz.html'">Begin Review</button>
       </p>
-      Level: <span id="level"></span><button id="levelup">Level Up!</button>
+      <p>
+        Level: <span id="level"></span><button id="levelup">Level Up!</button>
+      </p>
+      <p>
+        Unlocked phrases: <span id="unlocked"></span>
+      </p>
+      <p>
+        Available for review: <span id="available"></span>
+      </p>
+      <p>
+        Percent of your level's phrases learned to the Guru level: <span id="percent"></span>
+      </p>
       <table>
         <tr>
           <th>
@@ -80,17 +91,20 @@
   <script>
     srs.load().then(() => {
         const levelSpan = document.getElementById('level');
-        srs.displayScore(
-            levelSpan,
-            document.getElementById('apprentice'),
-            document.getElementById('guru'),
-            document.getElementById('master'),
-            document.getElementById('enlightened'),
-            document.getElementById('burned'),
-        );
+        srs.displayScore({
+            'level': levelSpan,
+            'unlocked': document.getElementById('unlocked'),
+            'available': document.getElementById('available'),
+            'percent': document.getElementById('percent'),
+            'apprentice': document.getElementById('apprentice'),
+            'guru': document.getElementById('guru'),
+            'master': document.getElementById('master'),
+            'enlightened': document.getElementById('enlightened'),
+            'burned': document.getElementById('burned'),
+        });
         document.getElementById('levelup').addEventListener('click', () => {
             srs.levelUp();
-            levelSpan.innerHTML = srs.getScore().Level;
+            location.reload();
         });
     });
   </script>

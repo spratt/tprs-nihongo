@@ -6,6 +6,7 @@ srs = {};
     if(resetBtn) {
         resetBtn.addEventListener('click', function() {
             localStorage.clear();
+            location.reload();
         });
     }
 
@@ -41,6 +42,10 @@ srs = {};
 
     function initScore(data, level) {
         score = data;
+        // Don't allow the level to go beyond the max level
+        if (level >= score.Sets.length) {
+            level = score.Sets.length-1;
+        }
         score.Level = level;
         const start = new Date();
         start.setMinutes(0);
@@ -83,11 +88,12 @@ srs = {};
         // Set this phrase to be locked until a specific time
         const lockedUntil = new Date();
         let currentScore = score.Sets[set].Phrases[phrase].Score;
-        if (currentScore < delays.length) {
+        if (currentScore > delays.length) {
             currentScore = delays.length-1;
         }
-        const delay = delays[currentScore];
-        lockedUntil.setTime(score.Start.getTime() + (delay*60*60*1000));
+        const startTime = score.Start.getTime();
+        const delay = delays[currentScore] * 60 * 60 * 1000;
+        lockedUntil.setTime(startTime + delay);
         score.Sets[set].Phrases[phrase].LockedUntil = lockedUntil;
     }
 
@@ -135,20 +141,61 @@ srs = {};
         return score;
     }
 
-    srs.displayScore = function(levelSpan, apprenticeList, guruList, masterList, enlightenedList, burnedList) {
+    srs.displayScore = function(args) {
+        // Level
+        let levelSpan = args['level'];
         levelSpan.innerHTML = score.Level;
+
+        // Unlocked
+        let phrases = [];
+        let levelPhrases = [];
+        let unlocked = 0;
+        for (var i = 0; i <= score.Level && i < score.Sets.length; i++) {
+            phrases = [...phrases, ...score.Sets[i].Phrases];
+            if (i == score.Level) {
+                levelPhrases = score.Sets[i].Phrases;
+            }
+        }
+        args['unlocked'].innerHTML = phrases.length;
+
+        // Available
+        phrases = phrases.filter((phrase) => {
+            return phrase.LockedUntil <= score.Start;
+        });
+        args['available'].innerHTML = phrases.length;
+
+        // Percent
         const thresholds = {
             'guru': 4,
             'master': 6,
             'enlightened': 7,
             'burned': 8,
         }
+        let guruLevelPhrases = 0;
+        for (var i = 0; i < levelPhrases.length; i++) {
+            let levelPhrase = levelPhrases[i];
+            if (levelPhrase.Score >= thresholds['guru']) {
+                guruLevelPhrases++;
+            }
+        }
+        args['percent'].innerHTML = Math.ceil(100 * guruLevelPhrases / levelPhrases.length);
+
+        // Details
+        let apprenticeList = args['apprentice'];
+        let guruList = args['guru'];
+        let masterList = args['master'];
+        let enlightenedList = args['enlightened'];
+        let burnedList = args['burned'];
+        let now = new Date();
         for (var i = 0; i <= score.Level && i < score.Sets.length; i++) {
             const set = score.Sets[i];
             for (var j = 0; j < set.Phrases.length; j++) {
                 const phrase = set.Phrases[j];
                 const li = document.createElement('li');
                 li.innerHTML = `${phrase.Value}: ${phrase.Score}`;
+                if (phrase.LockedUntil && phrase.LockedUntil > now) {
+                    li.innerHTML += `, locked until ${phrase.LockedUntil}`
+                }
                 if (phrase.Score < thresholds['guru']) {
                     apprenticeList.appendChild(li);
                 } else if (phrase.Score < thresholds['master']) {
