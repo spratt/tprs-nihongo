@@ -1,5 +1,5 @@
 Sets:
-  - Name: Greetings
+  - Name: Greetings (p34-35)
     Phrases:
       - Value: おはよう。
         Meaning: Good morning (familiar).
@@ -37,7 +37,7 @@ Sets:
         Meaning: How do you do?
       - Value: よろしくおねがいします。
         Meaning: Nice to meet you.
-  - Name: Vocabulary
+  - Name: Vocabulary (p40-41)
     Phrases:
       - Value: あの
         Meaning: um...
@@ -85,15 +85,15 @@ Sets:
         Meaning: name (formal)
       - Value: なまえ
         Meaning: name (casual)
-      - Value: なん/なに
+      - Value: なん・なに
         Meaning: what
-      - Value: にほん/にっぽん
+      - Value: にほん・にっぽん・日本
         Meaning: Japan
       - Value: 〜ねんせい
         Meaning: ...year student
       - Value: はい
         Meaning: "yes"
-      - Value: はん
+      - Value: はん・半
         Meaning: half
       - Value: ばんごう
         Meaning: number
@@ -105,16 +105,35 @@ Sets:
         Meaning: I/me/my (semi-formal/semi-masculine)
       - Value: おれ
         Meaning: I/me/my (casual/masculine)
+      - Value: アメリカ
+        Meaning: America
+      - Value: イギリス
+        Meaning: Britain
+      - Value: オーストラリア
+        Meaning: Australia
+      - Value: かんこく・韓国
+        Meaning: Korea
+      - Value: スウェーデン
+        Meaning: Sweden
+      - Value: ちゅうごく・中国
+      - Value: カナダ
+        Meaning: Canada
       - Value: かがく
         Meaning: science
+      - Value: アジアけんきゅう
+        Meaning: Asian studies
       - Value: けいざい
         Meaning: economics
       - Value: こくさいかんけい
         Meaning: international relations
+      - Value: コンピューター
+        Meaning: computer
       - Value: じんるいがく
         Meaning: anthropology
       - Value: せいじ
         Meaning: politics
+      - Value: ビジネス
+        Meaning: business
       - Value: ぶんがく
         Meaning: literature
       - Value: れきし
@@ -149,3 +168,132 @@ Sets:
         Meaning: younger sister
       - Value: おとうと
         Meaning: younger brother
+  - Name: Time/Age (p57)
+    Phrases:
+      - Value: いちじ・一時
+        Meaning: 1 o'clock
+      - Value: にじ・二時
+        Meaning: 2 o'clock
+      - Value: さんじ・三時
+        Meaning: 3 o'clock
+      - Value: よじ・四時
+        Meaning: 4 o'clock
+      - Value: ごじ・五時
+        Meaning: 5 o'clock
+      - Value: ろくじ・六時
+        Meaning: 6 o'clock
+      - Value: しちじ・七時
+        Meaning: 7 o'clock
+      - Value: はちじ・八時
+        Meaning: 8 o'clock
+      - Value: きゅうじ・九時
+        Meaning: 9 o'clock
+      - Value: じゅうじ・十時
+        Meaning: 10 o'clock
+      - Value: じゅういちじ・十一時
+        Meaning: 11 o'clock
+      - Value: じゅうにじ・十二時
+        Meaning: 12 o'clock
+      - Value: 〜さい・〜歳
+        Meaning: ~years old
+      - Value: はたち・二十歳
+        Meaning: 20 years old
+  - Name: Vocabulary (p60-61)
+    Phrases:
+      - Value: これ
+        Meaning: this one (near the speaker)
+      - Value: それ
+        Meaning: that one (near the listener)
+      - Value: あれ
+        Meaning: that one (not near speaker or listener)
+      - Value: どれ
+        Meaning: which one
+      - Value: この〜
+        Meaning: this~ (near the speaker)
+      - Value: その〜
+        Meaning: that~ (near the speaker)
+      - Value: あの〜
+        Meaning: that~ (not near speaker or listener)
+      - Value: どの〜
+        Meaning: which~
+      - Value: ここ
+        Meaning: here (near the speaker)
+      - Value: そこ
+        Meaning: there (near the listener)
+      - Value: あそこ
+        Meaning: over there (not near speaker or listener)
+      - Value: どこ
+        Meaning: where
+      - Value: だれ
+        Meaning: who
+      - Value: おいしい
+        Meaning: delicious
+      - Value: さかな・魚
+        Meaning: fish
+      - Value: とんかつ
+        Meaning: pork cutlet
+      - Value: にく・肉
+        Meaning: meat
+      - Value: メニュー
+        Meaning: menu
+      - Value: やさい
+        Meaning: vegetable
+      - Value: えんぴつ
+        Meaning: pencil
+      - Value: かさ・傘
+        Meaning: umbrella
+      - Value: かばん・鞄
+        Meaning: bag
+      - Value: くつ・靴
+        Meaning: shoes
+      - Value: さいふ
+        Meaning: wallet
+      - Value: ジーンズ
+        Meaning: jeans
+      - Value: じしょ
+        Meaning: dictionary
+      - Value: じてんしゃ
+        Meaning: bicycle
+      - Value: しんぶん
+        Meaning: newspaper
+      - Value: Tシャツ
+        Meaning: T-shirt
+      - Value: とけい
+        Meaning: watch; clock
+      - Value: ノート
+        Meaning: notebook
+      - Value: ペン
+        Meaning: pen
+      - Value: ぼうし
+        Meaning: hat; cap
+      - Value: ほん・本
+        Meaning: book
+      - Value: きっさてん
+        Meaning: café
+      - Value: ぎんこう
+        Meaning: bank
+      - Value: トイレ
+        Meaning: toilet; restroom
+      - Value: としょかん
+        Meaning: library
+      - Value: ゆうびんきょく
+        Meaning: post office
+      - Value: いくら
+        Meaning: how much
+      - Value: 〜えん・〜円
+        Meaning: ~yen
+      - Value: たかい
+        Meaning: expensive; high
+      - Value: いらっしゃいませ
+        Meaning: Welcome (to our store)
+      - Value: （〜を）おねがいします
+        Meaning: ...please
+      - Value: （〜を）ください
+        Meaning: Please give me...
+      - Value: じゃあ
+        Meaning: then...; if that is the case...
+      - Value: どうぞ
+        Meaning: Please.; Here it is.
+      - Value: どうも
+        Meaning: Thank you.
+      
