@@ -296,4 +296,15 @@ Sets:
         Meaning: Please.; Here it is.
       - Value: どうも
         Meaning: Thank you.
-      
+  - Name: Filler words & Back Channeling
+    Phrases:
+      - Value: あのう
+        Meaning: Umm... (about to speak)
+      - Value: ええと
+        Meaning: Umm... (pausing to think)
+      - Value: なんだけ・何だけ
+        Meaning: Questioning yourself
+      - Value: そうだね
+        Meaning: Right, right...
+      - Value: なるほど
+        Meaning: I see...
