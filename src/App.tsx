@@ -22,6 +22,7 @@ class StartButton extends React.Component {
   }
   render() {
     const Button = styled.button`
+      font-size: 2rem;
       width: 100%;
     `;
     return (
@@ -33,13 +34,11 @@ class StartButton extends React.Component {
 }
 
 class App extends React.Component {
-  constructor(props: object) {
-    super(props);
-
+  componentDidMount() {
     get(data).then((req) => {
       const data = yaml.load(req.response);
       console.dir(data);
-      this.state = data;
+      this.setState(data);
     }).catch((err) => console.error(err));
   }
 
