@@ -21,40 +21,114 @@ const BigButton = styled.button`
   width: 100%;
 `;
 
+const CorrectButton = styled.button`
+  font-size: 2rem;
+  width: 100%;
+  background-color: green;
+`;
+
+const WrongButton = styled.button`
+  font-size: 2rem;
+  width: 100%;
+  background-color: red;
+`;
+
 const Prompt = styled.h2`
 `;
 
-interface CardProps {
-  prompt: string;
-  response: string;  
+function randomInt(max: number) {
+  return Math.floor(Math.random() * Math.floor(max));
 }
 
-interface CardState {
+function randomChoices(arr: any[], n: number) {
+  if (arr.length < n) {
+    return arr;
+  }
+  const options = arr.slice();
+  const choices = [];
+  while (choices.length < n) {
+    let i = randomInt(options.length);
+    choices.push(options[i]);
+    options.splice(i, 1);
+  }
+  return choices;
+}
+
+function shuffle(arr: any[]) {
+  return randomChoices(arr, arr.length);
+}
+
+interface Fact {
   prompt: string;
   response: string;
+  related: string[];
+  mnemonic: string;
 }
 
-class Card extends React.Component<CardProps,CardState> {
-  constructor(props: CardProps) {
-    super(props);
+interface Question {
+  fact: Fact;
+  responses: string[];
+}
+
+interface CardState extends Question {
+  answer?: number;
+}
+
+class Card extends React.Component<Question,CardState> {
+  constructor(question: Question) {
+    super(question);
 
     this.state = {
-      prompt: props.prompt,
-      response: props.response
+      fact: question.fact,
+      responses: shuffle(question.responses),
     };
   }
 
+  handleClick(i: number) {
+    if (this.state.answer !== null && this.state.answer !== undefined) return;
+    this.setState({
+      answer: i,
+    });
+  }
+
+  isCorrectAnswer(response: string, i: number) {
+    return this.state.answer === i && response === this.state.fact.response;
+  }
+
+  isWrongAnswer(response: string, i: number) {
+    return this.state.answer === i && response !== this.state.fact.response;
+  }
+
   render() {
+    const buttons = this.state.responses.map((response: string, i: number) => {
+      if (this.isCorrectAnswer(response, i)) {
+        return (
+          <CorrectButton key={i}>
+            {response}
+          </CorrectButton>
+        );
+      } else if (this.isWrongAnswer(response, i)) {
+        return (
+          <WrongButton key={i}>
+            {response}
+          </WrongButton>
+        );
+      } else {
+        return (
+          <BigButton key={i} onClick={() => this.handleClick(i)}>
+            {response}
+          </BigButton>
+        );
+      }
+    });
     return (
       <div>
         <Prompt>
-          {this.state.prompt}
+          {this.state.fact.prompt}
         </Prompt>
-        <BigButton>
-          {this.state.response}
-        </BigButton>
+        {buttons}
       </div>
-    )
+    );
   }
 }
 
@@ -65,12 +139,6 @@ function Summary(props: object) {
   )
 }
 
-interface Fact {
-  prompt: string;
-  response: string;
-  related: string[];
-  mnemonic: string;
-}
 interface AppState {
   facts: Fact[];
 }
@@ -89,19 +157,23 @@ class App extends React.Component<{},AppState> {
     xhr('GET', data).then((req) => {
       const data = yaml.load(req.response);
       console.dir(data);
-      this.setState(data);
+      this.setState({
+        facts: shuffle(data.facts),
+      })
     }).catch((err) => console.error(err));
   }
 
   render() {
-    const cards = this.state.facts.map((fact: Fact) => {
-      return (
+    const responses = this.state.facts.map((fact: Fact) => fact.response);
+    let card = null;
+    if (this.state.facts.length > 0) {
+      card = (
         <Card
-          prompt={fact.prompt}
-          response={fact.response}
+          fact={this.state.facts[0]}
+          responses={responses}
         />
-      )
-    });
+      );
+    }
 
     return (
       <Container className="App">
@@ -110,7 +182,7 @@ class App extends React.Component<{},AppState> {
             S.R.S. 日本語
           </Title>
         </header>
-        {cards}
+        {card}
         <Summary />
       </Container>
     );
