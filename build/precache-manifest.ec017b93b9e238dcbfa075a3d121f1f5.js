@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd61030b543cb3d3f1ff19f4458d9d16",
+    "revision": "807b961a8b358f22b0ad828b803ac7eb",
     "url": "/srs-nihongo/build/index.html"
   },
   {
-    "revision": "071322cccca373aecaec",
+    "revision": "5f3b78cf9fba5d168290",
     "url": "/srs-nihongo/build/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "d731659fff3aefb1fca5",
-    "url": "/srs-nihongo/build/static/js/2.95fe1fb8.chunk.js"
+    "revision": "5b0995bfae66c91b0c35",
+    "url": "/srs-nihongo/build/static/js/2.4f68b7af.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/srs-nihongo/build/static/js/2.95fe1fb8.chunk.js.LICENSE.txt"
+    "url": "/srs-nihongo/build/static/js/2.4f68b7af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "071322cccca373aecaec",
-    "url": "/srs-nihongo/build/static/js/main.384ae5a1.chunk.js"
+    "revision": "5f3b78cf9fba5d168290",
+    "url": "/srs-nihongo/build/static/js/main.5285e051.chunk.js"
   },
   {
     "revision": "c2152c1e01d31e66da13",

@@ -1,8 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import yaml from 'js-yaml';
-import data from './data.yaml';
+
 import xhr from './http';
+import {shuffle, randomChoices} from './random';
+
+import data from './data.yaml';
 
 const Container = styled.div`
   @media screen and (min-width: 48rem) {
@@ -24,39 +27,17 @@ const BigButton = styled.button`
 const CorrectButton = styled.button`
   font-size: 2rem;
   width: 100%;
-  background-color: green;
+  background-color: lightgreen;
 `;
 
 const WrongButton = styled.button`
   font-size: 2rem;
   width: 100%;
-  background-color: red;
+  background-color: orangered;
 `;
 
 const Prompt = styled.h2`
 `;
-
-function randomInt(max: number) {
-  return Math.floor(Math.random() * Math.floor(max));
-}
-
-function randomChoices(arr: any[], n: number) {
-  if (arr.length < n) {
-    return arr;
-  }
-  const options = arr.slice();
-  const choices = [];
-  while (choices.length < n) {
-    let i = randomInt(options.length);
-    choices.push(options[i]);
-    options.splice(i, 1);
-  }
-  return choices;
-}
-
-function shuffle(arr: any[]) {
-  return randomChoices(arr, arr.length);
-}
 
 interface Fact {
   prompt: string;
@@ -70,18 +51,78 @@ interface Question {
   responses: string[];
 }
 
-interface CardState extends Question {
+function Summary(props: object) {
+  return (
+    <div>
+    </div>
+  )
+}
+
+interface AppState {
+  facts: Fact[];
+  responses: string[];
+  question: Question;
   answer?: number;
 }
 
-class Card extends React.Component<Question,CardState> {
-  constructor(question: Question) {
-    super(question);
+class App extends React.Component<{},AppState> {
+  static emptyQuestion = {
+    fact: {
+      prompt: '',
+      response: '',
+      related: [],
+      mnemonic: '',
+    },
+    responses: [],
+  };
 
+  constructor(props: {}) {
+    super(props);
+    console.log('new App()');
+
+    // Start async get call
+    xhr('GET', data).then((req) => {
+      const data = yaml.load(req.response);
+      const responses = data.facts.map((fact: Fact) => fact.response);
+      this.state = {
+        facts: data.facts,
+        responses: responses,
+        question: App.emptyQuestion,
+      };
+    }).catch((err) => console.error(err));
+
+    // Initialize empty state while we wait for the xhr to finish
     this.state = {
-      fact: question.fact,
-      responses: shuffle(question.responses),
+      facts: [],
+      responses: [],
+      question: App.emptyQuestion,
     };
+  }
+  
+  nextQuestion() {
+    console.log('nextQuestion() called');
+    if (this.state.facts.length === 0) {
+      console.log('nextQuestion() empty facts');
+      return
+    }
+    console.log('nextQuestion() this.state');
+    console.dir(this.state);
+    const fact = randomChoices(this.state.facts, 1)[0];
+    const responses = [fact.response];
+    const otherResponses = this.state.responses.filter((response) => response !== fact.response);
+    responses.push(...randomChoices(otherResponses, 3));
+    const newState = {
+      facts: this.state.facts,
+      responses: this.state.responses,
+      question: {
+        fact: fact,
+        responses: shuffle(responses),
+      },
+      answer: undefined,
+    };
+    console.log('nextQuestion() new state');
+    console.dir(newState);
+    this.setState(newState);
   }
 
   handleClick(i: number) {
@@ -92,15 +133,15 @@ class Card extends React.Component<Question,CardState> {
   }
 
   isCorrectAnswer(response: string, i: number) {
-    return this.state.answer === i && response === this.state.fact.response;
+    return this.state.answer === i && response === this.state.question.fact.response;
   }
 
   isWrongAnswer(response: string, i: number) {
-    return this.state.answer === i && response !== this.state.fact.response;
+    return this.state.answer === i && response !== this.state.question.fact.response;
   }
 
-  render() {
-    const buttons = this.state.responses.map((response: string, i: number) => {
+  renderCard() {
+    const buttons = this.state.question.responses.map((response: string, i: number) => {
       if (this.isCorrectAnswer(response, i)) {
         return (
           <CorrectButton key={i}>
@@ -124,65 +165,25 @@ class Card extends React.Component<Question,CardState> {
     return (
       <div>
         <Prompt>
-          {this.state.fact.prompt}
+          {this.state.question.fact.prompt}
         </Prompt>
         {buttons}
       </div>
     );
   }
-}
-
-function Summary(props: object) {
-  return (
-    <div>
-    </div>
-  )
-}
-
-interface AppState {
-  facts: Fact[];
-}
-
-class App extends React.Component<{},AppState> {
-  constructor(props: {}) {
-    super(props);
-
-    // Initialize empty state while we wait for the xhr to finish
-    this.state = {
-      facts: []
-    };
-  }
-
-  componentDidMount() {
-    xhr('GET', data).then((req) => {
-      const data = yaml.load(req.response);
-      console.dir(data);
-      this.setState({
-        facts: shuffle(data.facts),
-      })
-    }).catch((err) => console.error(err));
-  }
 
   render() {
-    const responses = this.state.facts.map((fact: Fact) => fact.response);
-    let card = null;
-    if (this.state.facts.length > 0) {
-      card = (
-        <Card
-          fact={this.state.facts[0]}
-          responses={responses}
-        />
-      );
-    }
-
     return (
-      <Container className="App">
+      <Container>
         <header>
           <Title>
             S.R.S. 日本語
           </Title>
         </header>
-        {card}
+        <BigButton onClick={() => this.nextQuestion() }>
+          Next Question
+        </BigButton>
+        {this.renderCard()}
         <Summary />
       </Container>
     );
