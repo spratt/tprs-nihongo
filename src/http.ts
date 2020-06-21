@@ -1,4 +1,4 @@
-export function xhr(method: string, url: string): Promise<XMLHttpRequest> {
+export default function xhr(method: string, url: string): Promise<XMLHttpRequest> {
   return new Promise<XMLHttpRequest>((resolve, reject) => {
     const req = new XMLHttpRequest();
     req.withCredentials = true;
@@ -11,8 +11,4 @@ export function xhr(method: string, url: string): Promise<XMLHttpRequest> {
     req.open(method, url);
     req.send();
   });
-}
-
-export default function get(url: string): Promise<XMLHttpRequest> {
-  return xhr('GET', url);
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import yaml from 'js-yaml';
 import data from './data.yaml';
-import get from './http';
+import xhr from './http';
 
 const Container = styled.div`
   @media screen and (min-width: 48rem) {
@@ -16,26 +16,77 @@ const Title = styled.h1`
   color: palevioletred;
 `;
 
-class StartButton extends React.Component {
-  handleClick() {
-    console.log('click');
+const BigButton = styled.button`
+  font-size: 2rem;
+  width: 100%;
+`;
+
+const Prompt = styled.h2`
+`;
+
+interface CardProps {
+  prompt: string;
+  response: string;  
+}
+
+interface CardState {
+  prompt: string;
+  response: string;
+}
+
+class Card extends React.Component<CardProps,CardState> {
+  constructor(props: CardProps) {
+    super(props);
+
+    this.state = {
+      prompt: props.prompt,
+      response: props.response
+    };
   }
+
   render() {
-    const Button = styled.button`
-      font-size: 2rem;
-      width: 100%;
-    `;
     return (
-      <Button onClick={() => this.handleClick()}>
-        Start
-      </Button>
-    );
+      <div>
+        <Prompt>
+          {this.state.prompt}
+        </Prompt>
+        <BigButton>
+          {this.state.response}
+        </BigButton>
+      </div>
+    )
   }
 }
 
-class App extends React.Component {
+function Summary(props: object) {
+  return (
+    <div>
+    </div>
+  )
+}
+
+interface Fact {
+  prompt: string;
+  response: string;
+  related: string[];
+  mnemonic: string;
+}
+interface AppState {
+  facts: Fact[];
+}
+
+class App extends React.Component<{},AppState> {
+  constructor(props: {}) {
+    super(props);
+
+    // Initialize empty state while we wait for the xhr to finish
+    this.state = {
+      facts: []
+    };
+  }
+
   componentDidMount() {
-    get(data).then((req) => {
+    xhr('GET', data).then((req) => {
       const data = yaml.load(req.response);
       console.dir(data);
       this.setState(data);
@@ -43,6 +94,15 @@ class App extends React.Component {
   }
 
   render() {
+    const cards = this.state.facts.map((fact: Fact) => {
+      return (
+        <Card
+          prompt={fact.prompt}
+          response={fact.response}
+        />
+      )
+    });
+
     return (
       <Container className="App">
         <header>
@@ -50,9 +110,8 @@ class App extends React.Component {
             S.R.S. 日本語
           </Title>
         </header>
-        <article>
-          <StartButton />
-        </article>
+        {cards}
+        <Summary />
       </Container>
     );
   }
