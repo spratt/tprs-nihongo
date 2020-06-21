@@ -1,3 +1,16 @@
+.PHONY: start
+start:
+	yarn start
+
+.PHONY: build
+build:
+	yarn build
+
+.PHONY: serve
+serve:
+	open http://localhost:8000/srs-nihongo/
+	cd .. && python3 -m http.server
+
 .PHONY: install
 install:
 	npm install -g typescript yarn react-scripts@latest
