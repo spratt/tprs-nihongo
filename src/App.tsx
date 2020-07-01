@@ -7,6 +7,8 @@ import {shuffle, randomChoices} from './random';
 
 import data from './data.yaml';
 
+const Tada = String.fromCodePoint(127881);
+
 const Container = styled.div`
   @media screen and (min-width: 48rem) {
   width: 48rem;
@@ -37,6 +39,8 @@ const WrongButton = styled.button`
 `;
 
 const Prompt = styled.h2``;
+
+const Mnemonic = styled.h3``;
 
 interface SummaryProps {
   answered: number;
@@ -208,6 +212,19 @@ class App extends React.Component<{},AppState> {
     );
   }
 
+  renderMnemonic() {
+    if (!this.hasAnswered()) return (<Mnemonic />);
+    let response = '';
+    if (this.isCorrectAnswer(this.state.answer || '')) {
+      response = Tada + Tada + Tada + 'Great job!' + Tada + Tada + Tada;
+    } else {
+      response = 'Try to remember: ' + this.state.question.fact.mnemonic;
+    }
+    return (
+      <Mnemonic>{ response }</Mnemonic>
+    );
+  }
+
   render() {
     return (
       <Container>
@@ -218,6 +235,7 @@ class App extends React.Component<{},AppState> {
         </header>
         <Summary answered={ this.state.numAnswered } correct={ this.state.numCorrect } />
         {this.renderCard()}
+        {this.renderMnemonic()}
       </Container>
     );
   }
