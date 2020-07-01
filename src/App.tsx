@@ -36,8 +36,21 @@ const WrongButton = styled.button`
   background-color: orangered;
 `;
 
-const Prompt = styled.h2`
-`;
+const Prompt = styled.h2``;
+
+interface SummaryProps {
+  answered: number;
+  correct: number;
+}
+
+function Summary(props: SummaryProps) {
+  return (
+    <div>
+      Correct: {props.correct}<br />
+    Answered: {props.answered}<br />
+    </div>
+  )
+}
 
 interface Fact {
   prompt: string;
@@ -51,18 +64,14 @@ interface Question {
   responses: string[];
 }
 
-function Summary(props: object) {
-  return (
-    <div>
-    </div>
-  )
-}
-
 interface AppState {
   facts: Fact[];
   responses: string[];
   question: Question;
-  answer?: number;
+  answer?: string;
+
+  numCorrect: number;
+  numAnswered: number;
 }
 
 class App extends React.Component<{},AppState> {
@@ -88,7 +97,11 @@ class App extends React.Component<{},AppState> {
         facts: data.facts,
         responses: responses,
         question: App.emptyQuestion,
+
+        numCorrect: 0,
+        numAnswered: 0,
       };
+      this.nextQuestion();
     }).catch((err) => console.error(err));
 
     // Initialize empty state while we wait for the xhr to finish
@@ -96,6 +109,9 @@ class App extends React.Component<{},AppState> {
       facts: [],
       responses: [],
       question: App.emptyQuestion,
+
+      numCorrect: 0,
+      numAnswered: 0,
     };
   }
   
@@ -125,38 +141,58 @@ class App extends React.Component<{},AppState> {
     this.setState(newState);
   }
 
-  handleClick(i: number) {
+  handleClick(r: string) {
     if (this.state.answer !== null && this.state.answer !== undefined) return;
     this.setState({
-      answer: i,
+      answer: r,
+    });
+    const numAnswered = this.state.numAnswered + 1;
+    let numCorrect = this.state.numCorrect;
+    if (r === this.state.question.fact.response) {
+      numCorrect++;
+    }
+    this.setState({
+      numAnswered: numAnswered,
+      numCorrect: numCorrect,
     });
   }
 
-  isCorrectAnswer(response: string, i: number) {
-    return this.state.answer === i && response === this.state.question.fact.response;
+  hasAnswered() {
+    return this.state.answer !== null && this.state.answer !== undefined;
   }
 
-  isWrongAnswer(response: string, i: number) {
-    return this.state.answer === i && response !== this.state.question.fact.response;
+  isCorrectAnswer(response: string) {
+    return response === this.state.question.fact.response;
+  }
+
+  isWrongAnswer(response: string) {
+    return this.state.answer === response && response !== this.state.question.fact.response;
   }
 
   renderCard() {
     const buttons = this.state.question.responses.map((response: string, i: number) => {
-      if (this.isCorrectAnswer(response, i)) {
+      if (this.hasAnswered()) {
+        if (this.isCorrectAnswer(response)) {
+          return (
+            <CorrectButton key={i} onClick={() => this.nextQuestion()}>
+              {response}
+            </CorrectButton>
+          );
+        } else if (this.isWrongAnswer(response)) {
+          return (
+            <WrongButton key={i} onClick={() => this.nextQuestion()}>
+              {response}
+            </WrongButton>
+          );
+        }
         return (
-          <CorrectButton key={i}>
+          <BigButton key={i} onClick={() => this.nextQuestion()}>
             {response}
-          </CorrectButton>
-        );
-      } else if (this.isWrongAnswer(response, i)) {
-        return (
-          <WrongButton key={i}>
-            {response}
-          </WrongButton>
+          </BigButton>
         );
       } else {
         return (
-          <BigButton key={i} onClick={() => this.handleClick(i)}>
+          <BigButton key={i} onClick={() => this.handleClick(response)}>
             {response}
           </BigButton>
         );
@@ -180,11 +216,8 @@ class App extends React.Component<{},AppState> {
             S.R.S. 日本語
           </Title>
         </header>
-        <BigButton onClick={() => this.nextQuestion() }>
-          Next Question
-        </BigButton>
+        <Summary answered={ this.state.numAnswered } correct={ this.state.numCorrect } />
         {this.renderCard()}
-        <Summary />
       </Container>
     );
   }
