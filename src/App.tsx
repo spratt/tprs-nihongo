@@ -17,6 +17,7 @@ const Container = styled.div`
 `;
 
 const Title = styled.h1`
+  padding-left: 1rem;
   font-size: 1.5em;
   color: palevioletred;
 `;
