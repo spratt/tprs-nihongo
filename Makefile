@@ -7,7 +7,7 @@ build:
 	yarn build
 
 .PHONY: serve
-serve:
+serve: build
 	open http://localhost:8000/srs-nihongo/
 	cd .. && python3 -m http.server
 
