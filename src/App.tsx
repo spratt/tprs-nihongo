@@ -7,8 +7,8 @@ import xhr from './http';
 import data from './data.yaml';
 
 const Container = styled.div`
-  @media screen and (min-width: 48rem) {
-  width: 48rem;
+  @media screen and (min-width: 60rem) {
+  width: 60rem;
   margin: 0 auto;
   }
 `;
@@ -18,6 +18,23 @@ const Title = styled.h1`
   font-size: 1.5em;
   color: orangered;
 `;
+
+interface VideoProps {
+  title: string;
+  src: string;
+}
+
+function Video(props: VideoProps) {
+  return (
+    <iframe
+      title={ props.title }
+      src={ props.src }
+      width="960"
+      height="473"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    ></iframe>
+  );
+}
 
 class App extends React.Component<{},{}> {
 
@@ -40,6 +57,10 @@ class App extends React.Component<{},{}> {
             T.P.R.S. 日本語
           </Title>
         </header>
+        <Video
+          title="Lesson One!"
+          src="https://www.youtube.com/embed/FsiAxc5T23g"
+        />
       </Container>
     );
   }
