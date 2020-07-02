@@ -1,8 +1,8 @@
 {
-  "name": "srs-nihongo",
+  "name": "tprs-nihongo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://blog.pr4tt.com/srs-nihongo/build/",
+  "homepage": "http://blog.pr4tt.com/tprs-nihongo/build/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -19,7 +19,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.1",
-    "typescript": "~3.7.2",
+    "typescript": "^3.9.6",
     "websocket-extensions": "^0.1.4"
   },
   "resolutions": {

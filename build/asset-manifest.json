@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/srs-nihongo/build/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/srs-nihongo/build/static/js/main.2f0af3e0.chunk.js",
-    "main.js.map": "/srs-nihongo/build/static/js/main.2f0af3e0.chunk.js.map",
-    "runtime-main.js": "/srs-nihongo/build/static/js/runtime-main.c513082d.js",
-    "runtime-main.js.map": "/srs-nihongo/build/static/js/runtime-main.c513082d.js.map",
-    "static/js/2.4f68b7af.chunk.js": "/srs-nihongo/build/static/js/2.4f68b7af.chunk.js",
-    "static/js/2.4f68b7af.chunk.js.map": "/srs-nihongo/build/static/js/2.4f68b7af.chunk.js.map",
-    "index.html": "/srs-nihongo/build/index.html",
-    "precache-manifest.85eba2283370a14879e2a4ad0fd2b8d4.js": "/srs-nihongo/build/precache-manifest.85eba2283370a14879e2a4ad0fd2b8d4.js",
-    "service-worker.js": "/srs-nihongo/build/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/srs-nihongo/build/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.4f68b7af.chunk.js.LICENSE.txt": "/srs-nihongo/build/static/js/2.4f68b7af.chunk.js.LICENSE.txt",
-    "static/media/data.yaml": "/srs-nihongo/build/static/media/data.7afd0079.yaml"
+    "main.css": "/tprs-nihongo/build/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/tprs-nihongo/build/static/js/main.3eeac903.chunk.js",
+    "main.js.map": "/tprs-nihongo/build/static/js/main.3eeac903.chunk.js.map",
+    "runtime-main.js": "/tprs-nihongo/build/static/js/runtime-main.c4d120fd.js",
+    "runtime-main.js.map": "/tprs-nihongo/build/static/js/runtime-main.c4d120fd.js.map",
+    "static/js/2.a9329e28.chunk.js": "/tprs-nihongo/build/static/js/2.a9329e28.chunk.js",
+    "static/js/2.a9329e28.chunk.js.map": "/tprs-nihongo/build/static/js/2.a9329e28.chunk.js.map",
+    "index.html": "/tprs-nihongo/build/index.html",
+    "precache-manifest.45a81212052118776dd6d35c7de6d974.js": "/tprs-nihongo/build/precache-manifest.45a81212052118776dd6d35c7de6d974.js",
+    "service-worker.js": "/tprs-nihongo/build/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/tprs-nihongo/build/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.a9329e28.chunk.js.LICENSE.txt": "/tprs-nihongo/build/static/js/2.a9329e28.chunk.js.LICENSE.txt",
+    "static/media/data.yaml": "/tprs-nihongo/build/static/media/data.7afd0079.yaml"
   },
   "entrypoints": [
-    "static/js/runtime-main.c513082d.js",
-    "static/js/2.4f68b7af.chunk.js",
+    "static/js/runtime-main.c4d120fd.js",
+    "static/js/2.a9329e28.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.2f0af3e0.chunk.js"
+    "static/js/main.3eeac903.chunk.js"
   ]
 }

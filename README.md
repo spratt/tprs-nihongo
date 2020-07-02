@@ -1,8 +1,12 @@
-# S.R.S. 日本語
+# T.P.R.S. 日本語
 
-Spaced reptition for learning Japanese.  Mostly vocabulary and kana.
-For a spaced repetition system for learning Kanji, check out
-https://www.wanikani.com
+A friendly user interface for interacting with video TPRS (Teaching
+Proficiency through Reading and Storytelling) stories.  THe goal of
+this is to create as interactive an experience with the user as
+possible without actually involving a teacher to ask questions and
+verify responses.  Instead of a teacher, the goal is to use a video
+that pauses to allow the user to respond, and automate the process of
+correcting the user as much as possible.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
