@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import yaml from 'js-yaml';
+import YouTube from 'react-youtube';
 
 import xhr from './http';
 
@@ -19,24 +20,16 @@ const Title = styled.h1`
   color: orangered;
 `;
 
-interface VideoProps {
-  title: string;
-  src: string;
-}
+const BigButton = styled.button`
+  font-size: 2rem;
+  width: 100%;
+`;
 
-function Video(props: VideoProps) {
-  return (
-    <iframe
-      title={ props.title }
-      src={ props.src }
-      width="960"
-      height="473"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    ></iframe>
-  );
-}
+interface AppState {
+  player: YT.Player;
+};
 
-class App extends React.Component<{},{}> {
+class App extends React.Component<{},AppState> {
 
   constructor(props: {}) {
     super(props);
@@ -49,7 +42,25 @@ class App extends React.Component<{},{}> {
     }).catch((err) => console.error(err));
   }
 
+  play() {
+    this.state.player.playVideo();
+  }
+
+  pause() {
+    this.state.player.pauseVideo();
+  }
+
   render() {
+    const zero: 0 | 1 | undefined = 0;
+    const opts = {
+      height: '390',
+      width: '640',
+      playerVars: {
+        // https://developers.google.com/youtube/player_parameters
+        autoplay: zero,
+      },
+    };
+
     return (
       <Container>
         <header>
@@ -57,10 +68,15 @@ class App extends React.Component<{},{}> {
             T.P.R.S. 日本語
           </Title>
         </header>
-        <Video
-          title="Lesson One!"
-          src="https://www.youtube.com/embed/FsiAxc5T23g"
-        />
+        <YouTube videoId="FsiAxc5T23g" opts={opts} onReady={(event: YT.PlayerEvent) => {
+          this.setState({player: event.target});
+        }} />
+        <BigButton onClick={() => this.play()}>
+          Play
+        </BigButton>
+        <BigButton onClick={() => this.pause()}>
+          Pause
+        </BigButton>
       </Container>
     );
   }
