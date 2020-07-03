@@ -66,8 +66,10 @@ class App extends React.Component<{},AppState> {
     };
 
     const anyWindow: any = window;
-    if (anyWindow.webkitSpeechRecognition) {
-      this.recognition = new anyWindow.webkitSpeechRecognition();
+    if (anyWindow.SpeechRecognition || anyWindow.webkitSpeechRecognition ||
+        anyWindow.mozSpeechRecognition || anyWindow.msSpeechRecognition) {
+      this.recognition = new (anyWindow.SpeechRecognition || anyWindow.webkitSpeechRecognition ||
+                              anyWindow.mozSpeechRecognition || anyWindow.msSpeechRecognition)();
       this.recognition.lang = 'ja-JP';
       this.recognition.interimResults = false;
       this.recognition.maxAlternatives = 5;
