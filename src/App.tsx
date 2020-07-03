@@ -81,21 +81,35 @@ interface DicEntry {
   reading_meaning: RMGroup;
 }
 
+class Kanji {
+  public readonly literal: string;
+  public readonly dicEntry: DicEntry;
+  constructor(s: string, d: DicEntry) {
+    this.literal = s;
+    this.dicEntry = d;
+  }
+}
+
 class KanjiDic {
   private data: Record<string, DicEntry> = {};
   
   constructor() {
     kanjidic2_files.forEach((file) => {
       xhr('GET', file).then((req) => {
-        console.log(`KanjiDic loaded ${file}`);
         const dict = yaml.load(req.response);
         Object.keys(dict).forEach((key: string) => this.data[key] = dict[key]);
       }).catch((err) => console.error(`Error loading ${file}`, err))
     })
   }
 
-  lookup(key: string): DicEntry {
+  lookup(key: string): DicEntry | undefined {
     return this.data[key];
+  }
+
+  getKanji(key: string): Kanji | undefined {
+    let dicEntry = this.lookup(key);
+    if (!dicEntry) { return undefined; }
+    return new Kanji(key, dicEntry);
   }
 }
 
@@ -119,15 +133,6 @@ const BigButton = styled.button`
   width: 100%;
 `;
 
-interface AppState {
-  player?: YT.Player;
-  src: string;
-  stopTimes: number[];
-  timer?: any;
-
-  lastListenResults: string[];
-};
-
 // @types/youtube won't let me refer to their const enum PlayerState
 // directly, so I have to recreate its values here
 //const PlayerStateUnstarted = -1;
@@ -136,6 +141,15 @@ const PlayerStatePlaying = 1;
 //const PlayerStatePaused = 2;
 //const PlayerStateBuffering = 3;
 //const PlayerStateCued = 4;
+
+interface AppState {
+  player?: YT.Player;
+  src: string;
+  stopTimes: number[];
+  timer?: any;
+
+  lastListenResults: string[];
+};
 
 class App extends React.Component<{},AppState> {
   private recognition?: any;
@@ -188,12 +202,19 @@ class App extends React.Component<{},AppState> {
     if (event.results.length > 0) {
       const listenResults = Array.from(event.results[0]).map((x: any) => {
         const transcript = x.transcript;
-        const kana = wanakana.toKana(transcript);
-        console.log(`${transcript}(${kana})`);
-        if (kana === transcript) {
-          return transcript;
-        }
-        return `${transcript}(${kana})`;
+
+        const tokens = wanakana.tokenize(transcript);
+        console.dir(tokens);
+        const kanji_tokens = tokens.map((token) => {
+          if (wanakana.isKanji(token)) {
+            const kanji = this.kanjiDic.getKanji(token);
+            if (kanji) return kanji;
+          }
+          return token;
+        });
+        kanji_tokens.forEach(console.dir);
+
+        return transcript;
       });
       this.setState({
         src: this.state.src,
@@ -274,7 +295,9 @@ class App extends React.Component<{},AppState> {
         </p>
       );
     } else if (this.state.lastListenResults.length > 1) {
-      const listItems = Array.from(this.state.lastListenResults).map((s: string) => (<li>{s}</li>));
+      const listItems = Array.from(this.state.lastListenResults).map((s: string) => (
+        <li key={s}>{s}</li>
+      ));
       lastResults = (
         <ol>{ listItems }</ol>
       );
