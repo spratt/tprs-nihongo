@@ -1,0 +1,3358 @@
+馣:
+  codepoint:
+    cp_value:
+    - '#text': 99A3
+      '@cp_type': ucs
+    - '#text': 2-92-76
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '44542'
+      '@dr_type': moro
+  literal: 馣
+  misc:
+    stroke_count: '17'
+  radical:
+    rad_value:
+      '#text': '186'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': an1
+        '@r_type': pinyin
+      - '#text': アン
+        '@r_type': ja_on
+      - '#text': エン
+        '@r_type': ja_on
+      - '#text': オウ
+        '@r_type': ja_on
+駼:
+  codepoint:
+    cp_value:
+    - '#text': 99FC
+      '@cp_type': ucs
+    - '#text': 2-92-89
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '44772'
+      '@dr_type': moro
+  literal: 駼
+  misc:
+    stroke_count: '17'
+  radical:
+    rad_value:
+      '#text': '187'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': tu2
+        '@r_type': pinyin
+騊:
+  codepoint:
+    cp_value:
+    - '#text': 9A0A
+      '@cp_type': ucs
+    - '#text': 2-92-90
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '44808'
+      '@dr_type': moro
+  literal: 騊
+  misc:
+    stroke_count: '18'
+  radical:
+    rad_value:
+      '#text': '187'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': tao2
+        '@r_type': pinyin
+騚:
+  codepoint:
+    cp_value:
+    - '#text': 9A1A
+      '@cp_type': ucs
+    - '#text': 2-92-93
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '44853'
+      '@dr_type': moro
+  literal: 騚
+  misc:
+    stroke_count: '19'
+  radical:
+    rad_value:
+      '#text': '187'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': qian2
+        '@r_type': pinyin
+騱:
+  codepoint:
+    cp_value:
+    - '#text': 9A31
+      '@cp_type': ucs
+    - '#text': 2-93-1
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '44916'
+      '@dr_type': moro
+  literal: 騱
+  misc:
+    stroke_count: '20'
+  radical:
+    rad_value:
+      '#text': '187'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': xi1
+        '@r_type': pinyin
+驒:
+  codepoint:
+    cp_value:
+    - '#text': 9A52
+      '@cp_type': ucs
+    - '#text': 1-94-20
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '45002'
+      '@dr_type': moro
+  literal: 驒
+  misc:
+    stroke_count: '22'
+    variant:
+      '#text': 9A28
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '187'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: dappled
+      reading:
+      - '#text': tuo2
+        '@r_type': pinyin
+      - '#text': タン
+        '@r_type': ja_on
+      - '#text': ダン
+        '@r_type': ja_on
+      - '#text': ダ
+        '@r_type': ja_on
+      - '#text': まだらうま
+        '@r_type': ja_kun
+驘:
+  codepoint:
+    cp_value:
+    - '#text': 9A58
+      '@cp_type': ucs
+    - '#text': 2-93-5
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '45025'
+      '@dr_type': moro
+  literal: 驘
+  misc:
+    stroke_count: '23'
+  radical:
+    rad_value:
+      '#text': '187'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: mule
+      reading:
+        '#text': luo2
+        '@r_type': pinyin
+骷:
+  codepoint:
+    cp_value:
+    - '#text': 9AB7
+      '@cp_type': ucs
+    - '#text': 2-93-9
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '45156'
+      '@dr_type': moro
+  literal: 骷
+  misc:
+    stroke_count: '15'
+  radical:
+    rad_value:
+      '#text': '188'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: skeleton
+      reading:
+        '#text': ku1
+        '@r_type': pinyin
+魲:
+  codepoint:
+    cp_value:
+    - '#text': 9B72
+      '@cp_type': ucs
+    - '#text': 1-94-35
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '46019'
+      '@dr_type': moro
+  literal: 魲
+  misc:
+    stroke_count: '15'
+  radical:
+    rad_value:
+      '#text': '195'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: fish name
+      reading:
+      - '#text': lu2
+        '@r_type': pinyin
+      - '#text': ロ
+        '@r_type': ja_on
+魶:
+  codepoint:
+    cp_value:
+    - '#text': 9B76
+      '@cp_type': ucs
+    - '#text': 2-93-38
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '46024'
+      '@dr_type': moro
+  literal: 魶
+  misc:
+    stroke_count: '15'
+  radical:
+    rad_value:
+      '#text': '195'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': na4
+        '@r_type': pinyin
+鯮:
+  codepoint:
+    cp_value:
+    - '#text': 9BEE
+      '@cp_type': ucs
+    - '#text': 2-93-56
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '46271'
+      '@dr_type': moro
+  literal: 鯮
+  misc:
+    stroke_count: '19'
+  radical:
+    rad_value:
+      '#text': '195'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': zong1
+        '@r_type': pinyin
+鰝:
+  codepoint:
+    cp_value:
+    - '#text': 9C1D
+      '@cp_type': ucs
+    - '#text': 2-93-66
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '46362'
+      '@dr_type': moro
+  literal: 鰝
+  misc:
+    stroke_count: '21'
+  radical:
+    rad_value:
+      '#text': '195'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': hao4
+        '@r_type': pinyin
+鱥:
+  codepoint:
+    cp_value:
+    - '#text': 9C65
+      '@cp_type': ucs
+    - '#text': 1-94-54
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '46536'
+      '@dr_type': moro
+  literal: 鱥
+  misc:
+    stroke_count: '24'
+  radical:
+    rad_value:
+      '#text': '195'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': gui4
+        '@r_type': pinyin
+鱭:
+  codepoint:
+    cp_value:
+    - '#text': 9C6D
+      '@cp_type': ucs
+    - '#text': 2-93-89
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '46570'
+      '@dr_type': moro
+  literal: 鱭
+  misc:
+    stroke_count: '25'
+  radical:
+    rad_value:
+      '#text': '195'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: anchovy
+      reading:
+        '#text': ji4
+        '@r_type': pinyin
+鱺:
+  codepoint:
+    cp_value:
+    - '#text': 9C7A
+      '@cp_type': ucs
+    - '#text': 2-93-94
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '46626'
+      '@dr_type': moro
+  literal: 鱺
+  misc:
+    stroke_count: '30'
+  radical:
+    rad_value:
+      '#text': '195'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: eel
+      reading:
+        '#text': li2
+        '@r_type': pinyin
+鵒:
+  codepoint:
+    cp_value:
+    - '#text': 9D52
+      '@cp_type': ucs
+    - '#text': 1-94-60
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '46926'
+      '@dr_type': moro
+  literal: 鵒
+  misc:
+    stroke_count: '18'
+  radical:
+    rad_value:
+      '#text': '196'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: mynah bird
+      reading:
+        '#text': yu4
+        '@r_type': pinyin
+鵳:
+  codepoint:
+    cp_value:
+    - '#text': 9D73
+      '@cp_type': ucs
+    - '#text': 2-94-22
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '47015'
+      '@dr_type': moro
+  literal: 鵳
+  misc:
+    stroke_count: '19'
+  radical:
+    rad_value:
+      '#text': '196'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': jian1
+        '@r_type': pinyin
+鶙:
+  codepoint:
+    cp_value:
+    - '#text': 9D99
+      '@cp_type': ucs
+    - '#text': 2-94-28
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '47101'
+      '@dr_type': moro
+  literal: 鶙
+  misc:
+    stroke_count: '20'
+  radical:
+    rad_value:
+      '#text': '196'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ti2
+        '@r_type': pinyin
+鶽:
+  codepoint:
+    cp_value:
+    - '#text': 9DBD
+      '@cp_type': ucs
+    - '#text': 2-94-33
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '47200'
+      '@dr_type': moro
+  literal: 鶽
+  misc:
+    stroke_count: '21'
+  radical:
+    rad_value:
+      '#text': '196'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: a hawk
+      reading:
+        '#text': sun3 zhun3
+        '@r_type': pinyin
+鷀:
+  codepoint:
+    cp_value:
+    - '#text': 9DC0
+      '@cp_type': ucs
+    - '#text': 1-94-66
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '47204'
+      '@dr_type': moro
+  literal: 鷀
+  misc:
+    stroke_count: '21'
+    variant:
+      '#text': 9E5A
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '196'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: the fishing cormorant
+      reading:
+        '#text': ci2 zi1
+        '@r_type': pinyin
+鷣:
+  codepoint:
+    cp_value:
+    - '#text': 9DE3
+      '@cp_type': ucs
+    - '#text': 2-94-41
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '47306'
+      '@dr_type': moro
+  literal: 鷣
+  misc:
+    stroke_count: '23'
+  radical:
+    rad_value:
+      '#text': '196'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': yin2
+        '@r_type': pinyin
+鸍:
+  codepoint:
+    cp_value:
+    - '#text': 9E0D
+      '@cp_type': ucs
+    - '#text': 2-94-46
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '47427'
+      '@dr_type': moro
+  literal: 鸍
+  misc:
+    stroke_count: '25'
+  radical:
+    rad_value:
+      '#text': '196'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': mi2 yu4
+        '@r_type': pinyin
+麽:
+  codepoint:
+    cp_value:
+    - '#text': 9EBD
+      '@cp_type': ucs
+    - '#text': 2-94-57
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '47893'
+      '@dr_type': moro
+  literal: 麽
+  misc:
+    stroke_count:
+    - '15'
+    - '14'
+    variant:
+      '#text': 9EBC
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '200'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - interrogative final particle
+      - insignificant
+      - small
+      - tiny
+      reading:
+        '#text': ma5 me5 mo3 mo5
+        '@r_type': pinyin
+黃:
+  codepoint:
+    cp_value:
+    - '#text': 9EC3
+      '@cp_type': ucs
+    - '#text': 1-94-81
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '7046'
+      '@dr_type': nelson_n
+    - '#text': '2487'
+      '@dr_type': halpern_njecd
+    - '#text': '3128'
+      '@dr_type': halpern_kkd
+    - '#text': '47926'
+      '@dr_type': moro
+  literal: 黃
+  misc:
+    grade: '10'
+    stroke_count: '12'
+    variant:
+    - '#text': 18-11
+      '@var_type': jis208
+    - '#text': 9EC4
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '201'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - yellow
+      - surname
+      reading:
+      - '#text': huang2
+        '@r_type': pinyin
+      - '#text': コウ
+        '@r_type': ja_on
+      - '#text': オウ
+        '@r_type': ja_on
+      - '#text': き
+        '@r_type': ja_kun
+黑:
+  codepoint:
+    cp_value:
+    - '#text': 9ED1
+      '@cp_type': ucs
+    - '#text': 1-94-82
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '7053'
+      '@dr_type': nelson_n
+    - '#text': '2787'
+      '@dr_type': halpern_njecd
+    - '#text': '3462'
+      '@dr_type': halpern_kkd
+    - '#text': '48038'
+      '@dr_type': moro
+  literal: 黑
+  misc:
+    grade: '10'
+    stroke_count: '12'
+    variant:
+    - '#text': 25-85
+      '@var_type': jis208
+    - '#text': 9ED2
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '203'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - black
+      - dark
+      - evil
+      - sinister
+      reading:
+      - '#text': he4 hei1
+        '@r_type': pinyin
+      - '#text': コク
+        '@r_type': ja_on
+      - '#text': くろい
+        '@r_type': ja_kun
+      - '#text': くろ
+        '@r_type': ja_kun
+欄:
+  codepoint:
+    cp_value:
+    - '#text': F91D
+      '@cp_type': ucs
+    - '#text': 1-86-27
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '2402'
+      '@dr_type': nelson_c
+    - '#text': '2915'
+      '@dr_type': nelson_n
+    - '#text': '1109'
+      '@dr_type': halpern_njecd
+    - '#text': '1426'
+      '@dr_type': halpern_kkd
+    - '#text': '15904'
+      '@dr_type': moro
+  literal: 欄
+  misc:
+    grade: '10'
+    stroke_count: '21'
+    variant:
+    - '#text': 45-83
+      '@var_type': jis208
+    - '#text': 6B04
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '75'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - railing
+      - balustrade
+      - animal pan
+廊:
+  codepoint:
+    cp_value:
+    - '#text': F928
+      '@cp_type': ucs
+    - '#text': 1-84-14
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '1524'
+      '@dr_type': nelson_c
+    - '#text': '1628'
+      '@dr_type': nelson_n
+    - '#text': '3155'
+      '@dr_type': halpern_njecd
+    - '#text': '3913'
+      '@dr_type': halpern_kkd
+    - '#text': '9437'
+      '@dr_type': moro
+  literal: 廊
+  misc:
+    grade: '10'
+    stroke_count:
+    - '12'
+    - '13'
+    variant:
+    - '#text': 47-13
+      '@var_type': jis208
+    - '#text': 5ECA
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '53'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - corridor
+      - porch
+      - veranda
+朗:
+  codepoint:
+    cp_value:
+    - '#text': F929
+      '@cp_type': ucs
+    - '#text': 1-85-46
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '3769'
+      '@dr_type': nelson_c
+    - '#text': '4813'
+      '@dr_type': nelson_n
+    - '#text': '1495'
+      '@dr_type': halpern_njecd
+    - '#text': '1889'
+      '@dr_type': halpern_kkd
+    - '#text': '14364'
+      '@dr_type': moro
+  literal: 朗
+  misc:
+    grade: '10'
+    stroke_count:
+    - '11'
+    - '10'
+    variant:
+    - '#text': 47-15
+      '@var_type': jis208
+    - '#text': '6717'
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '74'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - clear
+      - bright
+      - distinct
+虜:
+  codepoint:
+    cp_value:
+    - '#text': F936
+      '@cp_type': ucs
+    - '#text': 1-91-47
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '3244'
+      '@dr_type': halpern_njecd
+    - '#text': '4026'
+      '@dr_type': halpern_kkd
+  literal: 虜
+  misc:
+    grade: '10'
+    stroke_count:
+    - '12'
+    - '10'
+    variant:
+      '#text': 865C
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '141'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - capture
+      - imprison
+      - seize
+      - prison
+殺:
+  codepoint:
+    cp_value:
+    - '#text': F970
+      '@cp_type': ucs
+    - '#text': 1-86-41
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '2455'
+      '@dr_type': nelson_c
+    - '#text': '2995'
+      '@dr_type': nelson_n
+    - '#text': '1488'
+      '@dr_type': halpern_njecd
+    - '#text': '1881'
+      '@dr_type': halpern_kkd
+    - '#text': '16638'
+      '@dr_type': moro
+  literal: 殺
+  misc:
+    stroke_count: '11'
+    variant:
+    - '#text': 27-06
+      '@var_type': jis208
+    - '#text': 6BBA
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '79'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - kill
+      - slaughter
+      - murder
+      - hurt
+類:
+  codepoint:
+    cp_value:
+    - '#text': F9D0
+      '@cp_type': ucs
+    - '#text': 1-94-4
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '6650'
+      '@dr_type': nelson_n
+    - '#text': '1844'
+      '@dr_type': halpern_njecd
+    - '#text': '2319'
+      '@dr_type': halpern_kkd
+    - '#text': '43636'
+      '@dr_type': moro
+  literal: 類
+  misc:
+    grade: '10'
+    stroke_count: '19'
+    variant:
+    - '#text': 46-64
+      '@var_type': jis208
+    - '#text': 985E
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '181'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - class
+      - group
+      - kind
+      - category
+隆:
+  codepoint:
+    cp_value:
+    - '#text': F9DC
+      '@cp_type': ucs
+    - '#text': 1-93-61
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '6463'
+      '@dr_type': nelson_n
+    - '#text': '628'
+      '@dr_type': halpern_njecd
+    - '#text': '767'
+      '@dr_type': halpern_kkd
+    - '#text': '41746'
+      '@dr_type': moro
+  literal: 隆
+  misc:
+    stroke_count:
+    - '17'
+    - '12'
+    variant:
+    - '#text': 46-20
+      '@var_type': jis208
+    - '#text': '9686'
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '170'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - prosperous
+      - plentiful
+      - abundant
+﨏:
+  codepoint:
+    cp_value:
+    - '#text': FA0F
+      '@cp_type': ucs
+    - '#text': 1-15-43
+      '@cp_type': jis213
+  literal: 﨏
+  misc:
+    stroke_count: '10'
+  radical:
+    rad_value:
+      '#text': '32'
+      '@rad_type': classical
+塚:
+  codepoint:
+    cp_value:
+    - '#text': FA10
+      '@cp_type': ucs
+    - '#text': 1-15-55
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '1104'
+      '@dr_type': nelson_c
+    - '#text': '1060'
+      '@dr_type': nelson_n
+    - '#text': '633'
+      '@dr_type': halpern_njecd
+    - '#text': '778'
+      '@dr_type': halpern_kkd
+    - '#text': '5345'
+      '@dr_type': moro
+  literal: 塚
+  misc:
+    stroke_count: '13'
+    variant:
+    - '#text': 36-45
+      '@var_type': jis208
+    - '#text': 585A
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '32'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - cemetery
+      - tomb
+      reading:
+      - '#text': zhong3
+        '@r_type': pinyin
+      - '#text': チョウ
+        '@r_type': ja_on
+      - '#text': つか
+        '@r_type': ja_kun
+﨑:
+  codepoint:
+    cp_value:
+    - '#text': FA11
+      '@cp_type': ucs
+    - '#text': 1-47-82
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '691'
+      '@dr_type': halpern_kkd
+  literal: 﨑
+  misc:
+    stroke_count: '12'
+  radical:
+    rad_value:
+      '#text': '46'
+      '@rad_type': classical
+﨓:
+  codepoint:
+    cp_value:
+    - '#text': FA13
+      '@cp_type': ucs
+    - '#text': 2-14-89
+      '@cp_type': jis213
+  literal: 﨓
+  misc:
+    stroke_count: '13'
+  radical:
+    rad_value:
+      '#text': '75'
+      '@rad_type': classical
+﨔:
+  codepoint:
+    cp_value:
+    - '#text': FA14
+      '@cp_type': ucs
+    - '#text': 1-85-90
+      '@cp_type': jis213
+  literal: 﨔
+  misc:
+    stroke_count: '14'
+  radical:
+    rad_value:
+      '#text': '75'
+      '@rad_type': classical
+凞:
+  codepoint:
+    cp_value:
+    - '#text': FA15
+      '@cp_type': ucs
+    - '#text': 1-87-58
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+      '#text': '3589'
+      '@dr_type': halpern_kkd
+  literal: 凞
+  misc:
+    stroke_count:
+    - '16'
+    - '15'
+  radical:
+    rad_value:
+      '#text': '15'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: bright
+      reading:
+      - '#text': xi1
+        '@r_type': pinyin
+      - '#text': キ
+        '@r_type': ja_on
+      - '#text': やわらぐ
+        '@r_type': ja_kun
+猪:
+  codepoint:
+    cp_value:
+    - '#text': FA16
+      '@cp_type': ucs
+    - '#text': 1-87-79
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '2900'
+      '@dr_type': nelson_c
+    - '#text': '3589'
+      '@dr_type': nelson_n
+    - '#text': '621'
+      '@dr_type': halpern_njecd
+    - '#text': '758'
+      '@dr_type': halpern_kkd
+    - '#text': '20534'
+      '@dr_type': moro
+  literal: 猪
+  misc:
+    grade: '9'
+    stroke_count:
+    - '13'
+    - '11'
+    variant:
+    - '#text': 35-86
+      '@var_type': jis208
+    - '#text': 732A
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '94'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: pig
+      reading:
+      - '#text': zhu1
+        '@r_type': pinyin
+      - '#text': チョ
+        '@r_type': ja_on
+      - '#text': いのしし
+        '@r_type': ja_kun
+      - '#text': い
+        '@r_type': ja_kun
+神:
+  codepoint:
+    cp_value:
+    - '#text': FA19
+      '@cp_type': ucs
+    - '#text': 1-89-28
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4088'
+      '@dr_type': nelson_n
+    - '#text': '1154'
+      '@dr_type': halpern_njecd
+    - '#text': '1484'
+      '@dr_type': halpern_kkd
+    - '#text': '24673'
+      '@dr_type': moro
+  literal: 神
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+    - '#text': 31-32
+      '@var_type': jis208
+    - '#text': 795E
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '113'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: spirit
+      reading:
+      - '#text': shen2
+        '@r_type': pinyin
+      - '#text': シン
+        '@r_type': ja_on
+      - '#text': ジン
+        '@r_type': ja_on
+      - '#text': かみ
+        '@r_type': ja_kun
+      - '#text': こう
+        '@r_type': ja_kun
+      - '#text': たましい
+        '@r_type': ja_kun
+祥:
+  codepoint:
+    cp_value:
+    - '#text': FA1A
+      '@cp_type': ucs
+    - '#text': 1-89-29
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4091'
+      '@dr_type': nelson_n
+    - '#text': '1176'
+      '@dr_type': halpern_njecd
+    - '#text': '1507'
+      '@dr_type': halpern_kkd
+    - '#text': '24689'
+      '@dr_type': moro
+  literal: 祥
+  misc:
+    grade: '10'
+    stroke_count: '11'
+    variant:
+    - '#text': 30-45
+      '@var_type': jis208
+    - '#text': '7965'
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '113'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: good luck
+      reading:
+      - '#text': xiang2
+        '@r_type': pinyin
+      - '#text': ショウ
+        '@r_type': ja_on
+      - '#text': さいわい
+        '@r_type': ja_kun
+福:
+  codepoint:
+    cp_value:
+    - '#text': FA1B
+      '@cp_type': ucs
+    - '#text': 1-89-33
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4106'
+      '@dr_type': nelson_n
+    - '#text': '1215'
+      '@dr_type': halpern_njecd
+    - '#text': '1557'
+      '@dr_type': halpern_kkd
+    - '#text': '24768'
+      '@dr_type': moro
+  literal: 福
+  misc:
+    grade: '10'
+    stroke_count: '14'
+    variant:
+    - '#text': 42-01
+      '@var_type': jis208
+    - '#text': 798F
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '113'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: happiness
+      reading:
+      - '#text': fu2
+        '@r_type': pinyin
+      - '#text': フク
+        '@r_type': ja_on
+      - '#text': さいわい
+        '@r_type': ja_kun
+      - '#text': ひもろぎ
+        '@r_type': ja_kun
+﨟:
+  codepoint:
+    cp_value:
+    - '#text': FA1F
+      '@cp_type': ucs
+    - '#text': 1-91-26
+      '@cp_type': jis213
+  literal: 﨟
+  misc:
+    stroke_count: '19'
+  radical:
+    rad_value:
+      '#text': '140'
+      '@rad_type': classical
+蘒:
+  codepoint:
+    cp_value:
+    - '#text': FA20
+      '@cp_type': ucs
+    - '#text': 2-87-24
+      '@cp_type': jis213
+  literal: 蘒
+  misc:
+    stroke_count:
+    - '23'
+    - '27'
+  radical:
+    rad_value:
+      '#text': '140'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': はぎ
+        '@r_type': ja_kun
+﨡:
+  codepoint:
+    cp_value:
+    - '#text': FA21
+      '@cp_type': ucs
+    - '#text': 2-87-37
+      '@cp_type': jis213
+  literal: 﨡
+  misc:
+    stroke_count: '11'
+  radical:
+    rad_value:
+      '#text': '142'
+      '@rad_type': classical
+諸:
+  codepoint:
+    cp_value:
+    - '#text': FA22
+      '@cp_type': ucs
+    - '#text': 1-92-14
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4395'
+      '@dr_type': nelson_c
+    - '#text': '5650'
+      '@dr_type': nelson_n
+    - '#text': '1602'
+      '@dr_type': halpern_njecd
+    - '#text': '2017'
+      '@dr_type': halpern_kkd
+    - '#text': '35743'
+      '@dr_type': moro
+  literal: 諸
+  misc:
+    grade: '10'
+    stroke_count: '16'
+    variant:
+    - '#text': 29-84
+      '@var_type': jis208
+    - '#text': 8AF8
+      '@var_type': ucs
+  radical:
+    rad_value:
+      '#text': '149'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      meaning: several
+      reading:
+      - '#text': zhu1
+        '@r_type': pinyin
+      - '#text': ショ
+        '@r_type': ja_on
+      - '#text': もろ
+        '@r_type': ja_kun
+      - '#text': これ
+        '@r_type': ja_kun
+﨤:
+  codepoint:
+    cp_value:
+    - '#text': FA24
+      '@cp_type': ucs
+    - '#text': 2-89-78
+      '@cp_type': jis213
+  literal: 﨤
+  misc:
+    stroke_count:
+    - '7'
+    - '8'
+  radical:
+    rad_value:
+      '#text': '162'
+      '@rad_type': classical
+都:
+  codepoint:
+    cp_value:
+    - '#text': FA26
+      '@cp_type': ucs
+    - '#text': 1-92-74
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '6149'
+      '@dr_type': nelson_n
+    - '#text': '1780'
+      '@dr_type': halpern_njecd
+    - '#text': '2234'
+      '@dr_type': halpern_kkd
+    - '#text': '39509'
+      '@dr_type': moro
+  literal: 都
+  misc:
+    grade: '10'
+    stroke_count: '11'
+    variant:
+      '#text': 37-52
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '163'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': du1
+        '@r_type': pinyin
+      - '#text': dou1
+        '@r_type': pinyin
+侮:
+  codepoint:
+    cp_value:
+    - '#text': FA30
+      '@cp_type': ucs
+    - '#text': 1-14-24
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '197'
+      '@dr_type': nelson_n
+    - '#text': '106'
+      '@dr_type': halpern_njecd
+    - '#text': '120'
+      '@dr_type': halpern_kkd
+    - '#text': '630'
+      '@dr_type': moro
+  literal: 侮
+  misc:
+    grade: '10'
+    stroke_count: '9'
+    variant:
+      '#text': 41-78
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '9'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': ブ
+        '@r_type': ja_on
+      - '#text': あなどる
+        '@r_type': ja_kun
+僧:
+  codepoint:
+    cp_value:
+    - '#text': FA31
+      '@cp_type': ucs
+    - '#text': 1-14-41
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '304'
+      '@dr_type': nelson_n
+    - '#text': '168'
+      '@dr_type': halpern_njecd
+    - '#text': '190'
+      '@dr_type': halpern_kkd
+    - '#text': '1117'
+      '@dr_type': moro
+  literal: 僧
+  misc:
+    grade: '10'
+    stroke_count: '14'
+    variant:
+      '#text': 33-46
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '9'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ソウ
+        '@r_type': ja_on
+免:
+  codepoint:
+    cp_value:
+    - '#text': FA32
+      '@cp_type': ucs
+    - '#text': 1-14-48
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '352'
+      '@dr_type': nelson_n
+    - '#text': '2045'
+      '@dr_type': halpern_njecd
+    - '#text': '2539'
+      '@dr_type': halpern_kkd
+    - '#text': '1358'
+      '@dr_type': moro
+  literal: 免
+  misc:
+    stroke_count: '7'
+    variant:
+      '#text': 44-40
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '10'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': メン
+        '@r_type': ja_on
+      - '#text': まぬかれる
+        '@r_type': ja_kun
+勉:
+  codepoint:
+    cp_value:
+    - '#text': FA33
+      '@cp_type': ucs
+    - '#text': 1-14-67
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '536'
+      '@dr_type': nelson_n
+    - '#text': '3306'
+      '@dr_type': halpern_njecd
+    - '#text': '4098'
+      '@dr_type': halpern_kkd
+    - '#text': '2362'
+      '@dr_type': moro
+  literal: 勉
+  misc:
+    grade: '10'
+    stroke_count: '9'
+    variant:
+      '#text': 42-57
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '19'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ベン
+        '@r_type': ja_on
+勤:
+  codepoint:
+    cp_value:
+    - '#text': FA34
+      '@cp_type': ucs
+    - '#text': 1-14-72
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '554'
+      '@dr_type': nelson_n
+    - '#text': '1859'
+      '@dr_type': halpern_njecd
+    - '#text': '2336'
+      '@dr_type': halpern_kkd
+    - '#text': '2424'
+      '@dr_type': moro
+  literal: 勤
+  misc:
+    grade: '10'
+    stroke_count: '13'
+    variant:
+      '#text': 22-48
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '19'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': キン
+        '@r_type': ja_on
+      - '#text': ゴン
+        '@r_type': ja_on
+      - '#text': つとまる
+        '@r_type': ja_kun
+      - '#text': つとめる
+        '@r_type': ja_kun
+卑:
+  codepoint:
+    cp_value:
+    - '#text': FA35
+      '@cp_type': ucs
+    - '#text': 1-14-78
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '612'
+      '@dr_type': nelson_n
+    - '#text': '3571'
+      '@dr_type': halpern_njecd
+    - '#text': '4388'
+      '@dr_type': halpern_kkd
+    - '#text': '2738'
+      '@dr_type': moro
+  literal: 卑
+  misc:
+    grade: '10'
+    stroke_count: '8'
+    variant:
+      '#text': 40-60
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '24'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': ヒ
+        '@r_type': ja_on
+      - '#text': いやしい
+        '@r_type': ja_kun
+      - '#text': いやしむ
+        '@r_type': ja_kun
+      - '#text': いやしめる
+        '@r_type': ja_kun
+喝:
+  codepoint:
+    cp_value:
+    - '#text': FA36
+      '@cp_type': ucs
+    - '#text': 1-15-12
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '834'
+      '@dr_type': nelson_n
+    - '#text': '554'
+      '@dr_type': halpern_njecd
+    - '#text': '672'
+      '@dr_type': halpern_kkd
+    - '#text': '3960'
+      '@dr_type': moro
+  literal: 喝
+  misc:
+    stroke_count: '12'
+    variant:
+      '#text': 19-69
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '30'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': カツ
+        '@r_type': ja_on
+嘆:
+  codepoint:
+    cp_value:
+    - '#text': FA37
+      '@cp_type': ucs
+    - '#text': 1-15-15
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '874'
+      '@dr_type': nelson_n
+    - '#text': '675'
+      '@dr_type': halpern_njecd
+    - '#text': '834'
+      '@dr_type': halpern_kkd
+    - '#text': '4171'
+      '@dr_type': moro
+  literal: 嘆
+  misc:
+    grade: '10'
+    stroke_count: '14'
+    variant:
+      '#text': 35-18
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '30'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': タン
+        '@r_type': ja_on
+      - '#text': なげかわしい
+        '@r_type': ja_kun
+      - '#text': なげく
+        '@r_type': ja_kun
+器:
+  codepoint:
+    cp_value:
+    - '#text': FA38
+      '@cp_type': ucs
+    - '#text': 1-15-22
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '901'
+      '@dr_type': nelson_n
+    - '#text': '2718'
+      '@dr_type': halpern_njecd
+    - '#text': '3375'
+      '@dr_type': halpern_kkd
+    - '#text': '4376'
+      '@dr_type': moro
+  literal: 器
+  misc:
+    grade: '10'
+    stroke_count: '16'
+    variant:
+      '#text': 20-79
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '30'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': キ
+        '@r_type': ja_on
+      - '#text': うつわ
+        '@r_type': ja_kun
+塀:
+  codepoint:
+    cp_value:
+    - '#text': FA39
+      '@cp_type': ucs
+    - '#text': 1-15-58
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '1079'
+      '@dr_type': nelson_n
+    - '#text': '678'
+      '@dr_type': halpern_njecd
+    - '#text': '837'
+      '@dr_type': halpern_kkd
+  literal: 塀
+  misc:
+    stroke_count: '14'
+    variant:
+      '#text': 42-29
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '32'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ヘイ
+        '@r_type': ja_on
+墨:
+  codepoint:
+    cp_value:
+    - '#text': FA3A
+      '@cp_type': ucs
+    - '#text': 1-15-62
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '1091'
+      '@dr_type': nelson_n
+    - '#text': '2812'
+      '@dr_type': halpern_njecd
+    - '#text': '3488'
+      '@dr_type': halpern_kkd
+    - '#text': '5469'
+      '@dr_type': moro
+  literal: 墨
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      '#text': 43-47
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '32'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': ボク
+        '@r_type': ja_on
+      - '#text': すみ
+        '@r_type': ja_kun
+層:
+  codepoint:
+    cp_value:
+    - '#text': FA3B
+      '@cp_type': ucs
+    - '#text': 1-47-65
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '1433'
+      '@dr_type': nelson_n
+    - '#text': '3172'
+      '@dr_type': halpern_njecd
+    - '#text': '3934'
+      '@dr_type': halpern_kkd
+    - '#text': '7798'
+      '@dr_type': moro
+  literal: 層
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      '#text': 33-56
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '44'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ソウ
+        '@r_type': ja_on
+屮:
+  codepoint:
+    cp_value:
+    - '#text': FA3C
+      '@cp_type': ucs
+    - '#text': 1-47-66
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '3412'
+      '@dr_type': halpern_njecd
+    - '#text': '4220'
+      '@dr_type': halpern_kkd
+  literal: 屮
+  misc:
+    stroke_count: '3'
+  radical:
+    rad_value:
+      '#text': '45'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': ソウ
+        '@r_type': ja_on
+      - '#text': テツ
+        '@r_type': ja_on
+      - '#text': め
+        '@r_type': ja_kun
+      - '#text': めばえ
+        '@r_type': ja_kun
+悔:
+  codepoint:
+    cp_value:
+    - '#text': FA3D
+      '@cp_type': ucs
+    - '#text': 1-84-48
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '1855'
+      '@dr_type': nelson_n
+    - '#text': '426'
+      '@dr_type': halpern_njecd
+    - '#text': '509'
+      '@dr_type': halpern_kkd
+    - '#text': '10659'
+      '@dr_type': moro
+  literal: 悔
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+      '#text': 18-89
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '61'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': カイ
+        '@r_type': ja_on
+      - '#text': くいる
+        '@r_type': ja_kun
+      - '#text': くやしい
+        '@r_type': ja_kun
+      - '#text': くやむ
+        '@r_type': ja_kun
+慨:
+  codepoint:
+    cp_value:
+    - '#text': FA3E
+      '@cp_type': ucs
+    - '#text': 1-84-60
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '1975'
+      '@dr_type': nelson_n
+    - '#text': '688'
+      '@dr_type': halpern_njecd
+    - '#text': '900'
+      '@dr_type': halpern_kkd
+  literal: 慨
+  misc:
+    stroke_count: '14'
+    variant:
+      '#text': 19-20
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '61'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ガイ
+        '@r_type': ja_on
+憎:
+  codepoint:
+    cp_value:
+    - '#text': FA3F
+      '@cp_type': ucs
+    - '#text': 1-84-62
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '1973'
+      '@dr_type': nelson_n
+    - '#text': '732'
+      '@dr_type': halpern_njecd
+    - '#text': '902'
+      '@dr_type': halpern_kkd
+    - '#text': '11202'
+      '@dr_type': moro
+  literal: 憎
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      '#text': 33-94
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '61'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': ゾウ
+        '@r_type': ja_on
+      - '#text': にくい
+        '@r_type': ja_kun
+      - '#text': にくしみ
+        '@r_type': ja_kun
+      - '#text': にくむ
+        '@r_type': ja_kun
+      - '#text': にくらしい
+        '@r_type': ja_kun
+懲:
+  codepoint:
+    cp_value:
+    - '#text': FA40
+      '@cp_type': ucs
+    - '#text': 1-84-65
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '2007'
+      '@dr_type': nelson_n
+    - '#text': '2912'
+      '@dr_type': halpern_njecd
+    - '#text': '3627'
+      '@dr_type': halpern_kkd
+    - '#text': '11424'
+      '@dr_type': moro
+  literal: 懲
+  misc:
+    grade: '10'
+    stroke_count: '19'
+    variant:
+      '#text': 36-08
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '61'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': チョウ
+        '@r_type': ja_on
+      - '#text': こらしめる
+        '@r_type': ja_kun
+      - '#text': こらす
+        '@r_type': ja_kun
+      - '#text': こりる
+        '@r_type': ja_kun
+敏:
+  codepoint:
+    cp_value:
+    - '#text': FA41
+      '@cp_type': ucs
+    - '#text': 1-85-08
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '2339'
+      '@dr_type': nelson_n
+    - '#text': '1489'
+      '@dr_type': halpern_njecd
+    - '#text': '1882'
+      '@dr_type': halpern_kkd
+    - '#text': '13217'
+      '@dr_type': moro
+  literal: 敏
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+      '#text': 41-50
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '66'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ビン
+        '@r_type': ja_on
+既:
+  codepoint:
+    cp_value:
+    - '#text': FA42
+      '@cp_type': ucs
+    - '#text': 1-85-11
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '2408'
+      '@dr_type': nelson_n
+    - '#text': '1491'
+      '@dr_type': halpern_njecd
+    - '#text': '1912'
+      '@dr_type': halpern_kkd
+    - '#text': '13724'
+      '@dr_type': moro
+  literal: 既
+  misc:
+    stroke_count: '12'
+    variant:
+      '#text': 20-91
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '71'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': キ
+        '@r_type': ja_on
+      - '#text': すでに
+        '@r_type': ja_kun
+暑:
+  codepoint:
+    cp_value:
+    - '#text': FA43
+      '@cp_type': ucs
+    - '#text': 1-85-35
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '2496'
+      '@dr_type': nelson_n
+    - '#text': '2489'
+      '@dr_type': halpern_njecd
+    - '#text': '3130'
+      '@dr_type': halpern_kkd
+    - '#text': '14051'
+      '@dr_type': moro
+  literal: 暑
+  misc:
+    grade: '10'
+    stroke_count: '13'
+    variant:
+      '#text': 29-75
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '72'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': ショ
+        '@r_type': ja_on
+      - '#text': あつい
+        '@r_type': ja_kun
+梅:
+  codepoint:
+    cp_value:
+    - '#text': FA44
+      '@cp_type': ucs
+    - '#text': 1-85-69
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '2676'
+      '@dr_type': nelson_n
+    - '#text': '965'
+      '@dr_type': halpern_njecd
+    - '#text': '1212'
+      '@dr_type': halpern_kkd
+    - '#text': '14830'
+      '@dr_type': moro
+  literal: 梅
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      '#text': 39-63
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '75'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': バイ
+        '@r_type': ja_on
+      - '#text': うめ
+        '@r_type': ja_kun
+海:
+  codepoint:
+    cp_value:
+    - '#text': FA45
+      '@cp_type': ucs
+    - '#text': 1-86-73
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '3137'
+      '@dr_type': nelson_n
+    - '#text': '447'
+      '@dr_type': halpern_njecd
+    - '#text': '535'
+      '@dr_type': halpern_kkd
+    - '#text': '17503'
+      '@dr_type': moro
+  literal: 海
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+      '#text': 19-04
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '85'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': カイ
+        '@r_type': ja_on
+      - '#text': うみ
+        '@r_type': ja_kun
+渚:
+  codepoint:
+    cp_value:
+    - '#text': FA46
+      '@cp_type': ucs
+    - '#text': 1-86-87
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '3228'
+      '@dr_type': nelson_n
+    - '#text': '618'
+      '@dr_type': halpern_njecd
+    - '#text': '755'
+      '@dr_type': halpern_kkd
+    - '#text': '17758'
+      '@dr_type': moro
+  literal: 渚
+  misc:
+    grade: '9'
+    stroke_count: '12'
+    variant:
+      '#text': 29-77
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '85'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': ショ
+        '@r_type': ja_on
+      - '#text': なぎさ
+        '@r_type': ja_kun
+漢:
+  codepoint:
+    cp_value:
+    - '#text': FA47
+      '@cp_type': ucs
+    - '#text': 1-87-05
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '3284'
+      '@dr_type': nelson_n
+    - '#text': '708'
+      '@dr_type': halpern_njecd
+    - '#text': '868'
+      '@dr_type': halpern_kkd
+    - '#text': '18153'
+      '@dr_type': moro
+  literal: 漢
+  misc:
+    grade: '10'
+    stroke_count: '14'
+    variant:
+      '#text': 20-33
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '85'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': カン
+        '@r_type': ja_on
+煮:
+  codepoint:
+    cp_value:
+    - '#text': FA48
+      '@cp_type': ucs
+    - '#text': 1-87-53
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '3441'
+      '@dr_type': nelson_n
+    - '#text': '2833'
+      '@dr_type': halpern_njecd
+    - '#text': '3512'
+      '@dr_type': halpern_kkd
+    - '#text': '19188'
+      '@dr_type': moro
+  literal: 煮
+  misc:
+    grade: '10'
+    stroke_count: '12'
+    variant:
+      '#text': 28-49
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '87'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': シャ
+        '@r_type': ja_on
+      - '#text': にえる
+        '@r_type': ja_kun
+      - '#text': にやす
+        '@r_type': ja_kun
+      - '#text': にる
+        '@r_type': ja_kun
+爫:
+  codepoint:
+    cp_value:
+    - '#text': FA49
+      '@cp_type': ucs
+    - '#text': 2-80-09
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '1934'
+      '@dr_type': halpern_njecd
+    - '#text': '2434'
+      '@dr_type': halpern_kkd
+  literal: 爫
+  misc:
+    stroke_count: '4'
+  radical:
+    rad_value:
+      '#text': '87'
+      '@rad_type': classical
+琢:
+  codepoint:
+    cp_value:
+    - '#text': FA4A
+      '@cp_type': ucs
+    - '#text': 1-88-05
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '3650'
+      '@dr_type': nelson_n
+    - '#text': '1001'
+      '@dr_type': halpern_njecd
+    - '#text': '1263'
+      '@dr_type': halpern_kkd
+    - '#text': '21058'
+      '@dr_type': moro
+  literal: 琢
+  misc:
+    grade: '9'
+    stroke_count: '12'
+    variant:
+      '#text': 34-86
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '96'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': タク
+        '@r_type': ja_on
+      - '#text': みがく
+        '@r_type': ja_kun
+碑:
+  codepoint:
+    cp_value:
+    - '#text': FA4B
+      '@cp_type': ucs
+    - '#text': 1-89-07
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4010'
+      '@dr_type': nelson_n
+    - '#text': '1203'
+      '@dr_type': halpern_njecd
+    - '#text': '1540'
+      '@dr_type': halpern_kkd
+    - '#text': '24289'
+      '@dr_type': moro
+  literal: 碑
+  misc:
+    grade: '10'
+    stroke_count: '13'
+    variant:
+      '#text': 40-74
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '112'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ヒ
+        '@r_type': ja_on
+社:
+  codepoint:
+    cp_value:
+    - '#text': FA4C
+      '@cp_type': ucs
+    - '#text': 1-89-19
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4066'
+      '@dr_type': nelson_n
+    - '#text': '1129'
+      '@dr_type': halpern_njecd
+    - '#text': '1449'
+      '@dr_type': halpern_kkd
+    - '#text': '24631'
+      '@dr_type': moro
+  literal: 社
+  misc:
+    grade: '10'
+    stroke_count: '8'
+    variant:
+      '#text': 28-50
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '113'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': シャ
+        '@r_type': ja_on
+      - '#text': やしろ
+        '@r_type': ja_kun
+祉:
+  codepoint:
+    cp_value:
+    - '#text': FA4D
+      '@cp_type': ucs
+    - '#text': 1-89-20
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4070'
+      '@dr_type': nelson_n
+    - '#text': '1136'
+      '@dr_type': halpern_njecd
+    - '#text': '1461'
+      '@dr_type': halpern_kkd
+    - '#text': '24641'
+      '@dr_type': moro
+  literal: 祉
+  misc:
+    grade: '10'
+    stroke_count: '9'
+    variant:
+      '#text': 27-67
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '113'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ツ
+        '@r_type': ja_on
+祈:
+  codepoint:
+    cp_value:
+    - '#text': FA4E
+      '@cp_type': ucs
+    - '#text': 1-89-23
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4072'
+      '@dr_type': nelson_n
+    - '#text': '1135'
+      '@dr_type': halpern_njecd
+    - '#text': '1460'
+      '@dr_type': halpern_kkd
+    - '#text': '24640'
+      '@dr_type': moro
+  literal: 祈
+  misc:
+    grade: '10'
+    stroke_count: '9'
+    variant:
+      '#text': 21-07
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '113'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': キ
+        '@r_type': ja_on
+      - '#text': いのる
+        '@r_type': ja_kun
+祐:
+  codepoint:
+    cp_value:
+    - '#text': FA4F
+      '@cp_type': ucs
+    - '#text': 1-89-24
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4080'
+      '@dr_type': nelson_n
+    - '#text': '1157'
+      '@dr_type': halpern_njecd
+    - '#text': '1487'
+      '@dr_type': halpern_kkd
+    - '#text': '24652'
+      '@dr_type': moro
+  literal: 祐
+  misc:
+    grade: '9'
+    stroke_count: '10'
+    variant:
+      '#text': 45-20
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '113'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': ユウ
+        '@r_type': ja_on
+      - '#text': たすけ
+        '@r_type': ja_kun
+      - '#text': たすける
+        '@r_type': ja_kun
+祖:
+  codepoint:
+    cp_value:
+    - '#text': FA50
+      '@cp_type': ucs
+    - '#text': 1-89-25
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4084'
+      '@dr_type': nelson_n
+    - '#text': '1156'
+      '@dr_type': halpern_njecd
+    - '#text': '1486'
+      '@dr_type': halpern_kkd
+    - '#text': '24664'
+      '@dr_type': moro
+  literal: 祖
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+      '#text': 33-36
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '113'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ソ
+        '@r_type': ja_on
+祝:
+  codepoint:
+    cp_value:
+    - '#text': FA51
+      '@cp_type': ucs
+    - '#text': 1-89-27
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4086'
+      '@dr_type': nelson_n
+    - '#text': '1155'
+      '@dr_type': halpern_njecd
+    - '#text': '1485'
+      '@dr_type': halpern_kkd
+    - '#text': '24672'
+      '@dr_type': moro
+  literal: 祝
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+      '#text': 29-43
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '113'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': シュウ
+        '@r_type': ja_on
+      - '#text': シュク
+        '@r_type': ja_on
+      - '#text': いわう
+        '@r_type': ja_kun
+禍:
+  codepoint:
+    cp_value:
+    - '#text': FA52
+      '@cp_type': ucs
+    - '#text': 1-89-31
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4103'
+      '@dr_type': nelson_n
+    - '#text': '1216'
+      '@dr_type': halpern_njecd
+    - '#text': '1558'
+      '@dr_type': halpern_kkd
+    - '#text': '24766'
+      '@dr_type': moro
+  literal: 禍
+  misc:
+    grade: '10'
+    stroke_count: '14'
+    variant:
+      '#text': 18-50
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '113'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': カ
+        '@r_type': ja_on
+禎:
+  codepoint:
+    cp_value:
+    - '#text': FA53
+      '@cp_type': ucs
+    - '#text': 1-89-32
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4100'
+      '@dr_type': nelson_n
+    - '#text': '1217'
+      '@dr_type': halpern_njecd
+    - '#text': '1559'
+      '@dr_type': halpern_kkd
+    - '#text': '24767'
+      '@dr_type': moro
+  literal: 禎
+  misc:
+    grade: '9'
+    stroke_count: '14'
+    variant:
+      '#text': 36-87
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '113'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': テイ
+        '@r_type': ja_on
+      - '#text': さいわい
+        '@r_type': ja_kun
+穀:
+  codepoint:
+    cp_value:
+    - '#text': FA54
+      '@cp_type': ucs
+    - '#text': 1-89-45
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4160'
+      '@dr_type': nelson_n
+    - '#text': '1868'
+      '@dr_type': halpern_njecd
+    - '#text': '2343'
+      '@dr_type': halpern_kkd
+    - '#text': '25221'
+      '@dr_type': moro
+  literal: 穀
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      '#text': 25-82
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '115'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': コク
+        '@r_type': ja_on
+突:
+  codepoint:
+    cp_value:
+    - '#text': FA55
+      '@cp_type': ucs
+    - '#text': 1-89-49
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4193'
+      '@dr_type': nelson_n
+    - '#text': '2255'
+      '@dr_type': halpern_njecd
+    - '#text': '2804'
+      '@dr_type': halpern_kkd
+    - '#text': '25439'
+      '@dr_type': moro
+  literal: 突
+  misc:
+    grade: '10'
+    stroke_count: '9'
+    variant:
+      '#text': 38-45
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '116'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': トツ
+        '@r_type': ja_on
+      - '#text': つく
+        '@r_type': ja_kun
+節:
+  codepoint:
+    cp_value:
+    - '#text': FA56
+      '@cp_type': ucs
+    - '#text': 1-89-68
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4319'
+      '@dr_type': nelson_n
+    - '#text': '2712'
+      '@dr_type': halpern_njecd
+    - '#text': '3364'
+      '@dr_type': halpern_kkd
+  literal: 節
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      '#text': 32-65
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '118'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': セチ
+        '@r_type': ja_on
+      - '#text': セツ
+        '@r_type': ja_on
+      - '#text': ふし
+        '@r_type': ja_kun
+練:
+  codepoint:
+    cp_value:
+    - '#text': FA57
+      '@cp_type': ucs
+    - '#text': 1-90-14
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4534'
+      '@dr_type': nelson_n
+    - '#text': '1398'
+      '@dr_type': halpern_njecd
+    - '#text': '1767'
+      '@dr_type': halpern_kkd
+    - '#text': '27689'
+      '@dr_type': moro
+  literal: 練
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      '#text': 46-93
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '120'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': コウ
+        '@r_type': ja_on
+縉:
+  codepoint:
+    cp_value:
+    - '#text': FA58
+      '@cp_type': ucs
+    - '#text': 2-84-48
+      '@cp_type': jis213
+  literal: 縉
+  misc:
+    stroke_count: '16'
+  radical:
+    rad_value:
+      '#text': '120'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': シン
+        '@r_type': ja_on
+繁:
+  codepoint:
+    cp_value:
+    - '#text': FA59
+      '@cp_type': ucs
+    - '#text': 1-90-19
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4574'
+      '@dr_type': nelson_n
+    - '#text': '2873'
+      '@dr_type': halpern_njecd
+    - '#text': '3566'
+      '@dr_type': halpern_kkd
+    - '#text': '27849'
+      '@dr_type': moro
+  literal: 繁
+  misc:
+    grade: '10'
+    stroke_count: '17'
+    variant:
+      '#text': 40-43
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '120'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ハン
+        '@r_type': ja_on
+署:
+  codepoint:
+    cp_value:
+    - '#text': FA5A
+      '@cp_type': ucs
+    - '#text': 1-90-26
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4646'
+      '@dr_type': nelson_n
+    - '#text': '2614'
+      '@dr_type': halpern_njecd
+    - '#text': '3229'
+      '@dr_type': halpern_kkd
+    - '#text': '28319'
+      '@dr_type': moro
+  literal: 署
+  misc:
+    grade: '10'
+    stroke_count: '14'
+    variant:
+      '#text': 29-80
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '122'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ショ
+        '@r_type': ja_on
+者:
+  codepoint:
+    cp_value:
+    - '#text': FA5B
+      '@cp_type': ucs
+    - '#text': 1-90-36
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4702'
+      '@dr_type': nelson_n
+    - '#text': '3217'
+      '@dr_type': halpern_njecd
+    - '#text': '3988'
+      '@dr_type': halpern_kkd
+    - '#text': '28853'
+      '@dr_type': moro
+  literal: 者
+  misc:
+    grade: '10'
+    stroke_count: '9'
+    variant:
+      '#text': 28-52
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '125'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': シャ
+        '@r_type': ja_on
+      - '#text': もの
+        '@r_type': ja_kun
+臭:
+  codepoint:
+    cp_value:
+    - '#text': FA5C
+      '@cp_type': ucs
+    - '#text': 1-90-56
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '4902'
+      '@dr_type': nelson_n
+    - '#text': '2648'
+      '@dr_type': halpern_njecd
+    - '#text': '3279'
+      '@dr_type': halpern_kkd
+    - '#text': '30108'
+      '@dr_type': moro
+  literal: 臭
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+      '#text': 29-13
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '132'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': シュウ
+        '@r_type': ja_on
+      - '#text': くさい
+        '@r_type': ja_kun
+艹:
+  codepoint:
+    cp_value:
+    - '#text': FA5D
+      '@cp_type': ucs
+    - '#text': 2-85-84
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '29'
+      '@dr_type': halpern_njecd
+    - '#text': '33'
+      '@dr_type': halpern_kkd
+  literal: 艹
+  misc:
+    stroke_count: '4'
+  radical:
+    rad_value:
+      '#text': '140'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': カン
+        '@r_type': ja_on
+      - '#text': あげまき
+        '@r_type': ja_kun
+      - '#text': あらがね
+        '@r_type': ja_kun
+      - '#text': くさかんむり
+        '@r_type': ja_kun
+艹:
+  codepoint:
+    cp_value:
+    - '#text': FA5E
+      '@cp_type': ucs
+    - '#text': 2-85-85
+      '@cp_type': jis213
+  literal: 艹
+  misc:
+    stroke_count: '4'
+  radical:
+    rad_value:
+      '#text': '140'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': ソウ
+        '@r_type': ja_on
+      - '#text': くさかんむり
+        '@r_type': ja_kun
+著:
+  codepoint:
+    cp_value:
+    - '#text': FA5F
+      '@cp_type': ucs
+    - '#text': 1-91-07
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '5104'
+      '@dr_type': nelson_n
+    - '#text': '2495'
+      '@dr_type': halpern_njecd
+    - '#text': '2913'
+      '@dr_type': halpern_kkd
+    - '#text': '31410'
+      '@dr_type': moro
+  literal: 著
+  misc:
+    grade: '10'
+    stroke_count: '12'
+    variant:
+      '#text': 35-88
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '140'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': チョ
+        '@r_type': ja_on
+      - '#text': あらわす
+        '@r_type': ja_kun
+      - '#text': いちじるしい
+        '@r_type': ja_kun
+褐:
+  codepoint:
+    cp_value:
+    - '#text': FA60
+      '@cp_type': ucs
+    - '#text': 1-91-79
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '5478'
+      '@dr_type': nelson_n
+    - '#text': '1223'
+      '@dr_type': halpern_njecd
+    - '#text': '1566'
+      '@dr_type': halpern_kkd
+    - '#text': '34435'
+      '@dr_type': moro
+  literal: 褐
+  misc:
+    stroke_count: '14'
+    variant:
+      '#text': 19-76
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '145'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': カツ
+        '@r_type': ja_on
+視:
+  codepoint:
+    cp_value:
+    - '#text': FA61
+      '@cp_type': ucs
+    - '#text': 1-91-89
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '5526'
+      '@dr_type': nelson_n
+    - '#text': '1188'
+      '@dr_type': halpern_njecd
+    - '#text': '1522'
+      '@dr_type': halpern_kkd
+    - '#text': '34836'
+      '@dr_type': moro
+  literal: 視
+  misc:
+    grade: '10'
+    stroke_count: '12'
+    variant:
+      '#text': 27-75
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '147'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': シ
+        '@r_type': ja_on
+謁:
+  codepoint:
+    cp_value:
+    - '#text': FA62
+      '@cp_type': ucs
+    - '#text': 1-92-15
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '5649'
+      '@dr_type': nelson_n
+    - '#text': '1600'
+      '@dr_type': halpern_njecd
+    - '#text': '2013'
+      '@dr_type': halpern_kkd
+    - '#text': '35757'
+      '@dr_type': moro
+  literal: 謁
+  misc:
+    grade: '10'
+    stroke_count: '16'
+    variant:
+      '#text': 17-58
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '149'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': エツ
+        '@r_type': ja_on
+謹:
+  codepoint:
+    cp_value:
+    - '#text': FA63
+      '@cp_type': ucs
+    - '#text': 1-92-16
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '5690'
+      '@dr_type': nelson_n
+    - '#text': '1633'
+      '@dr_type': halpern_njecd
+    - '#text': '2063'
+      '@dr_type': halpern_kkd
+    - '#text': '35900'
+      '@dr_type': moro
+  literal: 謹
+  misc:
+    grade: '10'
+    stroke_count: '18'
+    variant:
+      '#text': 22-64
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '149'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': キン
+        '@r_type': ja_on
+      - '#text': つつしむ
+        '@r_type': ja_kun
+賓:
+  codepoint:
+    cp_value:
+    - '#text': FA64
+      '@cp_type': ucs
+    - '#text': 1-92-24
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '5804'
+      '@dr_type': nelson_n
+    - '#text': '2349'
+      '@dr_type': halpern_njecd
+    - '#text': '2963'
+      '@dr_type': halpern_kkd
+    - '#text': '36788'
+      '@dr_type': moro
+  literal: 賓
+  misc:
+    grade: '10'
+    stroke_count: '13'
+    variant:
+      '#text': 41-48
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '154'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ヒン
+        '@r_type': ja_on
+贈:
+  codepoint:
+    cp_value:
+    - '#text': FA65
+      '@cp_type': ucs
+    - '#text': 1-92-29
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '5828'
+      '@dr_type': nelson_n
+    - '#text': '1642'
+      '@dr_type': halpern_njecd
+    - '#text': '2072'
+      '@dr_type': halpern_kkd
+    - '#text': '36929'
+      '@dr_type': moro
+  literal: 贈
+  misc:
+    grade: '10'
+    stroke_count: '19'
+    variant:
+      '#text': 34-03
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '154'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': ソウ
+        '@r_type': ja_on
+      - '#text': ゾウ
+        '@r_type': ja_on
+      - '#text': おくる
+        '@r_type': ja_kun
+辶:
+  codepoint:
+    cp_value:
+    - '#text': FA66
+      '@cp_type': ucs
+    - '#text': 2-89-73
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '1926'
+      '@dr_type': halpern_njecd
+    - '#text': '2425'
+      '@dr_type': halpern_kkd
+  literal: 辶
+  misc:
+    stroke_count: '3'
+  radical:
+    rad_value:
+      '#text': '162'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': しんにょう
+        '@r_type': ja_kun
+逸:
+  codepoint:
+    cp_value:
+    - '#text': FA67
+      '@cp_type': ucs
+    - '#text': 1-92-57
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '6072'
+      '@dr_type': nelson_n
+    - '#text': '3239'
+      '@dr_type': halpern_njecd
+    - '#text': '4020'
+      '@dr_type': halpern_kkd
+    - '#text': '38951'
+      '@dr_type': moro
+  literal: 逸
+  misc:
+    grade: '10'
+    stroke_count: '12'
+    variant:
+      '#text': 16-79
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '162'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': しんにょう
+        '@r_type': ja_kun
+難:
+  codepoint:
+    cp_value:
+    - '#text': FA68
+      '@cp_type': ucs
+    - '#text': 1-93-67
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '6516'
+      '@dr_type': nelson_n
+    - '#text': '1884'
+      '@dr_type': halpern_njecd
+    - '#text': '2365'
+      '@dr_type': halpern_kkd
+    - '#text': '42145'
+      '@dr_type': moro
+  literal: 難
+  misc:
+    grade: '10'
+    stroke_count: '19'
+    variant:
+      '#text': 38-81
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '172'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': ナン
+        '@r_type': ja_on
+      - '#text': かたい
+        '@r_type': ja_kun
+      - '#text': むずかしい
+        '@r_type': ja_kun
+響:
+  codepoint:
+    cp_value:
+    - '#text': FA69
+      '@cp_type': ucs
+    - '#text': 1-93-86
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '6612'
+      '@dr_type': nelson_n
+    - '#text': '2907'
+      '@dr_type': halpern_njecd
+    - '#text': '3617'
+      '@dr_type': halpern_kkd
+  literal: 響
+  misc:
+    grade: '10'
+    stroke_count: '22'
+    variant:
+      '#text': 22-33
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '180'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - '#text': キョウ
+        '@r_type': ja_on
+      - '#text': ひびく
+        '@r_type': ja_kun
+頻:
+  codepoint:
+    cp_value:
+    - '#text': FA6A
+      '@cp_type': ucs
+    - '#text': 1-93-91
+      '@cp_type': jis213
+  dic_number:
+    dic_ref:
+    - '#text': '6631'
+      '@dr_type': nelson_n
+    - '#text': '1613'
+      '@dr_type': halpern_njecd
+    - '#text': '2038'
+      '@dr_type': halpern_kkd
+    - '#text': '43519'
+      '@dr_type': moro
+  literal: 頻
+  misc:
+    stroke_count: '16'
+    variant:
+      '#text': 41-49
+      '@var_type': jis208
+  radical:
+    rad_value:
+      '#text': '181'
+      '@rad_type': classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        '#text': ヒン
+        '@r_type': ja_on
+

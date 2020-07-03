@@ -6,7 +6,98 @@ import * as wanakana from 'wanakana';
 
 import xhr from './http';
 
-import data from './data.yaml';
+import data from './data/data.yaml';
+
+import kanjidic2_00 from './data/kanjidic2_indexed_0.yaml';
+import kanjidic2_01 from './data/kanjidic2_indexed_1.yaml';
+import kanjidic2_02 from './data/kanjidic2_indexed_2.yaml';
+import kanjidic2_03 from './data/kanjidic2_indexed_3.yaml';
+import kanjidic2_04 from './data/kanjidic2_indexed_4.yaml';
+import kanjidic2_05 from './data/kanjidic2_indexed_5.yaml';
+import kanjidic2_06 from './data/kanjidic2_indexed_6.yaml';
+import kanjidic2_07 from './data/kanjidic2_indexed_7.yaml';
+import kanjidic2_08 from './data/kanjidic2_indexed_8.yaml';
+import kanjidic2_09 from './data/kanjidic2_indexed_9.yaml';
+import kanjidic2_10 from './data/kanjidic2_indexed_10.yaml';
+import kanjidic2_11 from './data/kanjidic2_indexed_11.yaml';
+import kanjidic2_12 from './data/kanjidic2_indexed_12.yaml';
+import kanjidic2_13 from './data/kanjidic2_indexed_13.yaml';
+import kanjidic2_14 from './data/kanjidic2_indexed_14.yaml';
+const kanjidic2_files = [
+  kanjidic2_00,
+  kanjidic2_01,
+  kanjidic2_02,
+  kanjidic2_03,
+  kanjidic2_04,
+  kanjidic2_05,
+  kanjidic2_06,
+  kanjidic2_07,
+  kanjidic2_08,
+  kanjidic2_09,
+  kanjidic2_10,
+  kanjidic2_11,
+  kanjidic2_12,
+  kanjidic2_13,
+  kanjidic2_14,
+];
+
+interface TextType {
+  text: string;
+  typ: string;
+}
+
+interface Codepoint {
+  cp_value: TextType[];
+}
+
+interface DicNumber {
+  dic_ref: TextType[];
+}
+
+interface Radical {
+  rad_value: TextType[];
+}
+
+interface Misc {
+  stroke_count: string[];
+  variant?: TextType[];
+}
+
+interface ReadingMeaning {
+  meaning: string[];
+  reading: TextType[];
+}
+
+interface RMGroup {
+  rmgroup: ReadingMeaning[];
+}
+
+interface DicEntry {
+  codepoint: Codepoint;
+  dic_number: DicNumber;
+  literal: string;
+  misc: Misc;
+  radical: Radical;
+  reading_meaning: RMGroup;
+}
+
+class KanjiDic {
+  private data: Record<string, DicEntry> = {};
+  
+  constructor() {
+    kanjidic2_files.forEach((file) => {
+      xhr('GET', file).then((req) => {
+        console.log(`KanjiDic loaded ${file}`);
+        const dict = yaml.load(req.response);
+        Object.keys(dict).forEach((key: string) => this.data[key] = dict[key]);
+      }).catch((err) => console.error(`Error loading ${file}`, err))
+    })
+  }
+
+  lookup(key: string): DicEntry {
+    return this.data[key];
+  }
+}
 
 const Container = styled.div`
   @media screen and (min-width: 60rem) {
@@ -48,6 +139,7 @@ const PlayerStatePlaying = 1;
 
 class App extends React.Component<{},AppState> {
   private recognition?: any;
+  private kanjiDic = new KanjiDic();
 
   constructor(props: {}) {
     super(props);
@@ -58,6 +150,8 @@ class App extends React.Component<{},AppState> {
       yaml.load(req.response);
       // TODO
     }).catch((err) => console.error(err));
+
+    
 
     this.state = {
       src: 'FsiAxc5T23g',

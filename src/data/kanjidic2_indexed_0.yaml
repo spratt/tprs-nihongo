@@ -1,0 +1,125 @@
+亜:
+  codepoint:
+    cp_value:
+    - text: 4e9c
+      typ: ucs
+    - text: 16-01
+      typ: jis208
+  dic_number:
+    dic_ref:
+    - text: '43'
+      typ: nelson_c
+    - text: '81'
+      typ: nelson_n
+    - text: '3540'
+      typ: halpern_njecd
+    - text: '4354'
+      typ: halpern_kkd
+    - text: '2204'
+      typ: halpern_kkld
+    - text: '2966'
+      typ: halpern_kkld_2ed
+    - text: '1809'
+      typ: heisig
+    - text: '1950'
+      typ: heisig6
+    - text: '1331'
+      typ: gakken
+    - text: '525'
+      typ: oneill_names
+    - text: '1788'
+      typ: oneill_kk
+    - text: '272'
+      typ: moro
+      '@m_page': '0525'
+      '@m_vol': '1'
+    - text: '997'
+      typ: henshall
+    - text: '1616'
+      typ: sh_kk
+    - text: '1724'
+      typ: sh_kk2
+    - text: '1032'
+      typ: jf_cards
+    - text: '1092'
+      typ: tutt_cards
+    - text: '1818'
+      typ: kanji_in_context
+    - text: '35'
+      typ: kodansha_compact
+    - text: '1827'
+      typ: maniette
+  literal: 亜
+  misc:
+    freq: '1509'
+    grade: '8'
+    jlpt: '1'
+    stroke_count: '7'
+    variant:
+      text: 48-19
+      typ: jis208
+  query_code:
+    q_code:
+    - text: 4-7-1
+      '@qc_typ': skip
+    - text: 0a7.14
+      '@qc_typ': sh_desc
+    - text: '1010.6'
+      '@qc_typ': four_corner
+    - text: '3273'
+      '@qc_typ': deroo
+  radical:
+    rad_value:
+    - text: '7'
+      typ: classical
+    - text: '1'
+      typ: nelson_c
+  reading_meaning:
+    nanori:
+    - や
+    - つぎ
+    - つぐ
+    rmgroup:
+      meaning:
+      - Asia
+      - rank next
+      - come after
+      - -ous
+      - text: Asie
+        '@m_lang': fr
+      - text: suivant
+        '@m_lang': fr
+      - text: sub-
+        '@m_lang': fr
+      - text: sous-
+        '@m_lang': fr
+      - text: pref. para indicar
+        '@m_lang': es
+      - text: venir después de
+        '@m_lang': es
+      - text: Asia
+        '@m_lang': es
+      - text: Ásia
+        '@m_lang': pt
+      - text: próxima
+        '@m_lang': pt
+      - text: o que vem depois
+        '@m_lang': pt
+      - text: -ous
+        '@m_lang': pt
+      reading:
+      - text: ya4
+        typ: pinyin
+      - text: a
+        typ: korean_r
+      - text: 아
+        typ: korean_h
+      - text: A
+        typ: vietnam
+      - text: Á
+        typ: vietnam
+      - text: ア
+        typ: ja_on
+      - text: つ.ぐ
+        typ: ja_kun
+

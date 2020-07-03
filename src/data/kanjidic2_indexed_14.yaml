@@ -1,0 +1,3358 @@
+馣:
+  codepoint:
+    cp_value:
+    - text: 99A3
+      typ: ucs
+    - text: 2-92-76
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '44542'
+      typ: moro
+  literal: 馣
+  misc:
+    stroke_count: '17'
+  radical:
+    rad_value:
+      text: '186'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: an1
+        typ: pinyin
+      - text: アン
+        typ: ja_on
+      - text: エン
+        typ: ja_on
+      - text: オウ
+        typ: ja_on
+駼:
+  codepoint:
+    cp_value:
+    - text: 99FC
+      typ: ucs
+    - text: 2-92-89
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '44772'
+      typ: moro
+  literal: 駼
+  misc:
+    stroke_count: '17'
+  radical:
+    rad_value:
+      text: '187'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: tu2
+        typ: pinyin
+騊:
+  codepoint:
+    cp_value:
+    - text: 9A0A
+      typ: ucs
+    - text: 2-92-90
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '44808'
+      typ: moro
+  literal: 騊
+  misc:
+    stroke_count: '18'
+  radical:
+    rad_value:
+      text: '187'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: tao2
+        typ: pinyin
+騚:
+  codepoint:
+    cp_value:
+    - text: 9A1A
+      typ: ucs
+    - text: 2-92-93
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '44853'
+      typ: moro
+  literal: 騚
+  misc:
+    stroke_count: '19'
+  radical:
+    rad_value:
+      text: '187'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: qian2
+        typ: pinyin
+騱:
+  codepoint:
+    cp_value:
+    - text: 9A31
+      typ: ucs
+    - text: 2-93-1
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '44916'
+      typ: moro
+  literal: 騱
+  misc:
+    stroke_count: '20'
+  radical:
+    rad_value:
+      text: '187'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: xi1
+        typ: pinyin
+驒:
+  codepoint:
+    cp_value:
+    - text: 9A52
+      typ: ucs
+    - text: 1-94-20
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '45002'
+      typ: moro
+  literal: 驒
+  misc:
+    stroke_count: '22'
+    variant:
+      text: 9A28
+      typ: ucs
+  radical:
+    rad_value:
+      text: '187'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: dappled
+      reading:
+      - text: tuo2
+        typ: pinyin
+      - text: タン
+        typ: ja_on
+      - text: ダン
+        typ: ja_on
+      - text: ダ
+        typ: ja_on
+      - text: まだらうま
+        typ: ja_kun
+驘:
+  codepoint:
+    cp_value:
+    - text: 9A58
+      typ: ucs
+    - text: 2-93-5
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '45025'
+      typ: moro
+  literal: 驘
+  misc:
+    stroke_count: '23'
+  radical:
+    rad_value:
+      text: '187'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: mule
+      reading:
+        text: luo2
+        typ: pinyin
+骷:
+  codepoint:
+    cp_value:
+    - text: 9AB7
+      typ: ucs
+    - text: 2-93-9
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '45156'
+      typ: moro
+  literal: 骷
+  misc:
+    stroke_count: '15'
+  radical:
+    rad_value:
+      text: '188'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: skeleton
+      reading:
+        text: ku1
+        typ: pinyin
+魲:
+  codepoint:
+    cp_value:
+    - text: 9B72
+      typ: ucs
+    - text: 1-94-35
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '46019'
+      typ: moro
+  literal: 魲
+  misc:
+    stroke_count: '15'
+  radical:
+    rad_value:
+      text: '195'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: fish name
+      reading:
+      - text: lu2
+        typ: pinyin
+      - text: ロ
+        typ: ja_on
+魶:
+  codepoint:
+    cp_value:
+    - text: 9B76
+      typ: ucs
+    - text: 2-93-38
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '46024'
+      typ: moro
+  literal: 魶
+  misc:
+    stroke_count: '15'
+  radical:
+    rad_value:
+      text: '195'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: na4
+        typ: pinyin
+鯮:
+  codepoint:
+    cp_value:
+    - text: 9BEE
+      typ: ucs
+    - text: 2-93-56
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '46271'
+      typ: moro
+  literal: 鯮
+  misc:
+    stroke_count: '19'
+  radical:
+    rad_value:
+      text: '195'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: zong1
+        typ: pinyin
+鰝:
+  codepoint:
+    cp_value:
+    - text: 9C1D
+      typ: ucs
+    - text: 2-93-66
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '46362'
+      typ: moro
+  literal: 鰝
+  misc:
+    stroke_count: '21'
+  radical:
+    rad_value:
+      text: '195'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: hao4
+        typ: pinyin
+鱥:
+  codepoint:
+    cp_value:
+    - text: 9C65
+      typ: ucs
+    - text: 1-94-54
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '46536'
+      typ: moro
+  literal: 鱥
+  misc:
+    stroke_count: '24'
+  radical:
+    rad_value:
+      text: '195'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: gui4
+        typ: pinyin
+鱭:
+  codepoint:
+    cp_value:
+    - text: 9C6D
+      typ: ucs
+    - text: 2-93-89
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '46570'
+      typ: moro
+  literal: 鱭
+  misc:
+    stroke_count: '25'
+  radical:
+    rad_value:
+      text: '195'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: anchovy
+      reading:
+        text: ji4
+        typ: pinyin
+鱺:
+  codepoint:
+    cp_value:
+    - text: 9C7A
+      typ: ucs
+    - text: 2-93-94
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '46626'
+      typ: moro
+  literal: 鱺
+  misc:
+    stroke_count: '30'
+  radical:
+    rad_value:
+      text: '195'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: eel
+      reading:
+        text: li2
+        typ: pinyin
+鵒:
+  codepoint:
+    cp_value:
+    - text: 9D52
+      typ: ucs
+    - text: 1-94-60
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '46926'
+      typ: moro
+  literal: 鵒
+  misc:
+    stroke_count: '18'
+  radical:
+    rad_value:
+      text: '196'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: mynah bird
+      reading:
+        text: yu4
+        typ: pinyin
+鵳:
+  codepoint:
+    cp_value:
+    - text: 9D73
+      typ: ucs
+    - text: 2-94-22
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '47015'
+      typ: moro
+  literal: 鵳
+  misc:
+    stroke_count: '19'
+  radical:
+    rad_value:
+      text: '196'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: jian1
+        typ: pinyin
+鶙:
+  codepoint:
+    cp_value:
+    - text: 9D99
+      typ: ucs
+    - text: 2-94-28
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '47101'
+      typ: moro
+  literal: 鶙
+  misc:
+    stroke_count: '20'
+  radical:
+    rad_value:
+      text: '196'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ti2
+        typ: pinyin
+鶽:
+  codepoint:
+    cp_value:
+    - text: 9DBD
+      typ: ucs
+    - text: 2-94-33
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '47200'
+      typ: moro
+  literal: 鶽
+  misc:
+    stroke_count: '21'
+  radical:
+    rad_value:
+      text: '196'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: a hawk
+      reading:
+        text: sun3 zhun3
+        typ: pinyin
+鷀:
+  codepoint:
+    cp_value:
+    - text: 9DC0
+      typ: ucs
+    - text: 1-94-66
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '47204'
+      typ: moro
+  literal: 鷀
+  misc:
+    stroke_count: '21'
+    variant:
+      text: 9E5A
+      typ: ucs
+  radical:
+    rad_value:
+      text: '196'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: the fishing cormorant
+      reading:
+        text: ci2 zi1
+        typ: pinyin
+鷣:
+  codepoint:
+    cp_value:
+    - text: 9DE3
+      typ: ucs
+    - text: 2-94-41
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '47306'
+      typ: moro
+  literal: 鷣
+  misc:
+    stroke_count: '23'
+  radical:
+    rad_value:
+      text: '196'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: yin2
+        typ: pinyin
+鸍:
+  codepoint:
+    cp_value:
+    - text: 9E0D
+      typ: ucs
+    - text: 2-94-46
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '47427'
+      typ: moro
+  literal: 鸍
+  misc:
+    stroke_count: '25'
+  radical:
+    rad_value:
+      text: '196'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: mi2 yu4
+        typ: pinyin
+麽:
+  codepoint:
+    cp_value:
+    - text: 9EBD
+      typ: ucs
+    - text: 2-94-57
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '47893'
+      typ: moro
+  literal: 麽
+  misc:
+    stroke_count:
+    - '15'
+    - '14'
+    variant:
+      text: 9EBC
+      typ: ucs
+  radical:
+    rad_value:
+      text: '200'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - interrogative final particle
+      - insignificant
+      - small
+      - tiny
+      reading:
+        text: ma5 me5 mo3 mo5
+        typ: pinyin
+黃:
+  codepoint:
+    cp_value:
+    - text: 9EC3
+      typ: ucs
+    - text: 1-94-81
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '7046'
+      typ: nelson_n
+    - text: '2487'
+      typ: halpern_njecd
+    - text: '3128'
+      typ: halpern_kkd
+    - text: '47926'
+      typ: moro
+  literal: 黃
+  misc:
+    grade: '10'
+    stroke_count: '12'
+    variant:
+    - text: 18-11
+      typ: jis208
+    - text: 9EC4
+      typ: ucs
+  radical:
+    rad_value:
+      text: '201'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - yellow
+      - surname
+      reading:
+      - text: huang2
+        typ: pinyin
+      - text: コウ
+        typ: ja_on
+      - text: オウ
+        typ: ja_on
+      - text: き
+        typ: ja_kun
+黑:
+  codepoint:
+    cp_value:
+    - text: 9ED1
+      typ: ucs
+    - text: 1-94-82
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '7053'
+      typ: nelson_n
+    - text: '2787'
+      typ: halpern_njecd
+    - text: '3462'
+      typ: halpern_kkd
+    - text: '48038'
+      typ: moro
+  literal: 黑
+  misc:
+    grade: '10'
+    stroke_count: '12'
+    variant:
+    - text: 25-85
+      typ: jis208
+    - text: 9ED2
+      typ: ucs
+  radical:
+    rad_value:
+      text: '203'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - black
+      - dark
+      - evil
+      - sinister
+      reading:
+      - text: he4 hei1
+        typ: pinyin
+      - text: コク
+        typ: ja_on
+      - text: くろい
+        typ: ja_kun
+      - text: くろ
+        typ: ja_kun
+欄:
+  codepoint:
+    cp_value:
+    - text: F91D
+      typ: ucs
+    - text: 1-86-27
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '2402'
+      typ: nelson_c
+    - text: '2915'
+      typ: nelson_n
+    - text: '1109'
+      typ: halpern_njecd
+    - text: '1426'
+      typ: halpern_kkd
+    - text: '15904'
+      typ: moro
+  literal: 欄
+  misc:
+    grade: '10'
+    stroke_count: '21'
+    variant:
+    - text: 45-83
+      typ: jis208
+    - text: 6B04
+      typ: ucs
+  radical:
+    rad_value:
+      text: '75'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - railing
+      - balustrade
+      - animal pan
+廊:
+  codepoint:
+    cp_value:
+    - text: F928
+      typ: ucs
+    - text: 1-84-14
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '1524'
+      typ: nelson_c
+    - text: '1628'
+      typ: nelson_n
+    - text: '3155'
+      typ: halpern_njecd
+    - text: '3913'
+      typ: halpern_kkd
+    - text: '9437'
+      typ: moro
+  literal: 廊
+  misc:
+    grade: '10'
+    stroke_count:
+    - '12'
+    - '13'
+    variant:
+    - text: 47-13
+      typ: jis208
+    - text: 5ECA
+      typ: ucs
+  radical:
+    rad_value:
+      text: '53'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - corridor
+      - porch
+      - veranda
+朗:
+  codepoint:
+    cp_value:
+    - text: F929
+      typ: ucs
+    - text: 1-85-46
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '3769'
+      typ: nelson_c
+    - text: '4813'
+      typ: nelson_n
+    - text: '1495'
+      typ: halpern_njecd
+    - text: '1889'
+      typ: halpern_kkd
+    - text: '14364'
+      typ: moro
+  literal: 朗
+  misc:
+    grade: '10'
+    stroke_count:
+    - '11'
+    - '10'
+    variant:
+    - text: 47-15
+      typ: jis208
+    - text: '6717'
+      typ: ucs
+  radical:
+    rad_value:
+      text: '74'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - clear
+      - bright
+      - distinct
+虜:
+  codepoint:
+    cp_value:
+    - text: F936
+      typ: ucs
+    - text: 1-91-47
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '3244'
+      typ: halpern_njecd
+    - text: '4026'
+      typ: halpern_kkd
+  literal: 虜
+  misc:
+    grade: '10'
+    stroke_count:
+    - '12'
+    - '10'
+    variant:
+      text: 865C
+      typ: ucs
+  radical:
+    rad_value:
+      text: '141'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - capture
+      - imprison
+      - seize
+      - prison
+殺:
+  codepoint:
+    cp_value:
+    - text: F970
+      typ: ucs
+    - text: 1-86-41
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '2455'
+      typ: nelson_c
+    - text: '2995'
+      typ: nelson_n
+    - text: '1488'
+      typ: halpern_njecd
+    - text: '1881'
+      typ: halpern_kkd
+    - text: '16638'
+      typ: moro
+  literal: 殺
+  misc:
+    stroke_count: '11'
+    variant:
+    - text: 27-06
+      typ: jis208
+    - text: 6BBA
+      typ: ucs
+  radical:
+    rad_value:
+      text: '79'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - kill
+      - slaughter
+      - murder
+      - hurt
+類:
+  codepoint:
+    cp_value:
+    - text: F9D0
+      typ: ucs
+    - text: 1-94-4
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '6650'
+      typ: nelson_n
+    - text: '1844'
+      typ: halpern_njecd
+    - text: '2319'
+      typ: halpern_kkd
+    - text: '43636'
+      typ: moro
+  literal: 類
+  misc:
+    grade: '10'
+    stroke_count: '19'
+    variant:
+    - text: 46-64
+      typ: jis208
+    - text: 985E
+      typ: ucs
+  radical:
+    rad_value:
+      text: '181'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - class
+      - group
+      - kind
+      - category
+隆:
+  codepoint:
+    cp_value:
+    - text: F9DC
+      typ: ucs
+    - text: 1-93-61
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '6463'
+      typ: nelson_n
+    - text: '628'
+      typ: halpern_njecd
+    - text: '767'
+      typ: halpern_kkd
+    - text: '41746'
+      typ: moro
+  literal: 隆
+  misc:
+    stroke_count:
+    - '17'
+    - '12'
+    variant:
+    - text: 46-20
+      typ: jis208
+    - text: '9686'
+      typ: ucs
+  radical:
+    rad_value:
+      text: '170'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - prosperous
+      - plentiful
+      - abundant
+﨏:
+  codepoint:
+    cp_value:
+    - text: FA0F
+      typ: ucs
+    - text: 1-15-43
+      typ: jis213
+  literal: 﨏
+  misc:
+    stroke_count: '10'
+  radical:
+    rad_value:
+      text: '32'
+      typ: classical
+塚:
+  codepoint:
+    cp_value:
+    - text: FA10
+      typ: ucs
+    - text: 1-15-55
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '1104'
+      typ: nelson_c
+    - text: '1060'
+      typ: nelson_n
+    - text: '633'
+      typ: halpern_njecd
+    - text: '778'
+      typ: halpern_kkd
+    - text: '5345'
+      typ: moro
+  literal: 塚
+  misc:
+    stroke_count: '13'
+    variant:
+    - text: 36-45
+      typ: jis208
+    - text: 585A
+      typ: ucs
+  radical:
+    rad_value:
+      text: '32'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning:
+      - cemetery
+      - tomb
+      reading:
+      - text: zhong3
+        typ: pinyin
+      - text: チョウ
+        typ: ja_on
+      - text: つか
+        typ: ja_kun
+﨑:
+  codepoint:
+    cp_value:
+    - text: FA11
+      typ: ucs
+    - text: 1-47-82
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '691'
+      typ: halpern_kkd
+  literal: 﨑
+  misc:
+    stroke_count: '12'
+  radical:
+    rad_value:
+      text: '46'
+      typ: classical
+﨓:
+  codepoint:
+    cp_value:
+    - text: FA13
+      typ: ucs
+    - text: 2-14-89
+      typ: jis213
+  literal: 﨓
+  misc:
+    stroke_count: '13'
+  radical:
+    rad_value:
+      text: '75'
+      typ: classical
+﨔:
+  codepoint:
+    cp_value:
+    - text: FA14
+      typ: ucs
+    - text: 1-85-90
+      typ: jis213
+  literal: 﨔
+  misc:
+    stroke_count: '14'
+  radical:
+    rad_value:
+      text: '75'
+      typ: classical
+凞:
+  codepoint:
+    cp_value:
+    - text: FA15
+      typ: ucs
+    - text: 1-87-58
+      typ: jis213
+  dic_number:
+    dic_ref:
+      text: '3589'
+      typ: halpern_kkd
+  literal: 凞
+  misc:
+    stroke_count:
+    - '16'
+    - '15'
+  radical:
+    rad_value:
+      text: '15'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: bright
+      reading:
+      - text: xi1
+        typ: pinyin
+      - text: キ
+        typ: ja_on
+      - text: やわらぐ
+        typ: ja_kun
+猪:
+  codepoint:
+    cp_value:
+    - text: FA16
+      typ: ucs
+    - text: 1-87-79
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '2900'
+      typ: nelson_c
+    - text: '3589'
+      typ: nelson_n
+    - text: '621'
+      typ: halpern_njecd
+    - text: '758'
+      typ: halpern_kkd
+    - text: '20534'
+      typ: moro
+  literal: 猪
+  misc:
+    grade: '9'
+    stroke_count:
+    - '13'
+    - '11'
+    variant:
+    - text: 35-86
+      typ: jis208
+    - text: 732A
+      typ: ucs
+  radical:
+    rad_value:
+      text: '94'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: pig
+      reading:
+      - text: zhu1
+        typ: pinyin
+      - text: チョ
+        typ: ja_on
+      - text: いのしし
+        typ: ja_kun
+      - text: い
+        typ: ja_kun
+神:
+  codepoint:
+    cp_value:
+    - text: FA19
+      typ: ucs
+    - text: 1-89-28
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4088'
+      typ: nelson_n
+    - text: '1154'
+      typ: halpern_njecd
+    - text: '1484'
+      typ: halpern_kkd
+    - text: '24673'
+      typ: moro
+  literal: 神
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+    - text: 31-32
+      typ: jis208
+    - text: 795E
+      typ: ucs
+  radical:
+    rad_value:
+      text: '113'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: spirit
+      reading:
+      - text: shen2
+        typ: pinyin
+      - text: シン
+        typ: ja_on
+      - text: ジン
+        typ: ja_on
+      - text: かみ
+        typ: ja_kun
+      - text: こう
+        typ: ja_kun
+      - text: たましい
+        typ: ja_kun
+祥:
+  codepoint:
+    cp_value:
+    - text: FA1A
+      typ: ucs
+    - text: 1-89-29
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4091'
+      typ: nelson_n
+    - text: '1176'
+      typ: halpern_njecd
+    - text: '1507'
+      typ: halpern_kkd
+    - text: '24689'
+      typ: moro
+  literal: 祥
+  misc:
+    grade: '10'
+    stroke_count: '11'
+    variant:
+    - text: 30-45
+      typ: jis208
+    - text: '7965'
+      typ: ucs
+  radical:
+    rad_value:
+      text: '113'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: good luck
+      reading:
+      - text: xiang2
+        typ: pinyin
+      - text: ショウ
+        typ: ja_on
+      - text: さいわい
+        typ: ja_kun
+福:
+  codepoint:
+    cp_value:
+    - text: FA1B
+      typ: ucs
+    - text: 1-89-33
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4106'
+      typ: nelson_n
+    - text: '1215'
+      typ: halpern_njecd
+    - text: '1557'
+      typ: halpern_kkd
+    - text: '24768'
+      typ: moro
+  literal: 福
+  misc:
+    grade: '10'
+    stroke_count: '14'
+    variant:
+    - text: 42-01
+      typ: jis208
+    - text: 798F
+      typ: ucs
+  radical:
+    rad_value:
+      text: '113'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: happiness
+      reading:
+      - text: fu2
+        typ: pinyin
+      - text: フク
+        typ: ja_on
+      - text: さいわい
+        typ: ja_kun
+      - text: ひもろぎ
+        typ: ja_kun
+﨟:
+  codepoint:
+    cp_value:
+    - text: FA1F
+      typ: ucs
+    - text: 1-91-26
+      typ: jis213
+  literal: 﨟
+  misc:
+    stroke_count: '19'
+  radical:
+    rad_value:
+      text: '140'
+      typ: classical
+蘒:
+  codepoint:
+    cp_value:
+    - text: FA20
+      typ: ucs
+    - text: 2-87-24
+      typ: jis213
+  literal: 蘒
+  misc:
+    stroke_count:
+    - '23'
+    - '27'
+  radical:
+    rad_value:
+      text: '140'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: はぎ
+        typ: ja_kun
+﨡:
+  codepoint:
+    cp_value:
+    - text: FA21
+      typ: ucs
+    - text: 2-87-37
+      typ: jis213
+  literal: 﨡
+  misc:
+    stroke_count: '11'
+  radical:
+    rad_value:
+      text: '142'
+      typ: classical
+諸:
+  codepoint:
+    cp_value:
+    - text: FA22
+      typ: ucs
+    - text: 1-92-14
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4395'
+      typ: nelson_c
+    - text: '5650'
+      typ: nelson_n
+    - text: '1602'
+      typ: halpern_njecd
+    - text: '2017'
+      typ: halpern_kkd
+    - text: '35743'
+      typ: moro
+  literal: 諸
+  misc:
+    grade: '10'
+    stroke_count: '16'
+    variant:
+    - text: 29-84
+      typ: jis208
+    - text: 8AF8
+      typ: ucs
+  radical:
+    rad_value:
+      text: '149'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      meaning: several
+      reading:
+      - text: zhu1
+        typ: pinyin
+      - text: ショ
+        typ: ja_on
+      - text: もろ
+        typ: ja_kun
+      - text: これ
+        typ: ja_kun
+﨤:
+  codepoint:
+    cp_value:
+    - text: FA24
+      typ: ucs
+    - text: 2-89-78
+      typ: jis213
+  literal: 﨤
+  misc:
+    stroke_count:
+    - '7'
+    - '8'
+  radical:
+    rad_value:
+      text: '162'
+      typ: classical
+都:
+  codepoint:
+    cp_value:
+    - text: FA26
+      typ: ucs
+    - text: 1-92-74
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '6149'
+      typ: nelson_n
+    - text: '1780'
+      typ: halpern_njecd
+    - text: '2234'
+      typ: halpern_kkd
+    - text: '39509'
+      typ: moro
+  literal: 都
+  misc:
+    grade: '10'
+    stroke_count: '11'
+    variant:
+      text: 37-52
+      typ: jis208
+  radical:
+    rad_value:
+      text: '163'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: du1
+        typ: pinyin
+      - text: dou1
+        typ: pinyin
+侮:
+  codepoint:
+    cp_value:
+    - text: FA30
+      typ: ucs
+    - text: 1-14-24
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '197'
+      typ: nelson_n
+    - text: '106'
+      typ: halpern_njecd
+    - text: '120'
+      typ: halpern_kkd
+    - text: '630'
+      typ: moro
+  literal: 侮
+  misc:
+    grade: '10'
+    stroke_count: '9'
+    variant:
+      text: 41-78
+      typ: jis208
+  radical:
+    rad_value:
+      text: '9'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: ブ
+        typ: ja_on
+      - text: あなどる
+        typ: ja_kun
+僧:
+  codepoint:
+    cp_value:
+    - text: FA31
+      typ: ucs
+    - text: 1-14-41
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '304'
+      typ: nelson_n
+    - text: '168'
+      typ: halpern_njecd
+    - text: '190'
+      typ: halpern_kkd
+    - text: '1117'
+      typ: moro
+  literal: 僧
+  misc:
+    grade: '10'
+    stroke_count: '14'
+    variant:
+      text: 33-46
+      typ: jis208
+  radical:
+    rad_value:
+      text: '9'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ソウ
+        typ: ja_on
+免:
+  codepoint:
+    cp_value:
+    - text: FA32
+      typ: ucs
+    - text: 1-14-48
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '352'
+      typ: nelson_n
+    - text: '2045'
+      typ: halpern_njecd
+    - text: '2539'
+      typ: halpern_kkd
+    - text: '1358'
+      typ: moro
+  literal: 免
+  misc:
+    stroke_count: '7'
+    variant:
+      text: 44-40
+      typ: jis208
+  radical:
+    rad_value:
+      text: '10'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: メン
+        typ: ja_on
+      - text: まぬかれる
+        typ: ja_kun
+勉:
+  codepoint:
+    cp_value:
+    - text: FA33
+      typ: ucs
+    - text: 1-14-67
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '536'
+      typ: nelson_n
+    - text: '3306'
+      typ: halpern_njecd
+    - text: '4098'
+      typ: halpern_kkd
+    - text: '2362'
+      typ: moro
+  literal: 勉
+  misc:
+    grade: '10'
+    stroke_count: '9'
+    variant:
+      text: 42-57
+      typ: jis208
+  radical:
+    rad_value:
+      text: '19'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ベン
+        typ: ja_on
+勤:
+  codepoint:
+    cp_value:
+    - text: FA34
+      typ: ucs
+    - text: 1-14-72
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '554'
+      typ: nelson_n
+    - text: '1859'
+      typ: halpern_njecd
+    - text: '2336'
+      typ: halpern_kkd
+    - text: '2424'
+      typ: moro
+  literal: 勤
+  misc:
+    grade: '10'
+    stroke_count: '13'
+    variant:
+      text: 22-48
+      typ: jis208
+  radical:
+    rad_value:
+      text: '19'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: キン
+        typ: ja_on
+      - text: ゴン
+        typ: ja_on
+      - text: つとまる
+        typ: ja_kun
+      - text: つとめる
+        typ: ja_kun
+卑:
+  codepoint:
+    cp_value:
+    - text: FA35
+      typ: ucs
+    - text: 1-14-78
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '612'
+      typ: nelson_n
+    - text: '3571'
+      typ: halpern_njecd
+    - text: '4388'
+      typ: halpern_kkd
+    - text: '2738'
+      typ: moro
+  literal: 卑
+  misc:
+    grade: '10'
+    stroke_count: '8'
+    variant:
+      text: 40-60
+      typ: jis208
+  radical:
+    rad_value:
+      text: '24'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: ヒ
+        typ: ja_on
+      - text: いやしい
+        typ: ja_kun
+      - text: いやしむ
+        typ: ja_kun
+      - text: いやしめる
+        typ: ja_kun
+喝:
+  codepoint:
+    cp_value:
+    - text: FA36
+      typ: ucs
+    - text: 1-15-12
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '834'
+      typ: nelson_n
+    - text: '554'
+      typ: halpern_njecd
+    - text: '672'
+      typ: halpern_kkd
+    - text: '3960'
+      typ: moro
+  literal: 喝
+  misc:
+    stroke_count: '12'
+    variant:
+      text: 19-69
+      typ: jis208
+  radical:
+    rad_value:
+      text: '30'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: カツ
+        typ: ja_on
+嘆:
+  codepoint:
+    cp_value:
+    - text: FA37
+      typ: ucs
+    - text: 1-15-15
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '874'
+      typ: nelson_n
+    - text: '675'
+      typ: halpern_njecd
+    - text: '834'
+      typ: halpern_kkd
+    - text: '4171'
+      typ: moro
+  literal: 嘆
+  misc:
+    grade: '10'
+    stroke_count: '14'
+    variant:
+      text: 35-18
+      typ: jis208
+  radical:
+    rad_value:
+      text: '30'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: タン
+        typ: ja_on
+      - text: なげかわしい
+        typ: ja_kun
+      - text: なげく
+        typ: ja_kun
+器:
+  codepoint:
+    cp_value:
+    - text: FA38
+      typ: ucs
+    - text: 1-15-22
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '901'
+      typ: nelson_n
+    - text: '2718'
+      typ: halpern_njecd
+    - text: '3375'
+      typ: halpern_kkd
+    - text: '4376'
+      typ: moro
+  literal: 器
+  misc:
+    grade: '10'
+    stroke_count: '16'
+    variant:
+      text: 20-79
+      typ: jis208
+  radical:
+    rad_value:
+      text: '30'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: キ
+        typ: ja_on
+      - text: うつわ
+        typ: ja_kun
+塀:
+  codepoint:
+    cp_value:
+    - text: FA39
+      typ: ucs
+    - text: 1-15-58
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '1079'
+      typ: nelson_n
+    - text: '678'
+      typ: halpern_njecd
+    - text: '837'
+      typ: halpern_kkd
+  literal: 塀
+  misc:
+    stroke_count: '14'
+    variant:
+      text: 42-29
+      typ: jis208
+  radical:
+    rad_value:
+      text: '32'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ヘイ
+        typ: ja_on
+墨:
+  codepoint:
+    cp_value:
+    - text: FA3A
+      typ: ucs
+    - text: 1-15-62
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '1091'
+      typ: nelson_n
+    - text: '2812'
+      typ: halpern_njecd
+    - text: '3488'
+      typ: halpern_kkd
+    - text: '5469'
+      typ: moro
+  literal: 墨
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      text: 43-47
+      typ: jis208
+  radical:
+    rad_value:
+      text: '32'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: ボク
+        typ: ja_on
+      - text: すみ
+        typ: ja_kun
+層:
+  codepoint:
+    cp_value:
+    - text: FA3B
+      typ: ucs
+    - text: 1-47-65
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '1433'
+      typ: nelson_n
+    - text: '3172'
+      typ: halpern_njecd
+    - text: '3934'
+      typ: halpern_kkd
+    - text: '7798'
+      typ: moro
+  literal: 層
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      text: 33-56
+      typ: jis208
+  radical:
+    rad_value:
+      text: '44'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ソウ
+        typ: ja_on
+屮:
+  codepoint:
+    cp_value:
+    - text: FA3C
+      typ: ucs
+    - text: 1-47-66
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '3412'
+      typ: halpern_njecd
+    - text: '4220'
+      typ: halpern_kkd
+  literal: 屮
+  misc:
+    stroke_count: '3'
+  radical:
+    rad_value:
+      text: '45'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: ソウ
+        typ: ja_on
+      - text: テツ
+        typ: ja_on
+      - text: め
+        typ: ja_kun
+      - text: めばえ
+        typ: ja_kun
+悔:
+  codepoint:
+    cp_value:
+    - text: FA3D
+      typ: ucs
+    - text: 1-84-48
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '1855'
+      typ: nelson_n
+    - text: '426'
+      typ: halpern_njecd
+    - text: '509'
+      typ: halpern_kkd
+    - text: '10659'
+      typ: moro
+  literal: 悔
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+      text: 18-89
+      typ: jis208
+  radical:
+    rad_value:
+      text: '61'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: カイ
+        typ: ja_on
+      - text: くいる
+        typ: ja_kun
+      - text: くやしい
+        typ: ja_kun
+      - text: くやむ
+        typ: ja_kun
+慨:
+  codepoint:
+    cp_value:
+    - text: FA3E
+      typ: ucs
+    - text: 1-84-60
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '1975'
+      typ: nelson_n
+    - text: '688'
+      typ: halpern_njecd
+    - text: '900'
+      typ: halpern_kkd
+  literal: 慨
+  misc:
+    stroke_count: '14'
+    variant:
+      text: 19-20
+      typ: jis208
+  radical:
+    rad_value:
+      text: '61'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ガイ
+        typ: ja_on
+憎:
+  codepoint:
+    cp_value:
+    - text: FA3F
+      typ: ucs
+    - text: 1-84-62
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '1973'
+      typ: nelson_n
+    - text: '732'
+      typ: halpern_njecd
+    - text: '902'
+      typ: halpern_kkd
+    - text: '11202'
+      typ: moro
+  literal: 憎
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      text: 33-94
+      typ: jis208
+  radical:
+    rad_value:
+      text: '61'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: ゾウ
+        typ: ja_on
+      - text: にくい
+        typ: ja_kun
+      - text: にくしみ
+        typ: ja_kun
+      - text: にくむ
+        typ: ja_kun
+      - text: にくらしい
+        typ: ja_kun
+懲:
+  codepoint:
+    cp_value:
+    - text: FA40
+      typ: ucs
+    - text: 1-84-65
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '2007'
+      typ: nelson_n
+    - text: '2912'
+      typ: halpern_njecd
+    - text: '3627'
+      typ: halpern_kkd
+    - text: '11424'
+      typ: moro
+  literal: 懲
+  misc:
+    grade: '10'
+    stroke_count: '19'
+    variant:
+      text: 36-08
+      typ: jis208
+  radical:
+    rad_value:
+      text: '61'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: チョウ
+        typ: ja_on
+      - text: こらしめる
+        typ: ja_kun
+      - text: こらす
+        typ: ja_kun
+      - text: こりる
+        typ: ja_kun
+敏:
+  codepoint:
+    cp_value:
+    - text: FA41
+      typ: ucs
+    - text: 1-85-08
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '2339'
+      typ: nelson_n
+    - text: '1489'
+      typ: halpern_njecd
+    - text: '1882'
+      typ: halpern_kkd
+    - text: '13217'
+      typ: moro
+  literal: 敏
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+      text: 41-50
+      typ: jis208
+  radical:
+    rad_value:
+      text: '66'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ビン
+        typ: ja_on
+既:
+  codepoint:
+    cp_value:
+    - text: FA42
+      typ: ucs
+    - text: 1-85-11
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '2408'
+      typ: nelson_n
+    - text: '1491'
+      typ: halpern_njecd
+    - text: '1912'
+      typ: halpern_kkd
+    - text: '13724'
+      typ: moro
+  literal: 既
+  misc:
+    stroke_count: '12'
+    variant:
+      text: 20-91
+      typ: jis208
+  radical:
+    rad_value:
+      text: '71'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: キ
+        typ: ja_on
+      - text: すでに
+        typ: ja_kun
+暑:
+  codepoint:
+    cp_value:
+    - text: FA43
+      typ: ucs
+    - text: 1-85-35
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '2496'
+      typ: nelson_n
+    - text: '2489'
+      typ: halpern_njecd
+    - text: '3130'
+      typ: halpern_kkd
+    - text: '14051'
+      typ: moro
+  literal: 暑
+  misc:
+    grade: '10'
+    stroke_count: '13'
+    variant:
+      text: 29-75
+      typ: jis208
+  radical:
+    rad_value:
+      text: '72'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: ショ
+        typ: ja_on
+      - text: あつい
+        typ: ja_kun
+梅:
+  codepoint:
+    cp_value:
+    - text: FA44
+      typ: ucs
+    - text: 1-85-69
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '2676'
+      typ: nelson_n
+    - text: '965'
+      typ: halpern_njecd
+    - text: '1212'
+      typ: halpern_kkd
+    - text: '14830'
+      typ: moro
+  literal: 梅
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      text: 39-63
+      typ: jis208
+  radical:
+    rad_value:
+      text: '75'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: バイ
+        typ: ja_on
+      - text: うめ
+        typ: ja_kun
+海:
+  codepoint:
+    cp_value:
+    - text: FA45
+      typ: ucs
+    - text: 1-86-73
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '3137'
+      typ: nelson_n
+    - text: '447'
+      typ: halpern_njecd
+    - text: '535'
+      typ: halpern_kkd
+    - text: '17503'
+      typ: moro
+  literal: 海
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+      text: 19-04
+      typ: jis208
+  radical:
+    rad_value:
+      text: '85'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: カイ
+        typ: ja_on
+      - text: うみ
+        typ: ja_kun
+渚:
+  codepoint:
+    cp_value:
+    - text: FA46
+      typ: ucs
+    - text: 1-86-87
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '3228'
+      typ: nelson_n
+    - text: '618'
+      typ: halpern_njecd
+    - text: '755'
+      typ: halpern_kkd
+    - text: '17758'
+      typ: moro
+  literal: 渚
+  misc:
+    grade: '9'
+    stroke_count: '12'
+    variant:
+      text: 29-77
+      typ: jis208
+  radical:
+    rad_value:
+      text: '85'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: ショ
+        typ: ja_on
+      - text: なぎさ
+        typ: ja_kun
+漢:
+  codepoint:
+    cp_value:
+    - text: FA47
+      typ: ucs
+    - text: 1-87-05
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '3284'
+      typ: nelson_n
+    - text: '708'
+      typ: halpern_njecd
+    - text: '868'
+      typ: halpern_kkd
+    - text: '18153'
+      typ: moro
+  literal: 漢
+  misc:
+    grade: '10'
+    stroke_count: '14'
+    variant:
+      text: 20-33
+      typ: jis208
+  radical:
+    rad_value:
+      text: '85'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: カン
+        typ: ja_on
+煮:
+  codepoint:
+    cp_value:
+    - text: FA48
+      typ: ucs
+    - text: 1-87-53
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '3441'
+      typ: nelson_n
+    - text: '2833'
+      typ: halpern_njecd
+    - text: '3512'
+      typ: halpern_kkd
+    - text: '19188'
+      typ: moro
+  literal: 煮
+  misc:
+    grade: '10'
+    stroke_count: '12'
+    variant:
+      text: 28-49
+      typ: jis208
+  radical:
+    rad_value:
+      text: '87'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: シャ
+        typ: ja_on
+      - text: にえる
+        typ: ja_kun
+      - text: にやす
+        typ: ja_kun
+      - text: にる
+        typ: ja_kun
+爫:
+  codepoint:
+    cp_value:
+    - text: FA49
+      typ: ucs
+    - text: 2-80-09
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '1934'
+      typ: halpern_njecd
+    - text: '2434'
+      typ: halpern_kkd
+  literal: 爫
+  misc:
+    stroke_count: '4'
+  radical:
+    rad_value:
+      text: '87'
+      typ: classical
+琢:
+  codepoint:
+    cp_value:
+    - text: FA4A
+      typ: ucs
+    - text: 1-88-05
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '3650'
+      typ: nelson_n
+    - text: '1001'
+      typ: halpern_njecd
+    - text: '1263'
+      typ: halpern_kkd
+    - text: '21058'
+      typ: moro
+  literal: 琢
+  misc:
+    grade: '9'
+    stroke_count: '12'
+    variant:
+      text: 34-86
+      typ: jis208
+  radical:
+    rad_value:
+      text: '96'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: タク
+        typ: ja_on
+      - text: みがく
+        typ: ja_kun
+碑:
+  codepoint:
+    cp_value:
+    - text: FA4B
+      typ: ucs
+    - text: 1-89-07
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4010'
+      typ: nelson_n
+    - text: '1203'
+      typ: halpern_njecd
+    - text: '1540'
+      typ: halpern_kkd
+    - text: '24289'
+      typ: moro
+  literal: 碑
+  misc:
+    grade: '10'
+    stroke_count: '13'
+    variant:
+      text: 40-74
+      typ: jis208
+  radical:
+    rad_value:
+      text: '112'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ヒ
+        typ: ja_on
+社:
+  codepoint:
+    cp_value:
+    - text: FA4C
+      typ: ucs
+    - text: 1-89-19
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4066'
+      typ: nelson_n
+    - text: '1129'
+      typ: halpern_njecd
+    - text: '1449'
+      typ: halpern_kkd
+    - text: '24631'
+      typ: moro
+  literal: 社
+  misc:
+    grade: '10'
+    stroke_count: '8'
+    variant:
+      text: 28-50
+      typ: jis208
+  radical:
+    rad_value:
+      text: '113'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: シャ
+        typ: ja_on
+      - text: やしろ
+        typ: ja_kun
+祉:
+  codepoint:
+    cp_value:
+    - text: FA4D
+      typ: ucs
+    - text: 1-89-20
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4070'
+      typ: nelson_n
+    - text: '1136'
+      typ: halpern_njecd
+    - text: '1461'
+      typ: halpern_kkd
+    - text: '24641'
+      typ: moro
+  literal: 祉
+  misc:
+    grade: '10'
+    stroke_count: '9'
+    variant:
+      text: 27-67
+      typ: jis208
+  radical:
+    rad_value:
+      text: '113'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ツ
+        typ: ja_on
+祈:
+  codepoint:
+    cp_value:
+    - text: FA4E
+      typ: ucs
+    - text: 1-89-23
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4072'
+      typ: nelson_n
+    - text: '1135'
+      typ: halpern_njecd
+    - text: '1460'
+      typ: halpern_kkd
+    - text: '24640'
+      typ: moro
+  literal: 祈
+  misc:
+    grade: '10'
+    stroke_count: '9'
+    variant:
+      text: 21-07
+      typ: jis208
+  radical:
+    rad_value:
+      text: '113'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: キ
+        typ: ja_on
+      - text: いのる
+        typ: ja_kun
+祐:
+  codepoint:
+    cp_value:
+    - text: FA4F
+      typ: ucs
+    - text: 1-89-24
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4080'
+      typ: nelson_n
+    - text: '1157'
+      typ: halpern_njecd
+    - text: '1487'
+      typ: halpern_kkd
+    - text: '24652'
+      typ: moro
+  literal: 祐
+  misc:
+    grade: '9'
+    stroke_count: '10'
+    variant:
+      text: 45-20
+      typ: jis208
+  radical:
+    rad_value:
+      text: '113'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: ユウ
+        typ: ja_on
+      - text: たすけ
+        typ: ja_kun
+      - text: たすける
+        typ: ja_kun
+祖:
+  codepoint:
+    cp_value:
+    - text: FA50
+      typ: ucs
+    - text: 1-89-25
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4084'
+      typ: nelson_n
+    - text: '1156'
+      typ: halpern_njecd
+    - text: '1486'
+      typ: halpern_kkd
+    - text: '24664'
+      typ: moro
+  literal: 祖
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+      text: 33-36
+      typ: jis208
+  radical:
+    rad_value:
+      text: '113'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ソ
+        typ: ja_on
+祝:
+  codepoint:
+    cp_value:
+    - text: FA51
+      typ: ucs
+    - text: 1-89-27
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4086'
+      typ: nelson_n
+    - text: '1155'
+      typ: halpern_njecd
+    - text: '1485'
+      typ: halpern_kkd
+    - text: '24672'
+      typ: moro
+  literal: 祝
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+      text: 29-43
+      typ: jis208
+  radical:
+    rad_value:
+      text: '113'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: シュウ
+        typ: ja_on
+      - text: シュク
+        typ: ja_on
+      - text: いわう
+        typ: ja_kun
+禍:
+  codepoint:
+    cp_value:
+    - text: FA52
+      typ: ucs
+    - text: 1-89-31
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4103'
+      typ: nelson_n
+    - text: '1216'
+      typ: halpern_njecd
+    - text: '1558'
+      typ: halpern_kkd
+    - text: '24766'
+      typ: moro
+  literal: 禍
+  misc:
+    grade: '10'
+    stroke_count: '14'
+    variant:
+      text: 18-50
+      typ: jis208
+  radical:
+    rad_value:
+      text: '113'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: カ
+        typ: ja_on
+禎:
+  codepoint:
+    cp_value:
+    - text: FA53
+      typ: ucs
+    - text: 1-89-32
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4100'
+      typ: nelson_n
+    - text: '1217'
+      typ: halpern_njecd
+    - text: '1559'
+      typ: halpern_kkd
+    - text: '24767'
+      typ: moro
+  literal: 禎
+  misc:
+    grade: '9'
+    stroke_count: '14'
+    variant:
+      text: 36-87
+      typ: jis208
+  radical:
+    rad_value:
+      text: '113'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: テイ
+        typ: ja_on
+      - text: さいわい
+        typ: ja_kun
+穀:
+  codepoint:
+    cp_value:
+    - text: FA54
+      typ: ucs
+    - text: 1-89-45
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4160'
+      typ: nelson_n
+    - text: '1868'
+      typ: halpern_njecd
+    - text: '2343'
+      typ: halpern_kkd
+    - text: '25221'
+      typ: moro
+  literal: 穀
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      text: 25-82
+      typ: jis208
+  radical:
+    rad_value:
+      text: '115'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: コク
+        typ: ja_on
+突:
+  codepoint:
+    cp_value:
+    - text: FA55
+      typ: ucs
+    - text: 1-89-49
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4193'
+      typ: nelson_n
+    - text: '2255'
+      typ: halpern_njecd
+    - text: '2804'
+      typ: halpern_kkd
+    - text: '25439'
+      typ: moro
+  literal: 突
+  misc:
+    grade: '10'
+    stroke_count: '9'
+    variant:
+      text: 38-45
+      typ: jis208
+  radical:
+    rad_value:
+      text: '116'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: トツ
+        typ: ja_on
+      - text: つく
+        typ: ja_kun
+節:
+  codepoint:
+    cp_value:
+    - text: FA56
+      typ: ucs
+    - text: 1-89-68
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4319'
+      typ: nelson_n
+    - text: '2712'
+      typ: halpern_njecd
+    - text: '3364'
+      typ: halpern_kkd
+  literal: 節
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      text: 32-65
+      typ: jis208
+  radical:
+    rad_value:
+      text: '118'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: セチ
+        typ: ja_on
+      - text: セツ
+        typ: ja_on
+      - text: ふし
+        typ: ja_kun
+練:
+  codepoint:
+    cp_value:
+    - text: FA57
+      typ: ucs
+    - text: 1-90-14
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4534'
+      typ: nelson_n
+    - text: '1398'
+      typ: halpern_njecd
+    - text: '1767'
+      typ: halpern_kkd
+    - text: '27689'
+      typ: moro
+  literal: 練
+  misc:
+    grade: '10'
+    stroke_count: '15'
+    variant:
+      text: 46-93
+      typ: jis208
+  radical:
+    rad_value:
+      text: '120'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: コウ
+        typ: ja_on
+縉:
+  codepoint:
+    cp_value:
+    - text: FA58
+      typ: ucs
+    - text: 2-84-48
+      typ: jis213
+  literal: 縉
+  misc:
+    stroke_count: '16'
+  radical:
+    rad_value:
+      text: '120'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: シン
+        typ: ja_on
+繁:
+  codepoint:
+    cp_value:
+    - text: FA59
+      typ: ucs
+    - text: 1-90-19
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4574'
+      typ: nelson_n
+    - text: '2873'
+      typ: halpern_njecd
+    - text: '3566'
+      typ: halpern_kkd
+    - text: '27849'
+      typ: moro
+  literal: 繁
+  misc:
+    grade: '10'
+    stroke_count: '17'
+    variant:
+      text: 40-43
+      typ: jis208
+  radical:
+    rad_value:
+      text: '120'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ハン
+        typ: ja_on
+署:
+  codepoint:
+    cp_value:
+    - text: FA5A
+      typ: ucs
+    - text: 1-90-26
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4646'
+      typ: nelson_n
+    - text: '2614'
+      typ: halpern_njecd
+    - text: '3229'
+      typ: halpern_kkd
+    - text: '28319'
+      typ: moro
+  literal: 署
+  misc:
+    grade: '10'
+    stroke_count: '14'
+    variant:
+      text: 29-80
+      typ: jis208
+  radical:
+    rad_value:
+      text: '122'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ショ
+        typ: ja_on
+者:
+  codepoint:
+    cp_value:
+    - text: FA5B
+      typ: ucs
+    - text: 1-90-36
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4702'
+      typ: nelson_n
+    - text: '3217'
+      typ: halpern_njecd
+    - text: '3988'
+      typ: halpern_kkd
+    - text: '28853'
+      typ: moro
+  literal: 者
+  misc:
+    grade: '10'
+    stroke_count: '9'
+    variant:
+      text: 28-52
+      typ: jis208
+  radical:
+    rad_value:
+      text: '125'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: シャ
+        typ: ja_on
+      - text: もの
+        typ: ja_kun
+臭:
+  codepoint:
+    cp_value:
+    - text: FA5C
+      typ: ucs
+    - text: 1-90-56
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '4902'
+      typ: nelson_n
+    - text: '2648'
+      typ: halpern_njecd
+    - text: '3279'
+      typ: halpern_kkd
+    - text: '30108'
+      typ: moro
+  literal: 臭
+  misc:
+    grade: '10'
+    stroke_count: '10'
+    variant:
+      text: 29-13
+      typ: jis208
+  radical:
+    rad_value:
+      text: '132'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: シュウ
+        typ: ja_on
+      - text: くさい
+        typ: ja_kun
+艹:
+  codepoint:
+    cp_value:
+    - text: FA5D
+      typ: ucs
+    - text: 2-85-84
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '29'
+      typ: halpern_njecd
+    - text: '33'
+      typ: halpern_kkd
+  literal: 艹
+  misc:
+    stroke_count: '4'
+  radical:
+    rad_value:
+      text: '140'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: カン
+        typ: ja_on
+      - text: あげまき
+        typ: ja_kun
+      - text: あらがね
+        typ: ja_kun
+      - text: くさかんむり
+        typ: ja_kun
+艹:
+  codepoint:
+    cp_value:
+    - text: FA5E
+      typ: ucs
+    - text: 2-85-85
+      typ: jis213
+  literal: 艹
+  misc:
+    stroke_count: '4'
+  radical:
+    rad_value:
+      text: '140'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: ソウ
+        typ: ja_on
+      - text: くさかんむり
+        typ: ja_kun
+著:
+  codepoint:
+    cp_value:
+    - text: FA5F
+      typ: ucs
+    - text: 1-91-07
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '5104'
+      typ: nelson_n
+    - text: '2495'
+      typ: halpern_njecd
+    - text: '2913'
+      typ: halpern_kkd
+    - text: '31410'
+      typ: moro
+  literal: 著
+  misc:
+    grade: '10'
+    stroke_count: '12'
+    variant:
+      text: 35-88
+      typ: jis208
+  radical:
+    rad_value:
+      text: '140'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: チョ
+        typ: ja_on
+      - text: あらわす
+        typ: ja_kun
+      - text: いちじるしい
+        typ: ja_kun
+褐:
+  codepoint:
+    cp_value:
+    - text: FA60
+      typ: ucs
+    - text: 1-91-79
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '5478'
+      typ: nelson_n
+    - text: '1223'
+      typ: halpern_njecd
+    - text: '1566'
+      typ: halpern_kkd
+    - text: '34435'
+      typ: moro
+  literal: 褐
+  misc:
+    stroke_count: '14'
+    variant:
+      text: 19-76
+      typ: jis208
+  radical:
+    rad_value:
+      text: '145'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: カツ
+        typ: ja_on
+視:
+  codepoint:
+    cp_value:
+    - text: FA61
+      typ: ucs
+    - text: 1-91-89
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '5526'
+      typ: nelson_n
+    - text: '1188'
+      typ: halpern_njecd
+    - text: '1522'
+      typ: halpern_kkd
+    - text: '34836'
+      typ: moro
+  literal: 視
+  misc:
+    grade: '10'
+    stroke_count: '12'
+    variant:
+      text: 27-75
+      typ: jis208
+  radical:
+    rad_value:
+      text: '147'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: シ
+        typ: ja_on
+謁:
+  codepoint:
+    cp_value:
+    - text: FA62
+      typ: ucs
+    - text: 1-92-15
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '5649'
+      typ: nelson_n
+    - text: '1600'
+      typ: halpern_njecd
+    - text: '2013'
+      typ: halpern_kkd
+    - text: '35757'
+      typ: moro
+  literal: 謁
+  misc:
+    grade: '10'
+    stroke_count: '16'
+    variant:
+      text: 17-58
+      typ: jis208
+  radical:
+    rad_value:
+      text: '149'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: エツ
+        typ: ja_on
+謹:
+  codepoint:
+    cp_value:
+    - text: FA63
+      typ: ucs
+    - text: 1-92-16
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '5690'
+      typ: nelson_n
+    - text: '1633'
+      typ: halpern_njecd
+    - text: '2063'
+      typ: halpern_kkd
+    - text: '35900'
+      typ: moro
+  literal: 謹
+  misc:
+    grade: '10'
+    stroke_count: '18'
+    variant:
+      text: 22-64
+      typ: jis208
+  radical:
+    rad_value:
+      text: '149'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: キン
+        typ: ja_on
+      - text: つつしむ
+        typ: ja_kun
+賓:
+  codepoint:
+    cp_value:
+    - text: FA64
+      typ: ucs
+    - text: 1-92-24
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '5804'
+      typ: nelson_n
+    - text: '2349'
+      typ: halpern_njecd
+    - text: '2963'
+      typ: halpern_kkd
+    - text: '36788'
+      typ: moro
+  literal: 賓
+  misc:
+    grade: '10'
+    stroke_count: '13'
+    variant:
+      text: 41-48
+      typ: jis208
+  radical:
+    rad_value:
+      text: '154'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ヒン
+        typ: ja_on
+贈:
+  codepoint:
+    cp_value:
+    - text: FA65
+      typ: ucs
+    - text: 1-92-29
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '5828'
+      typ: nelson_n
+    - text: '1642'
+      typ: halpern_njecd
+    - text: '2072'
+      typ: halpern_kkd
+    - text: '36929'
+      typ: moro
+  literal: 贈
+  misc:
+    grade: '10'
+    stroke_count: '19'
+    variant:
+      text: 34-03
+      typ: jis208
+  radical:
+    rad_value:
+      text: '154'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: ソウ
+        typ: ja_on
+      - text: ゾウ
+        typ: ja_on
+      - text: おくる
+        typ: ja_kun
+辶:
+  codepoint:
+    cp_value:
+    - text: FA66
+      typ: ucs
+    - text: 2-89-73
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '1926'
+      typ: halpern_njecd
+    - text: '2425'
+      typ: halpern_kkd
+  literal: 辶
+  misc:
+    stroke_count: '3'
+  radical:
+    rad_value:
+      text: '162'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: しんにょう
+        typ: ja_kun
+逸:
+  codepoint:
+    cp_value:
+    - text: FA67
+      typ: ucs
+    - text: 1-92-57
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '6072'
+      typ: nelson_n
+    - text: '3239'
+      typ: halpern_njecd
+    - text: '4020'
+      typ: halpern_kkd
+    - text: '38951'
+      typ: moro
+  literal: 逸
+  misc:
+    grade: '10'
+    stroke_count: '12'
+    variant:
+      text: 16-79
+      typ: jis208
+  radical:
+    rad_value:
+      text: '162'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: しんにょう
+        typ: ja_kun
+難:
+  codepoint:
+    cp_value:
+    - text: FA68
+      typ: ucs
+    - text: 1-93-67
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '6516'
+      typ: nelson_n
+    - text: '1884'
+      typ: halpern_njecd
+    - text: '2365'
+      typ: halpern_kkd
+    - text: '42145'
+      typ: moro
+  literal: 難
+  misc:
+    grade: '10'
+    stroke_count: '19'
+    variant:
+      text: 38-81
+      typ: jis208
+  radical:
+    rad_value:
+      text: '172'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: ナン
+        typ: ja_on
+      - text: かたい
+        typ: ja_kun
+      - text: むずかしい
+        typ: ja_kun
+響:
+  codepoint:
+    cp_value:
+    - text: FA69
+      typ: ucs
+    - text: 1-93-86
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '6612'
+      typ: nelson_n
+    - text: '2907'
+      typ: halpern_njecd
+    - text: '3617'
+      typ: halpern_kkd
+  literal: 響
+  misc:
+    grade: '10'
+    stroke_count: '22'
+    variant:
+      text: 22-33
+      typ: jis208
+  radical:
+    rad_value:
+      text: '180'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+      - text: キョウ
+        typ: ja_on
+      - text: ひびく
+        typ: ja_kun
+頻:
+  codepoint:
+    cp_value:
+    - text: FA6A
+      typ: ucs
+    - text: 1-93-91
+      typ: jis213
+  dic_number:
+    dic_ref:
+    - text: '6631'
+      typ: nelson_n
+    - text: '1613'
+      typ: halpern_njecd
+    - text: '2038'
+      typ: halpern_kkd
+    - text: '43519'
+      typ: moro
+  literal: 頻
+  misc:
+    stroke_count: '16'
+    variant:
+      text: 41-49
+      typ: jis208
+  radical:
+    rad_value:
+      text: '181'
+      typ: classical
+  reading_meaning:
+    rmgroup:
+      reading:
+        text: ヒン
+        typ: ja_on
+

@@ -1,0 +1,125 @@
+亜:
+  codepoint:
+    cp_value:
+    - '#text': 4e9c
+      '@cp_type': ucs
+    - '#text': 16-01
+      '@cp_type': jis208
+  dic_number:
+    dic_ref:
+    - '#text': '43'
+      '@dr_type': nelson_c
+    - '#text': '81'
+      '@dr_type': nelson_n
+    - '#text': '3540'
+      '@dr_type': halpern_njecd
+    - '#text': '4354'
+      '@dr_type': halpern_kkd
+    - '#text': '2204'
+      '@dr_type': halpern_kkld
+    - '#text': '2966'
+      '@dr_type': halpern_kkld_2ed
+    - '#text': '1809'
+      '@dr_type': heisig
+    - '#text': '1950'
+      '@dr_type': heisig6
+    - '#text': '1331'
+      '@dr_type': gakken
+    - '#text': '525'
+      '@dr_type': oneill_names
+    - '#text': '1788'
+      '@dr_type': oneill_kk
+    - '#text': '272'
+      '@dr_type': moro
+      '@m_page': '0525'
+      '@m_vol': '1'
+    - '#text': '997'
+      '@dr_type': henshall
+    - '#text': '1616'
+      '@dr_type': sh_kk
+    - '#text': '1724'
+      '@dr_type': sh_kk2
+    - '#text': '1032'
+      '@dr_type': jf_cards
+    - '#text': '1092'
+      '@dr_type': tutt_cards
+    - '#text': '1818'
+      '@dr_type': kanji_in_context
+    - '#text': '35'
+      '@dr_type': kodansha_compact
+    - '#text': '1827'
+      '@dr_type': maniette
+  literal: 亜
+  misc:
+    freq: '1509'
+    grade: '8'
+    jlpt: '1'
+    stroke_count: '7'
+    variant:
+      '#text': 48-19
+      '@var_type': jis208
+  query_code:
+    q_code:
+    - '#text': 4-7-1
+      '@qc_type': skip
+    - '#text': 0a7.14
+      '@qc_type': sh_desc
+    - '#text': '1010.6'
+      '@qc_type': four_corner
+    - '#text': '3273'
+      '@qc_type': deroo
+  radical:
+    rad_value:
+    - '#text': '7'
+      '@rad_type': classical
+    - '#text': '1'
+      '@rad_type': nelson_c
+  reading_meaning:
+    nanori:
+    - や
+    - つぎ
+    - つぐ
+    rmgroup:
+      meaning:
+      - Asia
+      - rank next
+      - come after
+      - -ous
+      - '#text': Asie
+        '@m_lang': fr
+      - '#text': suivant
+        '@m_lang': fr
+      - '#text': sub-
+        '@m_lang': fr
+      - '#text': sous-
+        '@m_lang': fr
+      - '#text': pref. para indicar
+        '@m_lang': es
+      - '#text': venir después de
+        '@m_lang': es
+      - '#text': Asia
+        '@m_lang': es
+      - '#text': Ásia
+        '@m_lang': pt
+      - '#text': próxima
+        '@m_lang': pt
+      - '#text': o que vem depois
+        '@m_lang': pt
+      - '#text': -ous
+        '@m_lang': pt
+      reading:
+      - '#text': ya4
+        '@r_type': pinyin
+      - '#text': a
+        '@r_type': korean_r
+      - '#text': 아
+        '@r_type': korean_h
+      - '#text': A
+        '@r_type': vietnam
+      - '#text': Á
+        '@r_type': vietnam
+      - '#text': ア
+        '@r_type': ja_on
+      - '#text': つ.ぐ
+        '@r_type': ja_kun
+

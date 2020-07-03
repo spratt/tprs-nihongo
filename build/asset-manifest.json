@@ -1,23 +1,38 @@
 {
   "files": {
     "main.css": "/tprs-nihongo/build/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/tprs-nihongo/build/static/js/main.365ff17c.chunk.js",
-    "main.js.map": "/tprs-nihongo/build/static/js/main.365ff17c.chunk.js.map",
+    "main.js": "/tprs-nihongo/build/static/js/main.551d3f4a.chunk.js",
+    "main.js.map": "/tprs-nihongo/build/static/js/main.551d3f4a.chunk.js.map",
     "runtime-main.js": "/tprs-nihongo/build/static/js/runtime-main.ae1fd21f.js",
     "runtime-main.js.map": "/tprs-nihongo/build/static/js/runtime-main.ae1fd21f.js.map",
-    "static/js/2.16eaef5c.chunk.js": "/tprs-nihongo/build/static/js/2.16eaef5c.chunk.js",
-    "static/js/2.16eaef5c.chunk.js.map": "/tprs-nihongo/build/static/js/2.16eaef5c.chunk.js.map",
+    "static/js/2.4ed47288.chunk.js": "/tprs-nihongo/build/static/js/2.4ed47288.chunk.js",
+    "static/js/2.4ed47288.chunk.js.map": "/tprs-nihongo/build/static/js/2.4ed47288.chunk.js.map",
     "index.html": "/tprs-nihongo/build/index.html",
-    "precache-manifest.4955128b2b8b6d12d894f7f0570dbfd3.js": "/tprs-nihongo/build/precache-manifest.4955128b2b8b6d12d894f7f0570dbfd3.js",
+    "precache-manifest.4e93d775daf27a688f5ef77bd383628d.js": "/tprs-nihongo/build/precache-manifest.4e93d775daf27a688f5ef77bd383628d.js",
     "service-worker.js": "/tprs-nihongo/build/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/tprs-nihongo/build/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.16eaef5c.chunk.js.LICENSE.txt": "/tprs-nihongo/build/static/js/2.16eaef5c.chunk.js.LICENSE.txt",
-    "static/media/data.yaml": "/tprs-nihongo/build/static/media/data.7afd0079.yaml"
+    "static/js/2.4ed47288.chunk.js.LICENSE.txt": "/tprs-nihongo/build/static/js/2.4ed47288.chunk.js.LICENSE.txt",
+    "static/media/data.yaml": "/tprs-nihongo/build/static/media/data.7afd0079.yaml",
+    "static/media/kanjidic2_indexed_0.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_0.02ab68d4.yaml",
+    "static/media/kanjidic2_indexed_1.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_1.e66cd891.yaml",
+    "static/media/kanjidic2_indexed_10.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_10.e9781bfc.yaml",
+    "static/media/kanjidic2_indexed_11.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_11.9f275a4f.yaml",
+    "static/media/kanjidic2_indexed_12.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_12.d4403ff5.yaml",
+    "static/media/kanjidic2_indexed_13.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_13.ef2cddef.yaml",
+    "static/media/kanjidic2_indexed_14.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_14.3654ae15.yaml",
+    "static/media/kanjidic2_indexed_2.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_2.93d75634.yaml",
+    "static/media/kanjidic2_indexed_3.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_3.6fcd9b2c.yaml",
+    "static/media/kanjidic2_indexed_4.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_4.1bddbbb0.yaml",
+    "static/media/kanjidic2_indexed_5.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_5.3f1c5526.yaml",
+    "static/media/kanjidic2_indexed_6.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_6.5ac50b4d.yaml",
+    "static/media/kanjidic2_indexed_7.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_7.1fd2d205.yaml",
+    "static/media/kanjidic2_indexed_8.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_8.338edfbd.yaml",
+    "static/media/kanjidic2_indexed_9.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_9.f2417162.yaml"
   },
   "entrypoints": [
     "static/js/runtime-main.ae1fd21f.js",
-    "static/js/2.16eaef5c.chunk.js",
+    "static/js/2.4ed47288.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.365ff17c.chunk.js"
+    "static/js/main.551d3f4a.chunk.js"
   ]
 }
