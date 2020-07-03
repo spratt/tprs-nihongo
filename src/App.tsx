@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import yaml from 'js-yaml';
 import YouTube from 'react-youtube';
+import * as wanakana from 'wanakana';
 
 import xhr from './http';
 
@@ -13,6 +14,8 @@ const Container = styled.div`
   margin: 0 auto;
   }
 `;
+
+const ListenContainer = styled.span``;
 
 const Title = styled.h1`
   padding-left: 1rem;
@@ -30,6 +33,8 @@ interface AppState {
   src: string;
   stopTimes: number[];
   timer?: any;
+
+  lastListenResults: string[];
 };
 
 // @types/youtube won't let me refer to their const enum PlayerState
@@ -42,6 +47,7 @@ const PlayerStatePlaying = 1;
 //const PlayerStateCued = 4;
 
 class App extends React.Component<{},AppState> {
+  private recognition?: any;
 
   constructor(props: {}) {
     super(props);
@@ -56,7 +62,18 @@ class App extends React.Component<{},AppState> {
     this.state = {
       src: 'FsiAxc5T23g',
       stopTimes: [165, 178],
+      lastListenResults: [],
     };
+
+    const anyWindow: any = window;
+    if (anyWindow.webkitSpeechRecognition) {
+      this.recognition = new anyWindow.webkitSpeechRecognition();
+      this.recognition.lang = 'ja-JP';
+      this.recognition.interimResults = false;
+      this.recognition.maxAlternatives = 5;
+
+      this.recognition.onresult = (event: SpeechRecognitionEvent) => this.listenCallback(event);
+    }
   }
 
   play() {
@@ -67,6 +84,31 @@ class App extends React.Component<{},AppState> {
   pause() {
     this.state.player?.pauseVideo();
     this.forceUpdate();
+  }
+
+  listenCallback(event: SpeechRecognitionEvent) {
+    console.log('listenCallback');
+    console.dir(event);
+    if (event.results.length > 0) {
+      const listenResults = Array.from(event.results[0]).map((x: any) => {
+        const transcript = x.transcript;
+        const kana = wanakana.toKana(transcript);
+        console.log(`${transcript}(${kana})`);
+        if (kana === transcript) {
+          return transcript;
+        }
+        return `${transcript}(${kana})`;
+      });
+      this.setState({
+        src: this.state.src,
+        stopTimes: this.state.stopTimes,
+        lastListenResults: listenResults,
+      });
+    }
+  }
+
+  listen() {
+    this.recognition.start();
   }
 
   getNextStopTime() {
@@ -109,7 +151,7 @@ class App extends React.Component<{},AppState> {
     this.setState({player: event.target});
   }
 
-  renderButton() {
+  renderContinueButton() {
     let label = 'Continue ->';
     let onClick = () => this.play();
     if (this.state.player?.getPlayerState() === PlayerStatePlaying) {
@@ -121,6 +163,34 @@ class App extends React.Component<{},AppState> {
         { label }
       </BigButton>
     );
+  }
+
+  renderListener() {
+    const empty = (<span></span>);
+    if (!this.recognition) {
+      return empty;
+    }
+    let lastResults = empty;
+    if (this.state.lastListenResults.length === 1) {
+      lastResults = (
+        <p>
+        { this.state.lastListenResults[0] }
+        </p>
+      );
+    } else if (this.state.lastListenResults.length > 1) {
+      const listItems = Array.from(this.state.lastListenResults).map((s: string) => (<li>{s}</li>));
+      lastResults = (
+        <ol>{ listItems }</ol>
+      );
+    }
+    return (
+      <ListenContainer>
+        <BigButton onClick={() => this.listen() }>
+          Listen
+        </BigButton>
+        { lastResults }
+      </ListenContainer>
+    );    
   }
 
   render() {
@@ -147,7 +217,8 @@ class App extends React.Component<{},AppState> {
         <YouTube videoId={this.state.src} opts={opts}
                  onStateChange={(event: YT.OnStateChangeEvent) => this.onPlayerStateChange(event) }
                  onReady={(event: YT.PlayerEvent) => this.onPlayerReady(event)} />
-        { this.renderButton() }
+        { this.renderContinueButton() }
+        { this.renderListener() }
       </Container>
     );
   }

@@ -1711,6 +1711,11 @@
     "@types/testing-library__dom" "*"
     pretty-format "^25.1.0"
 
+"@types/wanakana@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@types/wanakana/-/wanakana-4.0.0.tgz#8e8601c2380388512272e2e00b4e985c6e4b0726"
+  integrity sha512-UiPHsIbTz0hIGiv1eQzxNKJOYVRS1UzC/cZOuhhKyQZQsYo05kZzx1Ok7tnefD/eoUHmL9J+CdmwgOngMGA60g==
+
 "@types/yargs-parser@*":
   version "15.0.0"
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-15.0.0.tgz#cb3f9f741869e20cce330ffbeb9271590483882d"
@@ -7129,6 +7134,11 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+nativescript-speech-recognition@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/nativescript-speech-recognition/-/nativescript-speech-recognition-1.5.0.tgz#11404f37050cb43085ffc7fb93273daa606efd22"
+  integrity sha512-s24TY25xFejpgbYMd0ZkNOvxcK+2ILNRRJN/jiYSaREZXkj9A96BRjVvNTwR43rYjROWFchtCpUo/FaFPRqreg==
+
 natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
@@ -9620,6 +9630,11 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
 
+simple-speech-recognition@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/simple-speech-recognition/-/simple-speech-recognition-1.0.3.tgz#e79b19f1da6db0c24ae04edfec3cdc3c91d34ce0"
+  integrity sha512-LyC/uOa9a8PXjcmGfbPqWyKbOobIFsAoVxaCgoUAYluW6hhtFDvntgmK2ZPF3WDc+L3rWSHpULEd858xX3EI7Q==
+
 simple-swizzle@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
@@ -10666,6 +10681,11 @@ walker@^1.0.7, walker@~1.0.5:
   integrity sha1-L3+bj9ENZ3JisYqITijRlhjgKPs=
   dependencies:
     makeerror "1.0.x"
+
+wanakana@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/wanakana/-/wanakana-4.0.2.tgz#a7d60186724a56fd50e6e9c224628c09294901d8"
+  integrity sha512-lBFtnLJhTpp5wQBdH7TrOHhLxqmUabAfL86plNN8+iffyhosjZyx+kkO8KEBGR8zWH5nxSQ67oyx3W/lcEC8sg==
 
 watchpack-chokidar2@^2.0.0:
   version "2.0.0"
