@@ -4,6 +4,7 @@ import yaml from 'js-yaml';
 import YouTube from 'react-youtube';
 import * as wanakana from 'wanakana';
 
+import {SpeechRecognizer} from './SpeechRecognizer';
 import {KanjiDic} from './KanjiDic';
 import xhr from './http';
 import data from './data/data.yaml';
@@ -47,7 +48,7 @@ interface AppState {
 };
 
 class App extends React.Component<{},AppState> {
-  private recognition?: any;
+  private recognizer?: SpeechRecognizer;
   private kanjiDic = new KanjiDic();
 
   constructor(props: {}) {
@@ -68,16 +69,8 @@ class App extends React.Component<{},AppState> {
       lastListenResults: [],
     };
 
-    const anyWindow: any = window;
-    if (anyWindow.SpeechRecognition || anyWindow.webkitSpeechRecognition ||
-        anyWindow.mozSpeechRecognition || anyWindow.msSpeechRecognition) {
-      this.recognition = new (anyWindow.SpeechRecognition || anyWindow.webkitSpeechRecognition ||
-                              anyWindow.mozSpeechRecognition || anyWindow.msSpeechRecognition)();
-      this.recognition.lang = 'ja-JP';
-      this.recognition.interimResults = false;
-      this.recognition.maxAlternatives = 5;
-
-      this.recognition.onresult = (event: SpeechRecognitionEvent) => this.listenCallback(event);
+    if (SpeechRecognizer.isPossible()) {
+      this.recognizer = new SpeechRecognizer((event) => this.listenCallback(event));
     }
   }
 
@@ -120,7 +113,7 @@ class App extends React.Component<{},AppState> {
   }
 
   listen() {
-    this.recognition.start();
+    this.recognizer?.start();
   }
 
   getNextStopTime() {
@@ -179,7 +172,7 @@ class App extends React.Component<{},AppState> {
 
   renderListener() {
     const empty = (<span></span>);
-    if (!this.recognition) {
+    if (!this.recognizer) {
       return empty;
     }
     let lastResults = empty;
