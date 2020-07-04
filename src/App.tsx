@@ -83,6 +83,14 @@ class App extends React.Component<{},AppState> {
     this.forceUpdate();
   }
 
+  setLastListenResults(listenResults: string[]) {
+    this.setState({
+      src: this.state.src,
+      stopTimes: this.state.stopTimes,
+      lastListenResults: listenResults,
+    });
+  }
+
   listenCallback(event: SpeechRecognitionEvent) {
     console.log('listenCallback');
     console.dir(event);
@@ -90,11 +98,7 @@ class App extends React.Component<{},AppState> {
       const listenResults = Array.from(event.results[0]).map((x: SpeechRecognitionAlternative) => {
         return x.transcript;
       });
-      this.setState({
-        src: this.state.src,
-        stopTimes: this.state.stopTimes,
-        lastListenResults: listenResults,
-      });
+      this.setLastListenResults(listenResults);
     }
   }
 
@@ -162,7 +166,9 @@ class App extends React.Component<{},AppState> {
     }
     const phrases = this.state.lastListenResults.map((phrase) => {
       return (
-        <BigButton key={phrase}>{ this.kanjiDic.makePhrase(phrase) }</BigButton>
+        <BigButton key={phrase} onClick={() => this.setLastListenResults([phrase])}>
+          { this.kanjiDic.makePhrase(phrase) }
+        </BigButton>
       );
     });
     return (

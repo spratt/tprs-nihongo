@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3545bb6def125f686883806db0f24b39",
+    "revision": "61e45e9fe9b62ea0d11400cd7f1cb81f",
     "url": "/tprs-nihongo/build/index.html"
   },
   {
-    "revision": "110d1a58d6e206bc237f",
+    "revision": "8b6f2bb9e124935ff528",
     "url": "/tprs-nihongo/build/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tprs-nihongo/build/static/js/2.ac5fc66e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "110d1a58d6e206bc237f",
-    "url": "/tprs-nihongo/build/static/js/main.804d09cb.chunk.js"
+    "revision": "8b6f2bb9e124935ff528",
+    "url": "/tprs-nihongo/build/static/js/main.8e986938.chunk.js"
   },
   {
     "revision": "64f128dfe9829fe59016",
