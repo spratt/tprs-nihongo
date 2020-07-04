@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40c397d9ab12a81d90edea50bb8cf282",
+    "revision": "3545bb6def125f686883806db0f24b39",
     "url": "/tprs-nihongo/build/index.html"
   },
   {
-    "revision": "b5ae2d48d22c1f81fb06",
+    "revision": "110d1a58d6e206bc237f",
     "url": "/tprs-nihongo/build/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "48443a412f387854c9e9",
-    "url": "/tprs-nihongo/build/static/js/2.caebb871.chunk.js"
+    "revision": "ee52cd9bc819ca62a95f",
+    "url": "/tprs-nihongo/build/static/js/2.ac5fc66e.chunk.js"
   },
   {
-    "revision": "fee9afe0360fb59c6fe8c76e5f5160a2",
-    "url": "/tprs-nihongo/build/static/js/2.caebb871.chunk.js.LICENSE.txt"
+    "revision": "7546cc15f306ff3aadf77677d1449d87",
+    "url": "/tprs-nihongo/build/static/js/2.ac5fc66e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b5ae2d48d22c1f81fb06",
-    "url": "/tprs-nihongo/build/static/js/main.679ec4a3.chunk.js"
+    "revision": "110d1a58d6e206bc237f",
+    "url": "/tprs-nihongo/build/static/js/main.804d09cb.chunk.js"
   },
   {
     "revision": "64f128dfe9829fe59016",

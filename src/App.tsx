@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import yaml from 'js-yaml';
 import YouTube from 'react-youtube';
-import * as wanakana from 'wanakana';
 
 import {SpeechRecognizer} from './SpeechRecognizer';
 import {KanjiDic} from './KanjiDic';
@@ -88,21 +87,8 @@ class App extends React.Component<{},AppState> {
     console.log('listenCallback');
     console.dir(event);
     if (event.results.length > 0) {
-      const listenResults = Array.from(event.results[0]).map((x: any) => {
-        const transcript = x.transcript;
-
-        const tokens = wanakana.tokenize(transcript);
-        console.dir(tokens);
-        const kanji_tokens = tokens.map((token) => {
-          if (wanakana.isKanji(token)) {
-            const kanji = this.kanjiDic.getKanji(token);
-            if (kanji) return kanji;
-          }
-          return token;
-        });
-        kanji_tokens.forEach(console.dir);
-
-        return transcript;
+      const listenResults = Array.from(event.results[0]).map((x: SpeechRecognitionAlternative) => {
+        return x.transcript;
       });
       this.setState({
         src: this.state.src,
@@ -171,31 +157,20 @@ class App extends React.Component<{},AppState> {
   }
 
   renderListener() {
-    const empty = (<span></span>);
     if (!this.recognizer) {
-      return empty;
+      return (<span></span>);
     }
-    let lastResults = empty;
-    if (this.state.lastListenResults.length === 1) {
-      lastResults = (
-        <p>
-        { this.state.lastListenResults[0] }
-        </p>
+    const phrases = this.state.lastListenResults.map((phrase) => {
+      return (
+        <BigButton key={phrase}>{ this.kanjiDic.makePhrase(phrase) }</BigButton>
       );
-    } else if (this.state.lastListenResults.length > 1) {
-      const listItems = Array.from(this.state.lastListenResults).map((s: string) => (
-        <li key={s}>{s}</li>
-      ));
-      lastResults = (
-        <ol>{ listItems }</ol>
-      );
-    }
+    });
     return (
       <ListenContainer>
         <BigButton onClick={() => this.listen() }>
           Listen
         </BigButton>
-        { lastResults }
+        { phrases }
       </ListenContainer>
     );    
   }

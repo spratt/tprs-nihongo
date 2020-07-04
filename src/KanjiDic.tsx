@@ -1,4 +1,8 @@
+import React from 'react';
+import styled from 'styled-components';
 import yaml from 'js-yaml';
+import * as wanakana from 'wanakana';
+import * as _ from 'lodash';
 
 import xhr from './http';
 
@@ -63,7 +67,7 @@ export interface ReadingMeaning {
 }
 
 export interface RMGroup {
-  rmgroup: ReadingMeaning[];
+  rmgroup: ReadingMeaning;
 }
 
 export interface DicEntry {
@@ -75,13 +79,26 @@ export interface DicEntry {
   reading_meaning: RMGroup;
 }
 
-export class Kanji {
-  public readonly literal: string;
-  public readonly dicEntry: DicEntry;
-  constructor(s: string, d: DicEntry) {
-    this.literal = s;
-    this.dicEntry = d;
+const BigSpan = styled.span`
+  font-size: 2rem;
+`;
+
+export function Kanji(props: {dicEntry: DicEntry}) {
+  const readings = _.groupBy(props.dicEntry.reading_meaning.rmgroup.reading, 'typ');
+  let best_reading = props.dicEntry.literal;
+  if (readings['ja_kun'].length > 0) {
+    best_reading = readings['ja_kun'][0].text;
+  } else if (readings['ja_on'].length > 0) {
+    best_reading = readings['ja_on'][0].text;
   }
+  return (
+    <BigSpan>
+      <ruby>
+        { props.dicEntry.literal }
+        <rt>{ best_reading }</rt>
+      </ruby>
+    </BigSpan>
+  );
 }
 
 export class KanjiDic {
@@ -100,9 +117,26 @@ export class KanjiDic {
     return this.data[key];
   }
 
-  getKanji(key: string): Kanji | undefined {
-    let dicEntry = this.lookup(key);
-    if (!dicEntry) { return undefined; }
-    return new Kanji(key, dicEntry);
+  renderString(s: string) {
+    let dicEntry = this.lookup(s);
+    if (dicEntry) {
+      return (
+        <Kanji dicEntry={dicEntry} />
+      );
+    }
+    return (
+      <BigSpan>{ s }</BigSpan>
+    );
+  }
+
+  makePhrase(s: string) {
+    return wanakana.tokenize(s).map((token) => {
+      if (wanakana.isKanji(token)) {
+        return Array.from(token).map((c) => this.renderString(c));
+      }
+      return (
+        <BigSpan>{ token }</BigSpan>
+      );
+    }).flat();
   }
 }
