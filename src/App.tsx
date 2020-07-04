@@ -43,6 +43,7 @@ interface AppState {
   stopTimes: number[];
   timer?: any;
 
+  isListening: boolean;
   lastListenResults: string[];
 };
 
@@ -65,6 +66,7 @@ class App extends React.Component<{},AppState> {
     this.state = {
       src: 'FsiAxc5T23g',
       stopTimes: [165, 178],
+      isListening: false,
       lastListenResults: [],
     };
 
@@ -87,6 +89,7 @@ class App extends React.Component<{},AppState> {
     this.setState({
       src: this.state.src,
       stopTimes: this.state.stopTimes,
+      isListening: this.state.isListening,
       lastListenResults: listenResults,
     });
   }
@@ -104,6 +107,12 @@ class App extends React.Component<{},AppState> {
 
   listen() {
     this.recognizer?.start();
+    this.setState({
+      src: this.state.src,
+      stopTimes: this.state.stopTimes,
+      isListening: this.recognizer?.hasStarted() || false,
+      lastListenResults: this.state.lastListenResults,
+    });
   }
 
   getNextStopTime() {
@@ -171,10 +180,12 @@ class App extends React.Component<{},AppState> {
         </BigButton>
       );
     });
+    const listenLabel = this.recognizer.hasStarted() ?
+                        'Stop Listening' : 'Start Listening';
     return (
       <ListenContainer>
         <BigButton onClick={() => this.listen() }>
-          Listen
+          { listenLabel }
         </BigButton>
         { phrases }
       </ListenContainer>
