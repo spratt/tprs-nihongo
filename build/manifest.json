@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "T.P.R.S. 日本語",
+  "short_name": "T.P.R.S. 日本語",
+  "description": "Learn Japanese through the interactive T.P.R.S. technique.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +19,22 @@
       "sizes": "512x512"
     }
   ],
+  "developer": {
+    "name": "Simon Pratt",
+    "url": "https://blog.pr4tt.com/tprs-nihongo/build/"
+  },
+  "default_locale": "en",
+  "type": "privileged",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "permissions": {
+    "audio-capture" : {
+      "description" : "Audio capture"
+    },
+    "speech-recognition" : {
+      "description" : "Speech recognition"
+    }
+  }
 }
