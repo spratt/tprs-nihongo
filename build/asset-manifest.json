@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tprs-nihongo/build/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/tprs-nihongo/build/static/js/main.658229aa.chunk.js",
-    "main.js.map": "/tprs-nihongo/build/static/js/main.658229aa.chunk.js.map",
+    "main.js": "/tprs-nihongo/build/static/js/main.cb965e4d.chunk.js",
+    "main.js.map": "/tprs-nihongo/build/static/js/main.cb965e4d.chunk.js.map",
     "runtime-main.js": "/tprs-nihongo/build/static/js/runtime-main.ae1fd21f.js",
     "runtime-main.js.map": "/tprs-nihongo/build/static/js/runtime-main.ae1fd21f.js.map",
     "static/js/2.0f6882f1.chunk.js": "/tprs-nihongo/build/static/js/2.0f6882f1.chunk.js",
     "static/js/2.0f6882f1.chunk.js.map": "/tprs-nihongo/build/static/js/2.0f6882f1.chunk.js.map",
     "index.html": "/tprs-nihongo/build/index.html",
-    "precache-manifest.ff7fe96e6811b79353d5503adfcbd1fa.js": "/tprs-nihongo/build/precache-manifest.ff7fe96e6811b79353d5503adfcbd1fa.js",
+    "precache-manifest.7832c4d7bb10339654e2c20e5139c8f2.js": "/tprs-nihongo/build/precache-manifest.7832c4d7bb10339654e2c20e5139c8f2.js",
     "service-worker.js": "/tprs-nihongo/build/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/tprs-nihongo/build/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.0f6882f1.chunk.js.LICENSE.txt": "/tprs-nihongo/build/static/js/2.0f6882f1.chunk.js.LICENSE.txt",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.ae1fd21f.js",
     "static/js/2.0f6882f1.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.658229aa.chunk.js"
+    "static/js/main.cb965e4d.chunk.js"
   ]
 }

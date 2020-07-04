@@ -234,10 +234,8 @@ export default class App extends React.Component<{},AppState> {
       width: '960',
       height: '473',
       playerVars: {
-        // https://developers.google.com/youtube/player_parameters
         autoplay: zero,
-        // TODO: In the final build, uncomment the next line
-        //controls: zero,
+        controls: zero,
         start: video.startTime,
       },
     };
