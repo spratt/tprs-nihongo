@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/tprs-nihongo/build/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/tprs-nihongo/build/static/js/main.4595818d.chunk.js",
-    "main.js.map": "/tprs-nihongo/build/static/js/main.4595818d.chunk.js.map",
+    "main.js": "/tprs-nihongo/build/static/js/main.658229aa.chunk.js",
+    "main.js.map": "/tprs-nihongo/build/static/js/main.658229aa.chunk.js.map",
     "runtime-main.js": "/tprs-nihongo/build/static/js/runtime-main.ae1fd21f.js",
     "runtime-main.js.map": "/tprs-nihongo/build/static/js/runtime-main.ae1fd21f.js.map",
-    "static/js/2.ac5fc66e.chunk.js": "/tprs-nihongo/build/static/js/2.ac5fc66e.chunk.js",
-    "static/js/2.ac5fc66e.chunk.js.map": "/tprs-nihongo/build/static/js/2.ac5fc66e.chunk.js.map",
+    "static/js/2.0f6882f1.chunk.js": "/tprs-nihongo/build/static/js/2.0f6882f1.chunk.js",
+    "static/js/2.0f6882f1.chunk.js.map": "/tprs-nihongo/build/static/js/2.0f6882f1.chunk.js.map",
     "index.html": "/tprs-nihongo/build/index.html",
-    "precache-manifest.ee1f8262a078e82b5ccd5824fce2dcea.js": "/tprs-nihongo/build/precache-manifest.ee1f8262a078e82b5ccd5824fce2dcea.js",
+    "precache-manifest.7ef27347a838884318726c5ead1a288a.js": "/tprs-nihongo/build/precache-manifest.7ef27347a838884318726c5ead1a288a.js",
     "service-worker.js": "/tprs-nihongo/build/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/tprs-nihongo/build/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.ac5fc66e.chunk.js.LICENSE.txt": "/tprs-nihongo/build/static/js/2.ac5fc66e.chunk.js.LICENSE.txt",
-    "static/media/data.yaml": "/tprs-nihongo/build/static/media/data.7afd0079.yaml",
+    "static/js/2.0f6882f1.chunk.js.LICENSE.txt": "/tprs-nihongo/build/static/js/2.0f6882f1.chunk.js.LICENSE.txt",
+    "static/media/data.yaml": "/tprs-nihongo/build/static/media/data.e35f4554.yaml",
     "static/media/kanjidic2_indexed_0.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_0.02ab68d4.yaml",
     "static/media/kanjidic2_indexed_1.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_1.e66cd891.yaml",
     "static/media/kanjidic2_indexed_10.yaml": "/tprs-nihongo/build/static/media/kanjidic2_indexed_10.e9781bfc.yaml",
@@ -31,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ae1fd21f.js",
-    "static/js/2.ac5fc66e.chunk.js",
+    "static/js/2.0f6882f1.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.4595818d.chunk.js"
+    "static/js/main.658229aa.chunk.js"
   ]
 }

@@ -28,6 +28,11 @@ const BigButton = styled.button`
   width: 100%;
 `;
 
+const HalfButton = styled.button`
+  font-size: 2rem;
+  width: 50%;
+`;
+
 // @types/youtube won't let me refer to their const enum PlayerState
 // directly, so I have to recreate its values here
 //const PlayerStateUnstarted = -1;
@@ -37,19 +42,47 @@ const PlayerStatePlaying = 1;
 //const PlayerStateBuffering = 3;
 //const PlayerStateCued = 4;
 
+interface Video {
+  series: string;
+  lesson: number;
+  name: string;
+  author: string;
+  src: string;
+  startTime: number;
+  stopTimes: number[];
+}
+
+const firstVideo = {
+  series: 'Complete Beginners',
+  lesson: 1,
+  name: 'Chickens and Names',
+  author: 'Japanese Immersion with Asami',
+  src: 'FsiAxc5T23g',
+  startTime: 70,
+  stopTimes: [
+    165,
+    178
+  ]
+};
+
+interface Data {
+  videos: Video[];
+}
+
 interface AppState {
   player?: YT.Player;
-  src: string;
-  stopTimes: number[];
   timer?: any;
+  video: number;
+  data: Data;
 
   isListening: boolean;
   lastListenResults: string[];
 };
 
-class App extends React.Component<{},AppState> {
+export default class App extends React.Component<{},AppState> {
   private recognizer?: SpeechRecognizer;
   private kanjiDic = new KanjiDic();
+  private mounted: boolean = false;
 
   constructor(props: {}) {
     super(props);
@@ -57,15 +90,24 @@ class App extends React.Component<{},AppState> {
 
     // Start async get call
     xhr('GET', data).then((req) => {
-      yaml.load(req.response);
-      // TODO
+      const data = yaml.load(req.response);
+      if (this.mounted) {
+        this.setState({data:data});
+      } else {
+        this.state = {
+          video: 0,
+          data: data,
+          isListening: false,
+          lastListenResults: [],
+        };
+      }
     }).catch((err) => console.error(err));
 
-    
-
     this.state = {
-      src: 'FsiAxc5T23g',
-      stopTimes: [165, 178],
+      video: 0,
+      data: {
+        videos: [firstVideo],
+      },
       isListening: false,
       lastListenResults: [],
     };
@@ -73,6 +115,10 @@ class App extends React.Component<{},AppState> {
     if (SpeechRecognizer.isPossible()) {
       this.recognizer = new SpeechRecognizer((event) => this.listenCallback(event));
     }
+  }
+
+  componentDidMount() {
+    this.mounted = true;
   }
 
   play() {
@@ -85,40 +131,25 @@ class App extends React.Component<{},AppState> {
     this.forceUpdate();
   }
 
-  setLastListenResults(listenResults: string[]) {
-    this.setState({
-      src: this.state.src,
-      stopTimes: this.state.stopTimes,
-      isListening: this.state.isListening,
-      lastListenResults: listenResults,
-    });
-  }
-
   listenCallback(event: SpeechRecognitionEvent) {
-    console.log('listenCallback');
-    console.dir(event);
     if (event.results.length > 0) {
       const listenResults = Array.from(event.results[0]).map((x: SpeechRecognitionAlternative) => {
         return x.transcript;
       });
-      this.setLastListenResults(listenResults);
+      this.setState({lastListenResults: listenResults});
     }
   }
 
   listen() {
     this.recognizer?.start();
-    this.setState({
-      src: this.state.src,
-      stopTimes: this.state.stopTimes,
-      isListening: this.recognizer?.hasStarted() || false,
-      lastListenResults: this.state.lastListenResults,
-    });
+    this.setState({isListening: this.recognizer?.hasStarted() || false});
   }
 
   getNextStopTime() {
-    let time = this.state.player?.getCurrentTime() || 0;
-    let maxTime = this.state.player?.getDuration() || 0;
-    for (let stopTime of this.state.stopTimes) {
+    const time = this.state.player?.getCurrentTime() || 0;
+    const maxTime = this.state.player?.getDuration() || 0;
+    const video = this.state.data.videos[this.state.video] || firstVideo;
+    for (let stopTime of video.stopTimes) {
       if (time < stopTime) {
         return stopTime;
       }
@@ -131,23 +162,17 @@ class App extends React.Component<{},AppState> {
       clearTimeout(this.state.timer);
     }
     if (event.data === PlayerStatePlaying) {
-      let time = this.state.player?.getCurrentTime() || 0;
-      let nextStop = this.getNextStopTime();
+      const time = this.state.player?.getCurrentTime() || 0;
+      const nextStop = this.getNextStopTime();
       // Add .4 of a second to the time in case it's close to the current time
       // (The API kept returning ~9.7 when hitting play after stopping at 10s)
       if (time + .4 < nextStop) {
-        let rate = this.state.player?.getPlaybackRate() || 1;
-        let remainingTime = (nextStop - time) / rate;
-        this.setState({
-          src: this.state.src,
-          stopTimes: this.state.stopTimes,
-          timer: setTimeout(() => this.pause(), remainingTime * 1000),
-        });
+        const rate = this.state.player?.getPlaybackRate() || 1;
+        const remainingTime = (nextStop - time) / rate;
+        this.setState({timer: setTimeout(() => this.pause(), remainingTime * 1000)});
       }
     } else {
-      this.setState({
-        timer: null,
-      });
+      this.setState({timer: null});
     }
   }
 
@@ -175,7 +200,7 @@ class App extends React.Component<{},AppState> {
     }
     const phrases = this.state.lastListenResults.map((phrase) => {
       return (
-        <BigButton key={phrase} onClick={() => this.setLastListenResults([phrase])}>
+        <BigButton key={phrase} onClick={() => this.setState({lastListenResults:[phrase]})}>
           { this.kanjiDic.makePhrase(phrase) }
         </BigButton>
       );
@@ -192,8 +217,19 @@ class App extends React.Component<{},AppState> {
     );    
   }
 
+  prevVideo() {
+    if (this.state.video - 1 < 0) return;
+    this.setState({video: this.state.video - 1});
+  }
+
+  nextVideo() {
+    if (this.state.video + 1 >= this.state.data.videos.length) return;
+    this.setState({video: this.state.video + 1});
+  }
+
   render() {
     const zero: 0 | 1 | undefined = 0;
+    const video = this.state.data.videos[this.state.video] || firstVideo;
     const opts = {
       width: '960',
       height: '473',
@@ -202,7 +238,7 @@ class App extends React.Component<{},AppState> {
         autoplay: zero,
         // TODO: In the final build, uncomment the next line
         //controls: zero,
-        start: 70,
+        start: video.startTime,
       },
     };
 
@@ -213,14 +249,14 @@ class App extends React.Component<{},AppState> {
             T.P.R.S. 日本語
           </Title>
         </header>
-        <YouTube videoId={this.state.src} opts={opts}
+        <YouTube videoId={video.src} opts={opts}
                  onStateChange={(event: YT.OnStateChangeEvent) => this.onPlayerStateChange(event) }
                  onReady={(event: YT.PlayerEvent) => this.onPlayerReady(event)} />
+        <HalfButton onClick={() => this.prevVideo() }>Previous</HalfButton>
+        <HalfButton onClick={() => this.nextVideo() }>Next</HalfButton>
         { this.renderContinueButton() }
         { this.renderListener() }
       </Container>
     );
   }
 }
-
-export default App;
