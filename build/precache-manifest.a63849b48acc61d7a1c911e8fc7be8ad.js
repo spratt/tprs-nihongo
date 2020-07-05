@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6526ee012f3d0e16210b490a1b4bda0a",
+    "revision": "907860b62cbcd98b1e8bb223801bf954",
     "url": "/tprs-nihongo/build/index.html"
   },
   {
