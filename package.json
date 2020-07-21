@@ -18,7 +18,7 @@
     "@types/wanakana": "^4.0.0",
     "@types/youtube": "^0.0.39",
     "js-yaml": "^3.14.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "nativescript-speech-recognition": "^1.5.0",
     "raw-loader": "^4.0.1",
     "react": "^16.13.1",
